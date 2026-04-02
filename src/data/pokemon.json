@@ -7,7 +7,7 @@
       "Grass"
     ],
     "description": "The shell on its back is made of soil. On a very healthy TURTWIG, the shell should feel moist.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/387.png",
+    "sprite_url": "/sprites/387.png",
     "base_stats": {
       "hp": 55,
       "attack": 68,
@@ -184,7 +184,7 @@
       "Grass"
     ],
     "description": "It knows where pure water wells up. It carries fellow Pok\u00e9mon there on its back.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/388.png",
+    "sprite_url": "/sprites/388.png",
     "base_stats": {
       "hp": 75,
       "attack": 89,
@@ -343,7 +343,7 @@
       "Ground"
     ],
     "description": "Some Pok\u00e9mon are born on a TORTERRA\u2019s back and spend their entire life there.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/389.png",
+    "sprite_url": "/sprites/389.png",
     "base_stats": {
       "hp": 95,
       "attack": 109,
@@ -529,7 +529,7 @@
       "Fire"
     ],
     "description": "It is very agile. Before going to sleep, it extinguishes the flame on its tail to prevent fires.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/390.png",
+    "sprite_url": "/sprites/390.png",
     "base_stats": {
       "hp": 44,
       "attack": 58,
@@ -718,7 +718,7 @@
       "Fighting"
     ],
     "description": "It skillfully controls the intensity of the fire on its tail to keep its foes at an ideal distance.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/391.png",
+    "sprite_url": "/sprites/391.png",
     "base_stats": {
       "hp": 64,
       "attack": 78,
@@ -898,7 +898,7 @@
       "Fighting"
     ],
     "description": "It uses unique fighting moves with fire on its hands and feet. It will take on any opponent.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/392.png",
+    "sprite_url": "/sprites/392.png",
     "base_stats": {
       "hp": 76,
       "attack": 104,
@@ -1089,7 +1089,7 @@
       "Water"
     ],
     "description": "A poor walker, it often falls down. However, its strong pride makes it puff up its chest without a care.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/393.png",
+    "sprite_url": "/sprites/393.png",
     "base_stats": {
       "hp": 53,
       "attack": 51,
@@ -1267,7 +1267,7 @@
       "Water"
     ],
     "description": "Because every PRINPLUP considers itself to be the most important, they can never form a group.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/394.png",
+    "sprite_url": "/sprites/394.png",
     "base_stats": {
       "hp": 64,
       "attack": 66,
@@ -1434,7 +1434,7 @@
       "Steel"
     ],
     "description": "If anyone were to hurt its pride, it would slash them with wings that can cleave through an ice floe.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/395.png",
+    "sprite_url": "/sprites/395.png",
     "base_stats": {
       "hp": 84,
       "attack": 86,
@@ -1632,7 +1632,7 @@
       "Flying"
     ],
     "description": "Because they are weak individually, they form groups. However, they bicker if the group grows too big.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/396.png",
+    "sprite_url": "/sprites/396.png",
     "base_stats": {
       "hp": 40,
       "attack": 55,
@@ -2362,7 +2362,7 @@
       "Flying"
     ],
     "description": "Recognizing their own weakness, they always live in a group. When alone, a STARAVIA cries noisily.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/397.png",
+    "sprite_url": "/sprites/397.png",
     "base_stats": {
       "hp": 55,
       "attack": 75,
@@ -2846,7 +2846,7 @@
       "Flying"
     ],
     "description": "It never stops attacking even if it is injured. It fusses over the shape of its comb.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/398.png",
+    "sprite_url": "/sprites/398.png",
     "base_stats": {
       "hp": 85,
       "attack": 120,
@@ -3008,7 +3008,7 @@
       "Normal"
     ],
     "description": "A comparison revealed that BIDOOF\u2019s front teeth grow at the same rate as RATTATA\u2019s.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/399.png",
+    "sprite_url": "/sprites/399.png",
     "base_stats": {
       "hp": 59,
       "attack": 45,
@@ -3832,7 +3832,7 @@
       "Water"
     ],
     "description": "A river dammed by BIBAREL will never overflow its banks, which is appreciated by people nearby.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/400.png",
+    "sprite_url": "/sprites/400.png",
     "base_stats": {
       "hp": 79,
       "attack": 85,
@@ -4482,7 +4482,7 @@
       "Bug"
     ],
     "description": "Its legs are short. Whenever it stumbles, its stiff antennae clack with a xylophone-like sound.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/401.png",
+    "sprite_url": "/sprites/401.png",
     "base_stats": {
       "hp": 37,
       "attack": 25,
@@ -4742,7 +4742,7 @@
       "Bug"
     ],
     "description": "There is a village that hosts a contest based on the amazingly variable cries of this Pok\u00e9mon.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/402.png",
+    "sprite_url": "/sprites/402.png",
     "base_stats": {
       "hp": 77,
       "attack": 85,
@@ -4976,7 +4976,7 @@
       "Electric"
     ],
     "description": "The extension and contraction of its muscles generates electricity. It glows when in trouble.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/403.png",
+    "sprite_url": "/sprites/403.png",
     "base_stats": {
       "hp": 45,
       "attack": 65,
@@ -5223,7 +5223,7 @@
       "Electric"
     ],
     "description": "Strong electricity courses through the tips of its sharp claws. A light scratch causes fainting in foes.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/404.png",
+    "sprite_url": "/sprites/404.png",
     "base_stats": {
       "hp": 60,
       "attack": 85,
@@ -5390,7 +5390,7 @@
       "Electric"
     ],
     "description": "It can see clearly through walls to track down its prey and seek its lost young.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/405.png",
+    "sprite_url": "/sprites/405.png",
     "base_stats": {
       "hp": 80,
       "attack": 120,
@@ -5541,7 +5541,7 @@
       "Psychic"
     ],
     "description": "Using its psychic power is such a strain on its brain that it needs to sleep for 18 hours a day.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/63.png",
+    "sprite_url": "/sprites/63.png",
     "base_stats": {
       "hp": 25,
       "attack": 20,
@@ -5708,7 +5708,7 @@
       "Psychic"
     ],
     "description": "It stares at its silver spoon to focus its mind. It emits more alpha waves while doing so.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/64.png",
+    "sprite_url": "/sprites/64.png",
     "base_stats": {
       "hp": 40,
       "attack": 35,
@@ -5918,7 +5918,7 @@
       "Psychic"
     ],
     "description": "The spoons clutched in its hands are said to have been created by its psychic powers.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/65.png",
+    "sprite_url": "/sprites/65.png",
     "base_stats": {
       "hp": 55,
       "attack": 50,
@@ -6097,7 +6097,7 @@
       "Water"
     ],
     "description": "A MAGIKARP living for many years can leap a mountain using Splash. The move remains useless, though.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/129.png",
+    "sprite_url": "/sprites/129.png",
     "base_stats": {
       "hp": 20,
       "attack": 10,
@@ -10487,7 +10487,7 @@
       "Flying"
     ],
     "description": "Once it begins to rampage, a GYARADOS will burn everything down, even in a harsh storm.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/130.png",
+    "sprite_url": "/sprites/130.png",
     "base_stats": {
       "hp": 95,
       "attack": 125,
@@ -11666,7 +11666,7 @@
       "Poison"
     ],
     "description": "Sensitive to changing temperature, the bud is said to bloom when it feels the sun\u2019s warm touch.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/406.png",
+    "sprite_url": "/sprites/406.png",
     "base_stats": {
       "hp": 40,
       "attack": 30,
@@ -12073,7 +12073,7 @@
       "Poison"
     ],
     "description": "The more healthy the ROSELIA, the more pleasant its flowers\u2019 aroma. Its scent deeply relaxes people.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/315.png",
+    "sprite_url": "/sprites/315.png",
     "base_stats": {
       "hp": 50,
       "attack": 60,
@@ -12543,7 +12543,7 @@
       "Poison"
     ],
     "description": "Each of its hands contains different toxins, but both hands can jab with near-fatal power.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/407.png",
+    "sprite_url": "/sprites/407.png",
     "base_stats": {
       "hp": 60,
       "attack": 70,
@@ -12675,7 +12675,7 @@
       "Flying"
     ],
     "description": "It checks its surroundings and location using reflections of the ultrasonic waves from its mouth.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/41.png",
+    "sprite_url": "/sprites/41.png",
     "base_stats": {
       "hp": 40,
       "attack": 45,
@@ -13655,7 +13655,7 @@
       "Flying"
     ],
     "description": "Its sharp fangs puncture the toughest of hides and have small holes for greedily sucking blood.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/42.png",
+    "sprite_url": "/sprites/42.png",
     "base_stats": {
       "hp": 75,
       "attack": 80,
@@ -15705,7 +15705,7 @@
       "Flying"
     ],
     "description": "The transformation of its legs into wings made it better at flying, but more clumsy at walking.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/169.png",
+    "sprite_url": "/sprites/169.png",
     "base_stats": {
       "hp": 85,
       "attack": 90,
@@ -15879,7 +15879,7 @@
       "Ground"
     ],
     "description": "At rest, it looks just like a rock. Carelessly stepping on it will make it swing its fists angrily.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/74.png",
+    "sprite_url": "/sprites/74.png",
     "base_stats": {
       "hp": 40,
       "attack": 80,
@@ -17040,7 +17040,7 @@
       "Ground"
     ],
     "description": "It rolls on mountain paths to move. Once it builds momentum, no Pok\u00e9mon can stop it without difficulty.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/75.png",
+    "sprite_url": "/sprites/75.png",
     "base_stats": {
       "hp": 55,
       "attack": 95,
@@ -18687,7 +18687,7 @@
       "Ground"
     ],
     "description": "Even dynamite can\u2019t harm its hard, boulderlike body. It sheds its hide just once a year.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/76.png",
+    "sprite_url": "/sprites/76.png",
     "base_stats": {
       "hp": 80,
       "attack": 120,
@@ -18876,7 +18876,7 @@
       "Ground"
     ],
     "description": "It burrows through the ground at a speed of 50 mph while feeding on large boulders. ",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/95.png",
+    "sprite_url": "/sprites/95.png",
     "base_stats": {
       "hp": 35,
       "attack": 45,
@@ -19468,7 +19468,7 @@
       "Ground"
     ],
     "description": "It is thought its body transformed as a result of iron accumulating internally from swallowing soil.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/208.png",
+    "sprite_url": "/sprites/208.png",
     "base_stats": {
       "hp": 75,
       "attack": 85,
@@ -19876,7 +19876,7 @@
       "Rock"
     ],
     "description": "A lifelong jungle dweller from 100 million years ago, it would snap obstructing trees with head butts.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/408.png",
+    "sprite_url": "/sprites/408.png",
     "base_stats": {
       "hp": 67,
       "attack": 125,
@@ -20050,7 +20050,7 @@
       "Rock"
     ],
     "description": "If two were to smash their heads together, their foot-thick skulls would keep them from fainting.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/409.png",
+    "sprite_url": "/sprites/409.png",
     "base_stats": {
       "hp": 97,
       "attack": 165,
@@ -20229,7 +20229,7 @@
       "Steel"
     ],
     "description": "It is outstandingly armored. As a result, it can eat grass and berries without having to fight.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/410.png",
+    "sprite_url": "/sprites/410.png",
     "base_stats": {
       "hp": 30,
       "attack": 42,
@@ -20402,7 +20402,7 @@
       "Steel"
     ],
     "description": "When they lined up side by side, no foe could break through. They shielded their young in that way.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/411.png",
+    "sprite_url": "/sprites/411.png",
     "base_stats": {
       "hp": 60,
       "attack": 52,
@@ -20580,7 +20580,7 @@
       "Fighting"
     ],
     "description": "Though small in stature, it is powerful enough to easily heft and throw a number of GEODUDE at once.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/66.png",
+    "sprite_url": "/sprites/66.png",
     "base_stats": {
       "hp": 70,
       "attack": 80,
@@ -21005,7 +21005,7 @@
       "Fighting"
     ],
     "description": "It happily carries heavy cargo to toughen up. It willingly does hard work for people.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/67.png",
+    "sprite_url": "/sprites/67.png",
     "base_stats": {
       "hp": 80,
       "attack": 100,
@@ -21432,7 +21432,7 @@
       "Fighting"
     ],
     "description": "Its four muscled arms slam foes with powerful punches and chops at blinding speed.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/68.png",
+    "sprite_url": "/sprites/68.png",
     "base_stats": {
       "hp": 90,
       "attack": 130,
@@ -21597,7 +21597,7 @@
       "Water"
     ],
     "description": "Overwhelmed by enigmatic abilities, it suffers a constant headache. It sometimes uses mysterious powers.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/54.png",
+    "sprite_url": "/sprites/54.png",
     "base_stats": {
       "hp": 50,
       "attack": 52,
@@ -22345,7 +22345,7 @@
       "Water"
     ],
     "description": "It is seen swimming dynamically and elegantly using its well-developed limbs and flippers.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/55.png",
+    "sprite_url": "/sprites/55.png",
     "base_stats": {
       "hp": 80,
       "attack": 82,
@@ -23219,7 +23219,7 @@
       "Bug"
     ],
     "description": "Even if it is born where there are no cocooning materials, it somehow always ends up with a cloak.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/412.png",
+    "sprite_url": "/sprites/412.png",
     "base_stats": {
       "hp": 40,
       "attack": 29,
@@ -23299,7 +23299,7 @@
       "Grass"
     ],
     "description": "When evolving, its body takes in surrounding materials. As a result, there are many body variations.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/413.png",
+    "sprite_url": "/sprites/413.png",
     "base_stats": {
       "hp": 60,
       "attack": 59,
@@ -23467,7 +23467,7 @@
       "Flying"
     ],
     "description": "While it loves floral honey, it won\u2019t gather any itself. Instead, it plots to steal some from COMBEE.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/414.png",
+    "sprite_url": "/sprites/414.png",
     "base_stats": {
       "hp": 70,
       "attack": 94,
@@ -23636,7 +23636,7 @@
       "Bug"
     ],
     "description": "Often targeted by bird Pok\u00e9mon, it desperately resists by releasing poison from its tail spikes.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/265.png",
+    "sprite_url": "/sprites/265.png",
     "base_stats": {
       "hp": 45,
       "attack": 45,
@@ -23804,7 +23804,7 @@
       "Bug"
     ],
     "description": "It wraps silk around the branches of a tree. It drinks rainwater on its silk while awaiting evolution.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/266.png",
+    "sprite_url": "/sprites/266.png",
     "base_stats": {
       "hp": 50,
       "attack": 35,
@@ -23899,7 +23899,7 @@
       "Flying"
     ],
     "description": "Despite its looks, it is aggressive. It jabs with its long, thin mouth if disturbed while collecting pollen.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/267.png",
+    "sprite_url": "/sprites/267.png",
     "base_stats": {
       "hp": 60,
       "attack": 70,
@@ -24188,7 +24188,7 @@
       "Bug"
     ],
     "description": "It never forgets any attack it endured while in the cocoon. After evolution, it seeks payback.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/268.png",
+    "sprite_url": "/sprites/268.png",
     "base_stats": {
       "hp": 50,
       "attack": 35,
@@ -24283,7 +24283,7 @@
       "Poison"
     ],
     "description": "Toxic powder is scattered with each flap. At night, it is known to strip leaves off trees lining boulevards.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/269.png",
+    "sprite_url": "/sprites/269.png",
     "base_stats": {
       "hp": 60,
       "attack": 50,
@@ -24571,7 +24571,7 @@
       "Flying"
     ],
     "description": "The trio is together from birth. It constantly gathers honey from flowers to please VESPIQUEN.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/415.png",
+    "sprite_url": "/sprites/415.png",
     "base_stats": {
       "hp": 30,
       "attack": 30,
@@ -24663,7 +24663,7 @@
       "Flying"
     ],
     "description": "It releases various pheromones to make the grubs in its body do its bidding while fighting foes.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/416.png",
+    "sprite_url": "/sprites/416.png",
     "base_stats": {
       "hp": 70,
       "attack": 80,
@@ -24840,7 +24840,7 @@
       "Electric"
     ],
     "description": "A pair may be seen rubbing their cheek pouches together in an effort to share stored electricity.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/417.png",
+    "sprite_url": "/sprites/417.png",
     "base_stats": {
       "hp": 60,
       "attack": 45,
@@ -25041,7 +25041,7 @@
       "Water"
     ],
     "description": "It spins its two tails like a screw to propel itself through water. The tails also slice clinging seaweed.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/418.png",
+    "sprite_url": "/sprites/418.png",
     "base_stats": {
       "hp": 55,
       "attack": 65,
@@ -25389,7 +25389,7 @@
       "Water"
     ],
     "description": "It is a common sight around fishing ports. It is known to rescue people and carry off prey.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/419.png",
+    "sprite_url": "/sprites/419.png",
     "base_stats": {
       "hp": 85,
       "attack": 105,
@@ -25924,7 +25924,7 @@
       "Grass"
     ],
     "description": "The small ball is not only filled with nutrients, it is also tasty. STARLY try to peck it off.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/420.png",
+    "sprite_url": "/sprites/420.png",
     "base_stats": {
       "hp": 45,
       "attack": 35,
@@ -26073,7 +26073,7 @@
       "Grass"
     ],
     "description": "If it senses strong sunlight, it opens its folded petals to absorb the sun\u2019s rays with its whole body.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/421.png",
+    "sprite_url": "/sprites/421.png",
     "base_stats": {
       "hp": 70,
       "attack": 60,
@@ -26225,7 +26225,7 @@
       "Water"
     ],
     "description": "Beware of pushing strongly on its squishy body, as it makes a mysterious purple fluid ooze out.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/422.png",
+    "sprite_url": "/sprites/422.png",
     "base_stats": {
       "hp": 76,
       "attack": 48,
@@ -26724,7 +26724,7 @@
       "Ground"
     ],
     "description": "Long ago, its entire back was shielded with a sturdy shell. There are traces of it left in its cells.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/423.png",
+    "sprite_url": "/sprites/423.png",
     "base_stats": {
       "hp": 111,
       "attack": 83,
@@ -27139,7 +27139,7 @@
       "Fighting"
     ],
     "description": "It loves sweet honey. To keep all the honey to itself, it hurls rivals away with its prized horn.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/214.png",
+    "sprite_url": "/sprites/214.png",
     "base_stats": {
       "hp": 80,
       "attack": 125,
@@ -27313,7 +27313,7 @@
       "Normal"
     ],
     "description": "It lives high among the treetops. It can use its tail as freely and cleverly as its hands.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/190.png",
+    "sprite_url": "/sprites/190.png",
     "base_stats": {
       "hp": 55,
       "attack": 70,
@@ -27497,7 +27497,7 @@
       "Normal"
     ],
     "description": "Split into two, the tails are so adept at handling and doing things, AMBIPOM rarely uses its hands.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/424.png",
+    "sprite_url": "/sprites/424.png",
     "base_stats": {
       "hp": 75,
       "attack": 100,
@@ -27680,7 +27680,7 @@
       "Flying"
     ],
     "description": "Because of the way it floats aimlessly, an old folktale calls it a \u201cSignpost for Wandering Spirits.\u201d",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/425.png",
+    "sprite_url": "/sprites/425.png",
     "base_stats": {
       "hp": 90,
       "attack": 50,
@@ -27874,7 +27874,7 @@
       "Flying"
     ],
     "description": "At dusk, swarms of them are carried aloft on winds. When noticed, they suddenly vanish.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/426.png",
+    "sprite_url": "/sprites/426.png",
     "base_stats": {
       "hp": 150,
       "attack": 80,
@@ -28059,7 +28059,7 @@
       "Normal"
     ],
     "description": "Its ears are always rolled up. They can be forcefully extended to shatter even a large boulder.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/427.png",
+    "sprite_url": "/sprites/427.png",
     "base_stats": {
       "hp": 55,
       "attack": 66,
@@ -28270,7 +28270,7 @@
       "Normal"
     ],
     "description": "The ears appear to be delicate. If they are touched roughly, it kicks with its graceful legs.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/428.png",
+    "sprite_url": "/sprites/428.png",
     "base_stats": {
       "hp": 65,
       "attack": 76,
@@ -28453,7 +28453,7 @@
       "Poison"
     ],
     "description": "Born from gases, anyone would faint if engulfed by its gaseous body, which contains poison.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/92.png",
+    "sprite_url": "/sprites/92.png",
     "base_stats": {
       "hp": 30,
       "attack": 35,
@@ -30618,7 +30618,7 @@
       "Poison"
     ],
     "description": "It likes to lurk in the dark and tap shoulders with a gaseous hand. Its touch causes endless shuddering.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/93.png",
+    "sprite_url": "/sprites/93.png",
     "base_stats": {
       "hp": 45,
       "attack": 50,
@@ -31023,7 +31023,7 @@
       "Poison"
     ],
     "description": "The leer that floats in darkness belongs to a GENGAR delighting in casting curses on people.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/94.png",
+    "sprite_url": "/sprites/94.png",
     "base_stats": {
       "hp": 60,
       "attack": 65,
@@ -31271,7 +31271,7 @@
       "Ghost"
     ],
     "description": "A Pok\u00e9mon that startles people in the middle of the night. It gathers fear as its energy.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/200.png",
+    "sprite_url": "/sprites/200.png",
     "base_stats": {
       "hp": 60,
       "attack": 60,
@@ -31446,7 +31446,7 @@
       "Ghost"
     ],
     "description": "Its cry sounds like an incantation. It is said the cry may rarely be imbued with happiness-giving power.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/429.png",
+    "sprite_url": "/sprites/429.png",
     "base_stats": {
       "hp": 60,
       "attack": 60,
@@ -31586,7 +31586,7 @@
       "Flying"
     ],
     "description": "If spotted, it will lure an unwary person into chasing it, then lose the pursuer on mountain trails.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/198.png",
+    "sprite_url": "/sprites/198.png",
     "base_stats": {
       "hp": 60,
       "attack": 85,
@@ -31757,7 +31757,7 @@
       "Flying"
     ],
     "description": "If one utters a deep cry, many MURKROW gather quickly. For this, it is called \u201cSummoner of Night.\u201d",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/430.png",
+    "sprite_url": "/sprites/430.png",
     "base_stats": {
       "hp": 100,
       "attack": 125,
@@ -31905,7 +31905,7 @@
       "Normal"
     ],
     "description": "It hides its spiteful tendency of hooking its claws into the nose of its Trainer if it isn\u2019t fed.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/431.png",
+    "sprite_url": "/sprites/431.png",
     "base_stats": {
       "hp": 49,
       "attack": 55,
@@ -32069,7 +32069,7 @@
       "Normal"
     ],
     "description": "It binds its body with its tails to make itself look bigger. If it locks eyes, it will glare ceaselessly.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/432.png",
+    "sprite_url": "/sprites/432.png",
     "base_stats": {
       "hp": 71,
       "attack": 82,
@@ -32242,7 +32242,7 @@
       "Water"
     ],
     "description": "Though it appears very elegant when swimming with fins unfurled, it can jab powerfully with its horn.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/118.png",
+    "sprite_url": "/sprites/118.png",
     "base_stats": {
       "hp": 45,
       "attack": 67,
@@ -32807,7 +32807,7 @@
       "Water"
     ],
     "description": "In autumn, its body becomes more fatty in preparing to propose to a mate. It takes on beautiful colors.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/119.png",
+    "sprite_url": "/sprites/119.png",
     "base_stats": {
       "hp": 80,
       "attack": 92,
@@ -33540,7 +33540,7 @@
       "Ground"
     ],
     "description": "Its slimy body is hard to grasp. In one region, it is said to have been born from hardened mud.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/339.png",
+    "sprite_url": "/sprites/339.png",
     "base_stats": {
       "hp": 50,
       "attack": 48,
@@ -34220,7 +34220,7 @@
       "Ground"
     ],
     "description": "It is extremely protective of its territory. If any foe approaches, it attacks using vicious tremors.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/340.png",
+    "sprite_url": "/sprites/340.png",
     "base_stats": {
       "hp": 110,
       "attack": 78,
@@ -34849,7 +34849,7 @@
       "Psychic"
     ],
     "description": "There is an orb inside its mouth. When it hops, the orb bounces all over and makes a ringing sound.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/433.png",
+    "sprite_url": "/sprites/433.png",
     "base_stats": {
       "hp": 45,
       "attack": 30,
@@ -35899,7 +35899,7 @@
       "Psychic"
     ],
     "description": "Its cries echo inside its hollow body to emerge as beautiful notes for startling and repelling foes.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/358.png",
+    "sprite_url": "/sprites/358.png",
     "base_stats": {
       "hp": 75,
       "attack": 50,
@@ -36482,7 +36482,7 @@
       "Dark"
     ],
     "description": "It sprays a foul fluid from its rear. Its stench spreads over a mile radius, driving Pok\u00e9mon away.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/434.png",
+    "sprite_url": "/sprites/434.png",
     "base_stats": {
       "hp": 63,
       "attack": 63,
@@ -36651,7 +36651,7 @@
       "Dark"
     ],
     "description": "It attacks by spraying a horribly smelly fluid from the tip of its tail. Attacks from above confound it.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/435.png",
+    "sprite_url": "/sprites/435.png",
     "base_stats": {
       "hp": 103,
       "attack": 93,
@@ -36823,7 +36823,7 @@
       "Psychic"
     ],
     "description": "It always trains deep in mountains. It levitates when it heightens its spiritual power through meditation.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/307.png",
+    "sprite_url": "/sprites/307.png",
     "base_stats": {
       "hp": 30,
       "attack": 40,
@@ -37312,7 +37312,7 @@
       "Psychic"
     ],
     "description": "It gains the ability to see the aura of its opponents by honing its mind through starvation.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/308.png",
+    "sprite_url": "/sprites/308.png",
     "base_stats": {
       "hp": 60,
       "attack": 60,
@@ -37816,7 +37816,7 @@
       "Psychic"
     ],
     "description": "There are researchers who believe this Pok\u00e9mon reflected like a mirror in the distant past.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/436.png",
+    "sprite_url": "/sprites/436.png",
     "base_stats": {
       "hp": 57,
       "attack": 24,
@@ -38223,7 +38223,7 @@
       "Psychic"
     ],
     "description": "It brought rains by opening portals to another world. It was revered as a bringer of plentiful harvests.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/437.png",
+    "sprite_url": "/sprites/437.png",
     "base_stats": {
       "hp": 67,
       "attack": 89,
@@ -38535,7 +38535,7 @@
       "Fire"
     ],
     "description": "As a newborn, it can barely stand. However, through galloping, its legs are made tougher and faster.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/77.png",
+    "sprite_url": "/sprites/77.png",
     "base_stats": {
       "hp": 50,
       "attack": 85,
@@ -38867,7 +38867,7 @@
       "Fire"
     ],
     "description": "When at an all-out gallop, its blazing mane sparkles, enhancing its beautiful appearance.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/78.png",
+    "sprite_url": "/sprites/78.png",
     "base_stats": {
       "hp": 65,
       "attack": 100,
@@ -39037,7 +39037,7 @@
       "Rock"
     ],
     "description": "It prefers an arid atmosphere. It leaks water that looks like tears when adjusting its moisture level.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/438.png",
+    "sprite_url": "/sprites/438.png",
     "base_stats": {
       "hp": 50,
       "attack": 80,
@@ -39197,7 +39197,7 @@
       "Rock"
     ],
     "description": "To avoid being attacked, it does nothing but mimic a tree. It hates water and flees from rain.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/185.png",
+    "sprite_url": "/sprites/185.png",
     "base_stats": {
       "hp": 70,
       "attack": 100,
@@ -39419,7 +39419,7 @@
       "Fairy"
     ],
     "description": "It mimics the expressions and motions of those it sees to understand the feelings of others.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/439.png",
+    "sprite_url": "/sprites/439.png",
     "base_stats": {
       "hp": 20,
       "attack": 25,
@@ -39623,7 +39623,7 @@
       "Fairy"
     ],
     "description": "It shapes an invisible wall in midair by minutely vibrating its fingertips to stop molecules in the air.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/122.png",
+    "sprite_url": "/sprites/122.png",
     "base_stats": {
       "hp": 40,
       "attack": 45,
@@ -39876,7 +39876,7 @@
       "Normal"
     ],
     "description": "It likes to carry around a small rock. It may wander around others\u2019 feet and cause them to stumble.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/440.png",
+    "sprite_url": "/sprites/440.png",
     "base_stats": {
       "hp": 100,
       "attack": 5,
@@ -40020,7 +40020,7 @@
       "Normal"
     ],
     "description": "A kindly Pok\u00e9mon that lays highly nutritious eggs and shares them with injured Pok\u00e9mon or people.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/113.png",
+    "sprite_url": "/sprites/113.png",
     "base_stats": {
       "hp": 250,
       "attack": 5,
@@ -40344,7 +40344,7 @@
       "Normal"
     ],
     "description": "The eggs it lays are filled with happiness. Eating even one bite will bring a smile to anyone.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/242.png",
+    "sprite_url": "/sprites/242.png",
     "base_stats": {
       "hp": 255,
       "attack": 10,
@@ -40539,7 +40539,7 @@
       "Fairy"
     ],
     "description": "It is often seen when shooting stars fill the night skies. It\u2019s said to arrive riding on a shooting star.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/173.png",
+    "sprite_url": "/sprites/173.png",
     "base_stats": {
       "hp": 50,
       "attack": 25,
@@ -40714,7 +40714,7 @@
       "Fairy"
     ],
     "description": "It is said that happiness will come to those who see a gathering of CLEFAIRY dancing under a full moon.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/35.png",
+    "sprite_url": "/sprites/35.png",
     "base_stats": {
       "hp": 70,
       "attack": 45,
@@ -41133,7 +41133,7 @@
       "Fairy"
     ],
     "description": "It is very wary and rarely shows itself to people. Its ears can hear a pin drop over half a mile away.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/36.png",
+    "sprite_url": "/sprites/36.png",
     "base_stats": {
       "hp": 95,
       "attack": 70,
@@ -41283,7 +41283,7 @@
       "Flying"
     ],
     "description": "Its tongue is just like a human\u2019s. As a result, it can cleverly mimic human speech.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/441.png",
+    "sprite_url": "/sprites/441.png",
     "base_stats": {
       "hp": 76,
       "attack": 65,
@@ -41555,7 +41555,7 @@
       "Electric"
     ],
     "description": "The electric sacs in its cheeks are small. If even a little electricity leaks, it becomes shocked.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/172.png",
+    "sprite_url": "/sprites/172.png",
     "base_stats": {
       "hp": 20,
       "attack": 40,
@@ -41736,7 +41736,7 @@
       "Electric"
     ],
     "description": "It occasionally uses an electric shock to recharge a fellow PIKACHU that is in a weakened state.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png",
+    "sprite_url": "/sprites/25.png",
     "base_stats": {
       "hp": 35,
       "attack": 55,
@@ -41934,7 +41934,7 @@
       "Electric"
     ],
     "description": "Its tail discharges electricity into the ground, protecting it from getting shocked.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/26.png",
+    "sprite_url": "/sprites/26.png",
     "base_stats": {
       "hp": 60,
       "attack": 90,
@@ -42063,7 +42063,7 @@
       "Flying"
     ],
     "description": "It marks time precisely. Some countries consider it to be a wise friend, versed in the world\u2019s ways.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/163.png",
+    "sprite_url": "/sprites/163.png",
     "base_stats": {
       "hp": 60,
       "attack": 30,
@@ -42362,7 +42362,7 @@
       "Flying"
     ],
     "description": "Its eyes are specially developed to enable it to see clearly even in murky darkness and minimal light.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/164.png",
+    "sprite_url": "/sprites/164.png",
     "base_stats": {
       "hp": 100,
       "attack": 50,
@@ -42661,7 +42661,7 @@
       "Dark"
     ],
     "description": "Its constant mischief and misdeeds resulted in it being bound to an Odd Keystone by a mysterious spell.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/442.png",
+    "sprite_url": "/sprites/442.png",
     "base_stats": {
       "hp": 50,
       "attack": 92,
@@ -42838,7 +42838,7 @@
       "Ground"
     ],
     "description": "It attacks using its huge mouth. While its attacks are powerful, it hurts itself out of clumsiness, too.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/443.png",
+    "sprite_url": "/sprites/443.png",
     "base_stats": {
       "hp": 58,
       "attack": 70,
@@ -43095,7 +43095,7 @@
       "Ground"
     ],
     "description": "It loves sparkly things. It seeks treasures in caves and hoards the loot in its nest.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/444.png",
+    "sprite_url": "/sprites/444.png",
     "base_stats": {
       "hp": 68,
       "attack": 90,
@@ -43390,7 +43390,7 @@
       "Ground"
     ],
     "description": "It is said that when one runs at high speed, its wings create blades of wind that can fell nearby trees.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/445.png",
+    "sprite_url": "/sprites/445.png",
     "base_stats": {
       "hp": 108,
       "attack": 130,
@@ -43576,7 +43576,7 @@
       "Normal"
     ],
     "description": "In its desperation to gulp down food, it forgets about the food it has hidden under its fur.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/446.png",
+    "sprite_url": "/sprites/446.png",
     "base_stats": {
       "hp": 135,
       "attack": 85,
@@ -43764,7 +43764,7 @@
       "Normal"
     ],
     "description": "When its belly is full, it becomes too lethargic to even lift a finger, so it is safe to bounce on its belly.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/143.png",
+    "sprite_url": "/sprites/143.png",
     "base_stats": {
       "hp": 160,
       "attack": 110,
@@ -43952,7 +43952,7 @@
       "Psychic"
     ],
     "description": "When alone, nothing happens. However, if there are two or more, an odd power is said to emerge.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/201.png",
+    "sprite_url": "/sprites/201.png",
     "base_stats": {
       "hp": 48,
       "attack": 72,
@@ -46392,7 +46392,7 @@
       "Fighting"
     ],
     "description": "It has the peculiar power of being able to see emotions such as joy and rage in the form of waves.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/447.png",
+    "sprite_url": "/sprites/447.png",
     "base_stats": {
       "hp": 40,
       "attack": 70,
@@ -46565,7 +46565,7 @@
       "Steel"
     ],
     "description": "A well-trained one can sense auras to identify and take in the feelings of creatures over half a mile away.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/448.png",
+    "sprite_url": "/sprites/448.png",
     "base_stats": {
       "hp": 70,
       "attack": 110,
@@ -46761,7 +46761,7 @@
       "Ground"
     ],
     "description": "When walking on land, it covers its body with a poisonous film that keeps its skin from dehydrating.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/194.png",
+    "sprite_url": "/sprites/194.png",
     "base_stats": {
       "hp": 55,
       "attack": 45,
@@ -47284,7 +47284,7 @@
       "Ground"
     ],
     "description": "It has an easygoing nature. It doesn\u2019t care if it bumps its head on boats and boulders while swimming.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/195.png",
+    "sprite_url": "/sprites/195.png",
     "base_stats": {
       "hp": 95,
       "attack": 85,
@@ -47743,7 +47743,7 @@
       "Flying"
     ],
     "description": "It soars high in the sky, riding on updrafts like a glider. It carries food tucked in its bill.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/278.png",
+    "sprite_url": "/sprites/278.png",
     "base_stats": {
       "hp": 40,
       "attack": 30,
@@ -48119,7 +48119,7 @@
       "Flying"
     ],
     "description": "It is a messenger of the skies, carrying small Pok\u00e9mon and eggs to safety in its bill.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/279.png",
+    "sprite_url": "/sprites/279.png",
     "base_stats": {
       "hp": 60,
       "attack": 50,
@@ -48558,7 +48558,7 @@
       "Psychic"
     ],
     "description": "The head on its tail contains a small brain. It can instinctively fight even while facing backward.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/203.png",
+    "sprite_url": "/sprites/203.png",
     "base_stats": {
       "hp": 70,
       "attack": 80,
@@ -48806,7 +48806,7 @@
       "Ground"
     ],
     "description": "It shuts its nostrils tight then travels through sand as if walking. They form colonies of around ten.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/449.png",
+    "sprite_url": "/sprites/449.png",
     "base_stats": {
       "hp": 68,
       "attack": 72,
@@ -49049,7 +49049,7 @@
       "Ground"
     ],
     "description": "It is surprisingly quick to anger. It holds its mouth agape as a display of its strength.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/450.png",
+    "sprite_url": "/sprites/450.png",
     "base_stats": {
       "hp": 108,
       "attack": 112,
@@ -49243,7 +49243,7 @@
       "Fairy"
     ],
     "description": "Its tail bounces like a rubber ball. It flings that tail around to fight opponents bigger than itself.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/298.png",
+    "sprite_url": "/sprites/298.png",
     "base_stats": {
       "hp": 50,
       "attack": 20,
@@ -49367,7 +49367,7 @@
       "Fairy"
     ],
     "description": "The oil-filled end of its tail floats on water. It keeps MARILL from drowning even in a strong current.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/183.png",
+    "sprite_url": "/sprites/183.png",
     "base_stats": {
       "hp": 70,
       "attack": 20,
@@ -49642,7 +49642,7 @@
       "Fairy"
     ],
     "description": "It can spend all day in water, since it can inhale and store a large volume of air.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/184.png",
+    "sprite_url": "/sprites/184.png",
     "base_stats": {
       "hp": 100,
       "attack": 50,
@@ -49854,7 +49854,7 @@
       "Bug"
     ],
     "description": "As soon as the tail claws close, its needle tips secrete poison. It can survive a year without food.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/451.png",
+    "sprite_url": "/sprites/451.png",
     "base_stats": {
       "hp": 40,
       "attack": 50,
@@ -50030,7 +50030,7 @@
       "Dark"
     ],
     "description": "Possessing a sturdy build, it takes pride in its strength, taking down foes without using toxins.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/452.png",
+    "sprite_url": "/sprites/452.png",
     "base_stats": {
       "hp": 70,
       "attack": 90,
@@ -50216,7 +50216,7 @@
       "Fighting"
     ],
     "description": "It rarely fights fairly, but that is strictly to ensure survival. It is popular as a mascot.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/453.png",
+    "sprite_url": "/sprites/453.png",
     "base_stats": {
       "hp": 48,
       "attack": 61,
@@ -50436,7 +50436,7 @@
       "Fighting"
     ],
     "description": "It has a poison sac at its throat. When it croaks, the stored poison is churned for greater potency.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/454.png",
+    "sprite_url": "/sprites/454.png",
     "base_stats": {
       "hp": 83,
       "attack": 106,
@@ -50633,7 +50633,7 @@
       "Grass"
     ],
     "description": "It binds itself to trees in marshes. It attracts prey with its sweet- smelling drool and gulps them down.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/455.png",
+    "sprite_url": "/sprites/455.png",
     "base_stats": {
       "hp": 74,
       "attack": 100,
@@ -50798,7 +50798,7 @@
       "Water"
     ],
     "description": "It forcefully squirts water. The water jet never misses prey even if the REMORAID is deep in the sea.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/223.png",
+    "sprite_url": "/sprites/223.png",
     "base_stats": {
       "hp": 35,
       "attack": 65,
@@ -51234,7 +51234,7 @@
       "Water"
     ],
     "description": "It loves to lurk inside holes in rocks. It sometimes sprays ink on prey by sticking out only its mouth.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/224.png",
+    "sprite_url": "/sprites/224.png",
     "base_stats": {
       "hp": 75,
       "attack": 105,
@@ -51689,7 +51689,7 @@
       "Water"
     ],
     "description": "The line running down its side can store sunlight. It shines vividly at night.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/456.png",
+    "sprite_url": "/sprites/456.png",
     "base_stats": {
       "hp": 49,
       "attack": 49,
@@ -52091,7 +52091,7 @@
       "Water"
     ],
     "description": "It crawls along the seafloor using its long front fins like legs. It competes for food with LANTURN.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/457.png",
+    "sprite_url": "/sprites/457.png",
     "base_stats": {
       "hp": 69,
       "attack": 69,
@@ -52627,7 +52627,7 @@
       "Poison"
     ],
     "description": "Because its body is almost entirely composed of water, it shrivels up if it is washed ashore.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/72.png",
+    "sprite_url": "/sprites/72.png",
     "base_stats": {
       "hp": 40,
       "attack": 40,
@@ -52952,7 +52952,7 @@
       "Poison"
     ],
     "description": "It extends its 80 tentacles to form an encircling poisonous net that is difficult to escape.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/73.png",
+    "sprite_url": "/sprites/73.png",
     "base_stats": {
       "hp": 80,
       "attack": 70,
@@ -53475,7 +53475,7 @@
       "Water"
     ],
     "description": "It is a shabby and ugly Pok\u00e9mon. However, it is very hardy and can survive on little water.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/349.png",
+    "sprite_url": "/sprites/349.png",
     "base_stats": {
       "hp": 20,
       "attack": 15,
@@ -53589,7 +53589,7 @@
       "Water"
     ],
     "description": "Its lovely scales are described as rainbow colored. They change color depending on the viewing angle.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/350.png",
+    "sprite_url": "/sprites/350.png",
     "base_stats": {
       "hp": 95,
       "attack": 60,
@@ -53749,7 +53749,7 @@
       "Flying"
     ],
     "description": "People organize tours to see this Pok\u00e9mon frolic and skim the tops of waves with REMORAID.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/458.png",
+    "sprite_url": "/sprites/458.png",
     "base_stats": {
       "hp": 45,
       "attack": 20,
@@ -53948,7 +53948,7 @@
       "Flying"
     ],
     "description": "While elegantly swimming in the sea, it ignores REMORAID that cling to its fins seeking food scraps.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/226.png",
+    "sprite_url": "/sprites/226.png",
     "base_stats": {
       "hp": 85,
       "attack": 40,
@@ -54144,7 +54144,7 @@
       "Ice"
     ],
     "description": "Seemingly curious about people, they gather around footsteps they find on snowy mountains.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/459.png",
+    "sprite_url": "/sprites/459.png",
     "base_stats": {
       "hp": 60,
       "attack": 62,
@@ -54767,7 +54767,7 @@
       "Ice"
     ],
     "description": "They appear when the snow flowers bloom. When the petals fall, they retreat to places unknown again.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/460.png",
+    "sprite_url": "/sprites/460.png",
     "base_stats": {
       "hp": 90,
       "attack": 92,
@@ -55022,7 +55022,7 @@
       "Ice"
     ],
     "description": "A smart and sneaky Pok\u00e9mon. A pair may work together to steal eggs by having one lure the parents away.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/215.png",
+    "sprite_url": "/sprites/215.png",
     "base_stats": {
       "hp": 55,
       "attack": 95,
@@ -55531,7 +55531,7 @@
       "Ice"
     ],
     "description": "Evolution made it even more devious. It communicates by clawing signs in boulders.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/461.png",
+    "sprite_url": "/sprites/461.png",
     "base_stats": {
       "hp": 70,
       "attack": 120,
@@ -55735,7 +55735,7 @@
       "Psychic"
     ],
     "description": "When UXIE flew, people gained the ability to solve problems. It was the birth of knowledge.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/480.png",
+    "sprite_url": "/sprites/480.png",
     "base_stats": {
       "hp": 75,
       "attack": 75,
@@ -55912,7 +55912,7 @@
       "Psychic"
     ],
     "description": "When MESPRIT flew, people learned the joy and sadness of living. It was the birth of emotions.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/481.png",
+    "sprite_url": "/sprites/481.png",
     "base_stats": {
       "hp": 80,
       "attack": 105,
@@ -56100,7 +56100,7 @@
       "Psychic"
     ],
     "description": "When AZELF flew, people gained the determination to do things. It was the birth of willpower.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/482.png",
+    "sprite_url": "/sprites/482.png",
     "base_stats": {
       "hp": 75,
       "attack": 125,
@@ -56295,7 +56295,7 @@
       "Dragon"
     ],
     "description": "A legendary Pok\u00e9mon of Sinnoh. It is said that time flows when DIALGA\u2019s heart beats.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/483.png",
+    "sprite_url": "/sprites/483.png",
     "base_stats": {
       "hp": 100,
       "attack": 120,
@@ -56494,7 +56494,7 @@
       "Dragon"
     ],
     "description": "A legendary Pok\u00e9mon of Sinnoh. It is said that space becomes more stable with PALKIA\u2019s every breath.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/484.png",
+    "sprite_url": "/sprites/484.png",
     "base_stats": {
       "hp": 90,
       "attack": 120,
@@ -56674,7 +56674,7 @@
       "Water"
     ],
     "description": "It is born with a wondrous power that lets it bond with any kind of Pok\u00e9mon.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/490.png",
+    "sprite_url": "/sprites/490.png",
     "base_stats": {
       "hp": 100,
       "attack": 100,
@@ -56851,7 +56851,7 @@
       "Ghost"
     ],
     "description": "Its electric-like body can enter some kinds of machines and take control in order to make mischief.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/479.png",
+    "sprite_url": "/sprites/479.png",
     "base_stats": {
       "hp": 50,
       "attack": 50,
@@ -57019,7 +57019,7 @@
       "Flying"
     ],
     "description": "It glides as if sliding. It startles foes by clamping on to their faces, then jabs with its poison stinger.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/207.png",
+    "sprite_url": "/sprites/207.png",
     "base_stats": {
       "hp": 65,
       "attack": 75,
@@ -57238,7 +57238,7 @@
       "Flying"
     ],
     "description": "If it succeeds in catching even a faint breeze properly, it can circle the globe without flapping once.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/472.png",
+    "sprite_url": "/sprites/472.png",
     "base_stats": {
       "hp": 75,
       "attack": 95,
@@ -57437,7 +57437,7 @@
       "Rock"
     ],
     "description": "When endangered, it may protect itself by raising its magnetism and drawing iron objects to its body.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/299.png",
+    "sprite_url": "/sprites/299.png",
     "base_stats": {
       "hp": 30,
       "attack": 45,
@@ -57759,7 +57759,7 @@
       "Steel"
     ],
     "description": "It freely controls three small units called Mini-Noses using magnetic force.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/476.png",
+    "sprite_url": "/sprites/476.png",
     "base_stats": {
       "hp": 60,
       "attack": 55,
@@ -57960,7 +57960,7 @@
       "Fairy"
     ],
     "description": "If its horns capture the warm feelings of people or Pok\u00e9mon, its body warms up slightly.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/280.png",
+    "sprite_url": "/sprites/280.png",
     "base_stats": {
       "hp": 28,
       "attack": 25,
@@ -58270,7 +58270,7 @@
       "Fairy"
     ],
     "description": "If its Trainer becomes happy, it overflows with energy, dancing joyously while spinning about.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/281.png",
+    "sprite_url": "/sprites/281.png",
     "base_stats": {
       "hp": 38,
       "attack": 35,
@@ -58528,7 +58528,7 @@
       "Fairy"
     ],
     "description": "To protect its Trainer, it will expend all its psychic power to create a small black hole.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/282.png",
+    "sprite_url": "/sprites/282.png",
     "base_stats": {
       "hp": 68,
       "attack": 65,
@@ -58716,7 +58716,7 @@
       "Fighting"
     ],
     "description": "When trying to protect someone, it extends its elbows as if they were swords and fights savagely.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/475.png",
+    "sprite_url": "/sprites/475.png",
     "base_stats": {
       "hp": 68,
       "attack": 125,
@@ -58923,7 +58923,7 @@
       "Normal"
     ],
     "description": "When it extends its over-six-foot- long tongue, its tail quivers. There is a possibility they are connected.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/108.png",
+    "sprite_url": "/sprites/108.png",
     "base_stats": {
       "hp": 90,
       "attack": 55,
@@ -59125,7 +59125,7 @@
       "Normal"
     ],
     "description": "The long tongue is always soggy with slobber. The saliva contains a solvent that causes numbness.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/463.png",
+    "sprite_url": "/sprites/463.png",
     "base_stats": {
       "hp": 110,
       "attack": 85,
@@ -59311,7 +59311,7 @@
       "Normal"
     ],
     "description": "Because its genetic makeup is irregular, it quickly changes its form due to a variety of causes.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/133.png",
+    "sprite_url": "/sprites/133.png",
     "base_stats": {
       "hp": 55,
       "attack": 55,
@@ -59463,7 +59463,7 @@
       "Water"
     ],
     "description": "Its cell composition is similar to water molecules. As a result, it can melt away into water.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/134.png",
+    "sprite_url": "/sprites/134.png",
     "base_stats": {
       "hp": 130,
       "attack": 65,
@@ -59624,7 +59624,7 @@
       "Electric"
     ],
     "description": "If agitated, it uses electricity to straighten out its fur and launch it in small bunches.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/135.png",
+    "sprite_url": "/sprites/135.png",
     "base_stats": {
       "hp": 65,
       "attack": 65,
@@ -59781,7 +59781,7 @@
       "Fire"
     ],
     "description": "Inhaled air is heated in the flame sac in its body to an intense fire over 3,000 degrees Fahrenheit.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/136.png",
+    "sprite_url": "/sprites/136.png",
     "base_stats": {
       "hp": 65,
       "attack": 130,
@@ -59939,7 +59939,7 @@
       "Psychic"
     ],
     "description": "Its fur is so sensitive, it can sense minute shifts in the air and predict the weather.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/196.png",
+    "sprite_url": "/sprites/196.png",
     "base_stats": {
       "hp": 65,
       "attack": 65,
@@ -60099,7 +60099,7 @@
       "Dark"
     ],
     "description": "When exposed to the moon\u2019s aura, the rings on its body glow faintly and it gains a mysterious power.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/197.png",
+    "sprite_url": "/sprites/197.png",
     "base_stats": {
       "hp": 95,
       "attack": 65,
@@ -60258,7 +60258,7 @@
       "Grass"
     ],
     "description": "It basically does not fight. With cells similar to those of plants, it can perform photosynthesis.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/470.png",
+    "sprite_url": "/sprites/470.png",
     "base_stats": {
       "hp": 65,
       "attack": 110,
@@ -60424,7 +60424,7 @@
       "Ice"
     ],
     "description": "By controlling its body heat, it can freeze the atmosphere around it to make a diamond-dust flurry.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/471.png",
+    "sprite_url": "/sprites/471.png",
     "base_stats": {
       "hp": 65,
       "attack": 60,
@@ -60582,7 +60582,7 @@
       "Flying"
     ],
     "description": "It can\u2019t relax if it or its surroundings are not clean. It wipes off dirt with its wings.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/333.png",
+    "sprite_url": "/sprites/333.png",
     "base_stats": {
       "hp": 45,
       "attack": 40,
@@ -60770,7 +60770,7 @@
       "Flying"
     ],
     "description": "If it bonds with a person, it will gently envelop the friend with its soft wings, then hum.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/334.png",
+    "sprite_url": "/sprites/334.png",
     "base_stats": {
       "hp": 75,
       "attack": 70,
@@ -60961,7 +60961,7 @@
       "Fairy"
     ],
     "description": "It transforms the kindness and joy of others into happiness, which it stores in its shell.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/175.png",
+    "sprite_url": "/sprites/175.png",
     "base_stats": {
       "hp": 35,
       "attack": 20,
@@ -61183,7 +61183,7 @@
       "Flying"
     ],
     "description": "To share its happiness, it flies around the world seeking kind\u00ad hearted people.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/176.png",
+    "sprite_url": "/sprites/176.png",
     "base_stats": {
       "hp": 55,
       "attack": 40,
@@ -61375,7 +61375,7 @@
       "Flying"
     ],
     "description": "It shares many blessings with people who respect one another\u2019s rights and avoid needless strife.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/468.png",
+    "sprite_url": "/sprites/468.png",
     "base_stats": {
       "hp": 85,
       "attack": 50,
@@ -61520,7 +61520,7 @@
       "Fire"
     ],
     "description": "It is smart enough to hunt in packs. It uses a variety of cries for communicating with others.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/228.png",
+    "sprite_url": "/sprites/228.png",
     "base_stats": {
       "hp": 45,
       "attack": 60,
@@ -61813,7 +61813,7 @@
       "Fire"
     ],
     "description": "The flames it breathes when angry contain toxins. If they cause a burn, it will hurt forever.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/229.png",
+    "sprite_url": "/sprites/229.png",
     "base_stats": {
       "hp": 75,
       "attack": 90,
@@ -61997,7 +61997,7 @@
       "Steel"
     ],
     "description": "The faster the units at its sides rotate, the greater the magnetic force they generate.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/81.png",
+    "sprite_url": "/sprites/81.png",
     "base_stats": {
       "hp": 25,
       "attack": 35,
@@ -62217,7 +62217,7 @@
       "Steel"
     ],
     "description": "Many mysteriously appear when more sunspots dot the sun. They stop TV sets from displaying properly.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/82.png",
+    "sprite_url": "/sprites/82.png",
     "base_stats": {
       "hp": 50,
       "attack": 60,
@@ -62451,7 +62451,7 @@
       "Steel"
     ],
     "description": "A group tried to use scientific means to make MAGNEZONE evolve, but their efforts ended in failure.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/462.png",
+    "sprite_url": "/sprites/462.png",
     "base_stats": {
       "hp": 70,
       "attack": 70,
@@ -62644,7 +62644,7 @@
       "Grass"
     ],
     "description": "The blue vines shrouding its body are covered in a growth of fine hair. It is known to be ticklish.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/114.png",
+    "sprite_url": "/sprites/114.png",
     "base_stats": {
       "hp": 65,
       "attack": 55,
@@ -63290,7 +63290,7 @@
       "Grass"
     ],
     "description": "Its arms are made of plants that bind themselves to things. They grow back right away if cut.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/465.png",
+    "sprite_url": "/sprites/465.png",
     "base_stats": {
       "hp": 100,
       "attack": 100,
@@ -63479,7 +63479,7 @@
       "Flying"
     ],
     "description": "It can hover in one spot by flapping its wings at high speed. It flits about to guard its territory.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/193.png",
+    "sprite_url": "/sprites/193.png",
     "base_stats": {
       "hp": 65,
       "attack": 65,
@@ -64128,7 +64128,7 @@
       "Flying"
     ],
     "description": "Its jaw power is incredible. It is adept at biting apart foes while flying by at high speed.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/469.png",
+    "sprite_url": "/sprites/469.png",
     "base_stats": {
       "hp": 86,
       "attack": 76,
@@ -64325,7 +64325,7 @@
       "Flying"
     ],
     "description": "Delicious fruits grew out from around its neck because it always ate the same kind of fruit.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/357.png",
+    "sprite_url": "/sprites/357.png",
     "base_stats": {
       "hp": 99,
       "attack": 68,
@@ -64598,7 +64598,7 @@
       "Rock"
     ],
     "description": "Its powerful tackles can destroy anything. However, it is too slow witted to help people work.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/111.png",
+    "sprite_url": "/sprites/111.png",
     "base_stats": {
       "hp": 80,
       "attack": 85,
@@ -64972,7 +64972,7 @@
       "Rock"
     ],
     "description": "Standing on its hind legs freed its forelegs and made it smarter. It is very forgetful, however.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/112.png",
+    "sprite_url": "/sprites/112.png",
     "base_stats": {
       "hp": 105,
       "attack": 130,
@@ -65272,7 +65272,7 @@
       "Rock"
     ],
     "description": "It can launch a rock held in its hand like a missile by tightening then expanding muscles instantly.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/464.png",
+    "sprite_url": "/sprites/464.png",
     "base_stats": {
       "hp": 115,
       "attack": 140,
@@ -65481,7 +65481,7 @@
       "Ghost"
     ],
     "description": "It loves the crying of children. It startles bad kids by passing through walls and making them cry.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/355.png",
+    "sprite_url": "/sprites/355.png",
     "base_stats": {
       "hp": 20,
       "attack": 40,
@@ -65831,7 +65831,7 @@
       "Ghost"
     ],
     "description": "It seeks drifting will-o\u2019-the-wisps and sucks them into its empty body. What happens inside is a mystery.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/356.png",
+    "sprite_url": "/sprites/356.png",
     "base_stats": {
       "hp": 40,
       "attack": 70,
@@ -66533,7 +66533,7 @@
       "Ghost"
     ],
     "description": "It is said to take lost spirits into its pliant body and guide them home.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/477.png",
+    "sprite_url": "/sprites/477.png",
     "base_stats": {
       "hp": 45,
       "attack": 100,
@@ -66740,7 +66740,7 @@
       "Normal"
     ],
     "description": "A man-made Pok\u00e9mon created using advanced scientific means. It can move freely in cyberspace.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/137.png",
+    "sprite_url": "/sprites/137.png",
     "base_stats": {
       "hp": 65,
       "attack": 60,
@@ -66914,7 +66914,7 @@
       "Normal"
     ],
     "description": "It was upgraded to enable the exploration of other planets. However, it failed to measure up.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/233.png",
+    "sprite_url": "/sprites/233.png",
     "base_stats": {
       "hp": 85,
       "attack": 80,
@@ -67080,7 +67080,7 @@
       "Normal"
     ],
     "description": "Its programming was modified to enable work in alien dimensions. It did not work as planned.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/474.png",
+    "sprite_url": "/sprites/474.png",
     "base_stats": {
       "hp": 85,
       "attack": 80,
@@ -67254,7 +67254,7 @@
       "Flying"
     ],
     "description": "The sharp scythes on its forearms become increasingly sharp by cutting through hard objects.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/123.png",
+    "sprite_url": "/sprites/123.png",
     "base_stats": {
       "hp": 70,
       "attack": 110,
@@ -67513,7 +67513,7 @@
       "Steel"
     ],
     "description": "It raises its pincers with eyelike markings for intimidation. It also swings them down dangerously.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/212.png",
+    "sprite_url": "/sprites/212.png",
     "base_stats": {
       "hp": 70,
       "attack": 130,
@@ -67699,7 +67699,7 @@
       "Electric"
     ],
     "description": "A weak electric current flows between its horns. Sticking a hand there shocks the unwary.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/239.png",
+    "sprite_url": "/sprites/239.png",
     "base_stats": {
       "hp": 45,
       "attack": 63,
@@ -67862,7 +67862,7 @@
       "Electric"
     ],
     "description": "It windmills its arms to slightly boost its punches. Foes have been known to escape in the meantime.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/125.png",
+    "sprite_url": "/sprites/125.png",
     "base_stats": {
       "hp": 65,
       "attack": 83,
@@ -68059,7 +68059,7 @@
       "Electric"
     ],
     "description": "Heedless of enemy attacks, it closes in, shoves its tails onto the foe, then looses high voltage.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/466.png",
+    "sprite_url": "/sprites/466.png",
     "base_stats": {
       "hp": 75,
       "attack": 123,
@@ -68241,7 +68241,7 @@
       "Fire"
     ],
     "description": "Its magma-like blood circulates throughout its body. Its body\u2019s heat can top 1,100 degrees F.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/240.png",
+    "sprite_url": "/sprites/240.png",
     "base_stats": {
       "hp": 45,
       "attack": 75,
@@ -68404,7 +68404,7 @@
       "Fire"
     ],
     "description": "When it breathes deeply, heat waves form around its body, making it hard to see clearly.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/126.png",
+    "sprite_url": "/sprites/126.png",
     "base_stats": {
       "hp": 65,
       "attack": 95,
@@ -68599,7 +68599,7 @@
       "Fire"
     ],
     "description": "When launching 3,600 degrees F fireballs, its body takes on a whitish hue from the intense heat.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/467.png",
+    "sprite_url": "/sprites/467.png",
     "base_stats": {
       "hp": 75,
       "attack": 95,
@@ -68780,7 +68780,7 @@
       "Ground"
     ],
     "description": "It has a very sensitive nose. It can locate mushrooms, berries, and even hot springs buried under ice.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/220.png",
+    "sprite_url": "/sprites/220.png",
     "base_stats": {
       "hp": 50,
       "attack": 50,
@@ -69019,7 +69019,7 @@
       "Ground"
     ],
     "description": "Covered by a shaggy coat, it is strong against the cold. Its tusks of ice thicken when it snows.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/221.png",
+    "sprite_url": "/sprites/221.png",
     "base_stats": {
       "hp": 100,
       "attack": 100,
@@ -69245,7 +69245,7 @@
       "Ground"
     ],
     "description": "A frozen one was dug up from soil dating back 10,000 years. It woke up to much amazement.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/473.png",
+    "sprite_url": "/sprites/473.png",
     "base_stats": {
       "hp": 110,
       "attack": 130,
@@ -69429,7 +69429,7 @@
       "Ice"
     ],
     "description": "It is said that several SNORUNT gather under giant leaves and live together in harmony.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/361.png",
+    "sprite_url": "/sprites/361.png",
     "base_stats": {
       "hp": 50,
       "attack": 50,
@@ -69660,7 +69660,7 @@
       "Ice"
     ],
     "description": "It prevents prey from escaping by instantaneously freezing moisture in the air.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/362.png",
+    "sprite_url": "/sprites/362.png",
     "base_stats": {
       "hp": 80,
       "attack": 80,
@@ -69831,7 +69831,7 @@
       "Ghost"
     ],
     "description": "It freezes prey by blowing its -58 degrees F breath. It is said to then secretly display its prey.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/478.png",
+    "sprite_url": "/sprites/478.png",
     "base_stats": {
       "hp": 70,
       "attack": 80,
@@ -70016,7 +70016,7 @@
       "Dark"
     ],
     "description": "Rumored to sense disasters with its horn, it became a target. It fled deep into the mountains.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/359.png",
+    "sprite_url": "/sprites/359.png",
     "base_stats": {
       "hp": 65,
       "attack": 130,
@@ -70344,7 +70344,7 @@
       "Dragon"
     ],
     "description": "It was banished for its violence. It silently gazed upon the old world from the Distortion World.",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/487.png",
+    "sprite_url": "/sprites/487.png",
     "base_stats": {
       "hp": 150,
       "attack": 100,
