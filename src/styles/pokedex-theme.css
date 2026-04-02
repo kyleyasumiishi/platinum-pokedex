@@ -1,0 +1,192 @@
+/* =============================================================================
+   Pokédex Theme — Gen 1 Anime Retro-Tech Aesthetic
+   =============================================================================
+   This file defines the visual identity of the app.
+   CSS custom properties (variables) set here are used throughout components.
+   ============================================================================= */
+
+/* --- Color variables -------------------------------------------------------- */
+:root {
+  --dex-red:           #CC0000;
+  --dex-red-dark:      #990000;
+  --dex-red-light:     #FF3333;
+
+  --dex-cream:         #F5F0E8;
+  --dex-cream-dark:    #E8E0D0;
+
+  --screen-bg:         #0d0d1a;
+  --screen-bg-alt:     #1a1a2e;
+  --screen-green:      #00ff41;
+  --screen-green-dim:  #00cc33;
+
+  --dex-gray:          #4a4a5a;
+  --dex-border:        #2a2a3a;
+
+  /* Nav bar height — used to pad content so it's never hidden behind the bar */
+  --nav-height: 64px;
+  --header-height: 52px;
+}
+
+/* --- Base resets ------------------------------------------------------------ */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--screen-bg);
+  color: var(--dex-cream);
+  font-family: "Share Tech Mono", monospace;
+  -webkit-font-smoothing: antialiased;
+  /* Prevent iOS text size adjustment on rotation */
+  -webkit-text-size-adjust: 100%;
+  /* Prevent pull-to-refresh interfering with the app feel */
+  overscroll-behavior: none;
+}
+
+/* --- CRT screen inset ------------------------------------------------------- */
+/* Applied to any content area that should look like a device display screen.
+   The scanline effect uses a repeating linear gradient to simulate CRT scan lines.
+   background-blend-mode layers it over the content. */
+
+.screen {
+  background-color: var(--screen-bg);
+  border-radius: 8px;
+  border: 2px solid var(--screen-green-dim);
+  box-shadow:
+    0 0 8px rgba(0, 255, 65, 0.15),
+    inset 0 0 20px rgba(0, 0, 0, 0.4);
+  position: relative;
+  overflow: hidden;
+}
+
+/* Scanline overlay — a pseudo-element with repeating horizontal lines */
+.screen::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: repeating-linear-gradient(
+    to bottom,
+    transparent 0px,
+    transparent 2px,
+    rgba(0, 0, 0, 0.08) 2px,
+    rgba(0, 0, 0, 0.08) 4px
+  );
+  pointer-events: none; /* clicks pass through */
+  z-index: 10;
+}
+
+/* Text inside screen areas uses the CRT green */
+.screen-text {
+  color: var(--screen-green);
+  font-family: "Share Tech Mono", monospace;
+}
+
+.screen-text-dim {
+  color: var(--screen-green-dim);
+  font-family: "Share Tech Mono", monospace;
+}
+
+/* Pixel heading — Press Start 2P for section titles in screen areas */
+.pixel-text {
+  font-family: "Press Start 2P", monospace;
+  line-height: 1.8;
+}
+
+/* --- Pokédex card ----------------------------------------------------------- */
+/* Cards sit on the cream background, used in the Pokémon list */
+.dex-card {
+  background-color: var(--dex-cream);
+  border-radius: 10px;
+  border: 2px solid var(--dex-cream-dark);
+  color: #1a1a2e;
+}
+
+.dex-card:active {
+  transform: scale(0.98);
+  transition: transform 0.1s ease;
+}
+
+/* --- Collapsible section ---------------------------------------------------- */
+.section-header {
+  background-color: var(--dex-red);
+  color: white;
+  font-family: "Share Tech Mono", monospace;
+  font-size: 0.85rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  padding: 10px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  user-select: none;
+  transition: background-color 0.15s ease;
+}
+
+.section-header:active {
+  background-color: var(--dex-red-dark);
+}
+
+.section-content {
+  border: 1px solid var(--dex-border);
+  border-top: none;
+  border-radius: 0 0 6px 6px;
+  overflow: hidden;
+}
+
+/* --- Sprite image ----------------------------------------------------------- */
+/* image-rendering: pixelated keeps pixel art crisp when scaled up.
+   Without this, the browser would blur the sprite with bilinear interpolation. */
+.sprite {
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+}
+
+/* --- Type badge colors ------------------------------------------------------ */
+/* Official Pokémon type colors, used on badges throughout the app */
+.type-badge {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 0.7rem;
+  font-family: "Share Tech Mono", monospace;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  white-space: nowrap;
+}
+
+.type-normal   { background-color: #A8A878; }
+.type-fire     { background-color: #F08030; }
+.type-water    { background-color: #6890F0; }
+.type-electric { background-color: #F8D030; color: #333; }
+.type-grass    { background-color: #78C850; }
+.type-ice      { background-color: #98D8D8; color: #333; }
+.type-fighting { background-color: #C03028; }
+.type-poison   { background-color: #A040A0; }
+.type-ground   { background-color: #E0C068; color: #333; }
+.type-flying   { background-color: #A890F0; }
+.type-psychic  { background-color: #F85888; }
+.type-bug      { background-color: #A8B820; }
+.type-rock     { background-color: #B8A038; }
+.type-ghost    { background-color: #705898; }
+.type-dragon   { background-color: #7038F8; }
+.type-dark     { background-color: #705848; }
+.type-steel    { background-color: #B8B8D0; color: #333; }
+
+/* --- Scrollbar styling (webkit) -------------------------------------------- */
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: var(--screen-bg); }
+::-webkit-scrollbar-thumb { background: var(--dex-red-dark); border-radius: 2px; }
+
+/* --- Utility: hide scrollbar but keep scroll behavior ----------------------- */
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }

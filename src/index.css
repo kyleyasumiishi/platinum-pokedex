@@ -1,0 +1,7 @@
+/* Our custom Pokédex theme must be imported before Tailwind directives */
+@import './styles/pokedex-theme.css';
+
+/* Tailwind base, components, and utilities */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
