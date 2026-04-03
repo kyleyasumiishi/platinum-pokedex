@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip install:*)",
+      "Bash(python3 -c ':*)",
+      "Bash(python scripts/fetch_pokeapi.py)",
+      "Bash(python3 scripts/fetch_pokeapi.py)",
+      "Bash(git add:*)",
+      "Bash(git commit -m ':*)",
+      "Bash(open pokedex-preview.html)",
+      "Bash(npm install:*)",
+      "Bash(npx tailwindcss:*)",
+      "Bash(npm run:*)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:5173/platinum-pokedex/)",
+      "Bash(curl -s -o public/sprites/items/master-ball.png \"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/master-ball.png\")",
+      "Bash(git push:*)",
+      "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\(len\\(d\\), 'pokemon'\\)\")",
+      "Bash(wc -c src/data/*.json)"
+    ],
+    "additionalDirectories": [
+      "/Users/kyleyasumiishi/Documents/platinum-pokedex"
+    ]
+  }
+}
