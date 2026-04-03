@@ -6,14 +6,14 @@
       "name": "Pichu",
       "sinnoh_dex": 103,
       "national_dex": 172,
-      "sprite_url": "sprites/172.png",
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/172.png",
       "evolves_to": [
         {
           "pokemon_id": "pikachu",
           "name": "Pikachu",
           "sinnoh_dex": 104,
           "national_dex": 25,
-          "sprite_url": "sprites/25.png",
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png",
           "method": {
             "trigger": "level-up",
             "happiness": 220
@@ -24,7 +24,7 @@
               "name": "Raichu",
               "sinnoh_dex": 105,
               "national_dex": 26,
-              "sprite_url": "sprites/26.png",
+              "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/26.png",
               "method": {
                 "trigger": "use-item",
                 "item": "Thunder Stone"
@@ -42,14 +42,14 @@
       "name": "Cleffa",
       "sinnoh_dex": 99,
       "national_dex": 173,
-      "sprite_url": "sprites/173.png",
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/173.png",
       "evolves_to": [
         {
           "pokemon_id": "clefairy",
           "name": "Clefairy",
           "sinnoh_dex": 100,
           "national_dex": 35,
-          "sprite_url": "sprites/35.png",
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/35.png",
           "method": {
             "trigger": "level-up",
             "happiness": 160
@@ -60,7 +60,7 @@
               "name": "Clefable",
               "sinnoh_dex": 101,
               "national_dex": 36,
-              "sprite_url": "sprites/36.png",
+              "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/36.png",
               "method": {
                 "trigger": "use-item",
                 "item": "Moon Stone"
@@ -78,14 +78,14 @@
       "name": "Zubat",
       "sinnoh_dex": 28,
       "national_dex": 41,
-      "sprite_url": "sprites/41.png",
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/41.png",
       "evolves_to": [
         {
           "pokemon_id": "golbat",
           "name": "Golbat",
           "sinnoh_dex": 29,
           "national_dex": 42,
-          "sprite_url": "sprites/42.png",
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/42.png",
           "method": {
             "trigger": "level-up",
             "level": 22
@@ -96,7 +96,7 @@
               "name": "Crobat",
               "sinnoh_dex": 30,
               "national_dex": 169,
-              "sprite_url": "sprites/169.png",
+              "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/169.png",
               "method": {
                 "trigger": "level-up",
                 "happiness": 160
@@ -114,14 +114,14 @@
       "name": "Psyduck",
       "sinnoh_dex": 43,
       "national_dex": 54,
-      "sprite_url": "sprites/54.png",
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/54.png",
       "evolves_to": [
         {
           "pokemon_id": "golduck",
           "name": "Golduck",
           "sinnoh_dex": 44,
           "national_dex": 55,
-          "sprite_url": "sprites/55.png",
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/55.png",
           "method": {
             "trigger": "level-up",
             "level": 33
@@ -137,14 +137,14 @@
       "name": "Abra",
       "sinnoh_dex": 20,
       "national_dex": 63,
-      "sprite_url": "sprites/63.png",
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/63.png",
       "evolves_to": [
         {
           "pokemon_id": "kadabra",
           "name": "Kadabra",
           "sinnoh_dex": 21,
           "national_dex": 64,
-          "sprite_url": "sprites/64.png",
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/64.png",
           "method": {
             "trigger": "level-up",
             "level": 16
@@ -155,7 +155,7 @@
               "name": "Alakazam",
               "sinnoh_dex": 22,
               "national_dex": 65,
-              "sprite_url": "sprites/65.png",
+              "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/65.png",
               "method": {
                 "trigger": "trade"
               }
@@ -172,14 +172,14 @@
       "name": "Machop",
       "sinnoh_dex": 40,
       "national_dex": 66,
-      "sprite_url": "sprites/66.png",
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/66.png",
       "evolves_to": [
         {
           "pokemon_id": "machoke",
           "name": "Machoke",
           "sinnoh_dex": 41,
           "national_dex": 67,
-          "sprite_url": "sprites/67.png",
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/67.png",
           "method": {
             "trigger": "level-up",
             "level": 28
@@ -190,7 +190,7 @@
               "name": "Machamp",
               "sinnoh_dex": 42,
               "national_dex": 68,
-              "sprite_url": "sprites/68.png",
+              "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/68.png",
               "method": {
                 "trigger": "trade"
               }
@@ -207,14 +207,14 @@
       "name": "Tentacool",
       "sinnoh_dex": 136,
       "national_dex": 72,
-      "sprite_url": "sprites/72.png",
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/72.png",
       "evolves_to": [
         {
           "pokemon_id": "tentacruel",
           "name": "Tentacruel",
           "sinnoh_dex": 137,
           "national_dex": 73,
-          "sprite_url": "sprites/73.png",
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/73.png",
           "method": {
             "trigger": "level-up",
             "level": 30
@@ -230,14 +230,14 @@
       "name": "Geodude",
       "sinnoh_dex": 31,
       "national_dex": 74,
-      "sprite_url": "sprites/74.png",
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/74.png",
       "evolves_to": [
         {
           "pokemon_id": "graveler",
           "name": "Graveler",
           "sinnoh_dex": 32,
           "national_dex": 75,
-          "sprite_url": "sprites/75.png",
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/75.png",
           "method": {
             "trigger": "level-up",
             "level": 25
@@ -248,7 +248,7 @@
               "name": "Golem",
               "sinnoh_dex": 33,
               "national_dex": 76,
-              "sprite_url": "sprites/76.png",
+              "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/76.png",
               "method": {
                 "trigger": "trade"
               }
@@ -265,14 +265,14 @@
       "name": "Ponyta",
       "sinnoh_dex": 90,
       "national_dex": 77,
-      "sprite_url": "sprites/77.png",
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/77.png",
       "evolves_to": [
         {
           "pokemon_id": "rapidash",
           "name": "Rapidash",
           "sinnoh_dex": 91,
           "national_dex": 78,
-          "sprite_url": "sprites/78.png",
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/78.png",
           "method": {
             "trigger": "level-up",
             "level": 40
@@ -288,14 +288,14 @@
       "name": "Magnemite",
       "sinnoh_dex": 178,
       "national_dex": 81,
-      "sprite_url": "sprites/81.png",
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/81.png",
       "evolves_to": [
         {
           "pokemon_id": "magneton",
           "name": "Magneton",
           "sinnoh_dex": 179,
           "national_dex": 82,
-          "sprite_url": "sprites/82.png",
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/82.png",
           "method": {
             "trigger": "level-up",
             "level": 30
@@ -306,7 +306,7 @@
               "name": "Magnezone",
               "sinnoh_dex": 180,
               "national_dex": 462,
-              "sprite_url": "sprites/462.png",
+              "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/462.png",
               "method": {
                 "trigger": "level-up",
                 "location": "mt-coronet"
@@ -324,14 +324,14 @@
       "name": "Gastly",
       "sinnoh_dex": 69,
       "national_dex": 92,
-      "sprite_url": "sprites/92.png",
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/92.png",
       "evolves_to": [
         {
           "pokemon_id": "haunter",
           "name": "Haunter",
           "sinnoh_dex": 70,
           "national_dex": 93,
-          "sprite_url": "sprites/93.png",
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/93.png",
           "method": {
             "trigger": "level-up",
             "level": 25
@@ -342,7 +342,7 @@
               "name": "Gengar",
               "sinnoh_dex": 71,
               "national_dex": 94,
-              "sprite_url": "sprites/94.png",
+              "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/94.png",
               "method": {
                 "trigger": "trade"
               }
@@ -359,14 +359,14 @@
       "name": "Onix",
       "sinnoh_dex": 34,
       "national_dex": 95,
-      "sprite_url": "sprites/95.png",
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/95.png",
       "evolves_to": [
         {
           "pokemon_id": "steelix",
           "name": "Steelix",
           "sinnoh_dex": 35,
           "national_dex": 208,
-          "sprite_url": "sprites/208.png",
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/208.png",
           "method": {
             "trigger": "trade",
             "held_item": "Metal Coat"
@@ -382,14 +382,14 @@
       "name": "Lickitung",
       "sinnoh_dex": 161,
       "national_dex": 108,
-      "sprite_url": "sprites/108.png",
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/108.png",
       "evolves_to": [
         {
           "pokemon_id": "lickilicky",
           "name": "Lickilicky",
           "sinnoh_dex": 162,
           "national_dex": 463,
-          "sprite_url": "sprites/463.png",
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/463.png",
           "method": {
             "trigger": "level-up",
             "known_move": "rollout"
@@ -405,14 +405,14 @@
       "name": "Rhyhorn",
       "sinnoh_dex": 186,
       "national_dex": 111,
-      "sprite_url": "sprites/111.png",
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/111.png",
       "evolves_to": [
         {
           "pokemon_id": "rhydon",
           "name": "Rhydon",
           "sinnoh_dex": 187,
           "national_dex": 112,
-          "sprite_url": "sprites/112.png",
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/112.png",
           "method": {
             "trigger": "level-up",
             "level": 42
@@ -423,7 +423,7 @@
               "name": "Rhyperior",
               "sinnoh_dex": 188,
               "national_dex": 464,
-              "sprite_url": "sprites/464.png",
+              "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/464.png",
               "method": {
                 "trigger": "trade",
                 "held_item": "Protector"
@@ -441,14 +441,14 @@
       "name": "Happiny",
       "sinnoh_dex": 96,
       "national_dex": 440,
-      "sprite_url": "sprites/440.png",
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/440.png",
       "evolves_to": [
         {
           "pokemon_id": "chansey",
           "name": "Chansey",
           "sinnoh_dex": 97,
           "national_dex": 113,
-          "sprite_url": "sprites/113.png",
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/113.png",
           "method": {
             "trigger": "level-up",
             "time_of_day": "day"
@@ -459,7 +459,7 @@
               "name": "Blissey",
               "sinnoh_dex": 98,
               "national_dex": 242,
-              "sprite_url": "sprites/242.png",
+              "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/242.png",
               "method": {
                 "trigger": "level-up",
                 "happiness": 160
@@ -477,14 +477,14 @@
       "name": "Tangela",
       "sinnoh_dex": 181,
       "national_dex": 114,
-      "sprite_url": "sprites/114.png",
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/114.png",
       "evolves_to": [
         {
           "pokemon_id": "tangrowth",
           "name": "Tangrowth",
           "sinnoh_dex": 182,
           "national_dex": 465,
-          "sprite_url": "sprites/465.png",
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/465.png",
           "method": {
             "trigger": "level-up",
             "known_move": "ancient-power"
@@ -500,14 +500,14 @@
       "name": "Goldeen",
       "sinnoh_dex": 78,
       "national_dex": 118,
-      "sprite_url": "sprites/118.png",
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/118.png",
       "evolves_to": [
         {
           "pokemon_id": "seaking",
           "name": "Seaking",
           "sinnoh_dex": 79,
           "national_dex": 119,
-          "sprite_url": "sprites/119.png",
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/119.png",
           "method": {
             "trigger": "level-up",
             "level": 33
@@ -523,14 +523,14 @@
       "name": "Mime-jr",
       "sinnoh_dex": 94,
       "national_dex": 439,
-      "sprite_url": "sprites/439.png",
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/439.png",
       "evolves_to": [
         {
           "pokemon_id": "mr-mime",
           "name": "Mr-mime",
           "sinnoh_dex": 95,
           "national_dex": 122,
-          "sprite_url": "sprites/122.png",
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/122.png",
           "method": {
             "trigger": "level-up",
             "known_move": "mimic"
@@ -541,7 +541,7 @@
               "name": "Mr-rime",
               "sinnoh_dex": null,
               "national_dex": 866,
-              "sprite_url": "sprites/866.png",
+              "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/866.png",
               "method": {
                 "trigger": "level-up",
                 "level": 42
@@ -559,14 +559,14 @@
       "name": "Scyther",
       "sinnoh_dex": 195,
       "national_dex": 123,
-      "sprite_url": "sprites/123.png",
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/123.png",
       "evolves_to": [
         {
           "pokemon_id": "scizor",
           "name": "Scizor",
           "sinnoh_dex": 196,
           "national_dex": 212,
-          "sprite_url": "sprites/212.png",
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/212.png",
           "method": {
             "trigger": "trade",
             "held_item": "Metal Coat"
@@ -577,7 +577,7 @@
           "name": "Kleavor",
           "sinnoh_dex": null,
           "national_dex": 900,
-          "sprite_url": "sprites/900.png",
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/900.png",
           "method": {
             "trigger": "use-item",
             "item": "Black Augurite"
@@ -593,14 +593,14 @@
       "name": "Elekid",
       "sinnoh_dex": 197,
       "national_dex": 239,
-      "sprite_url": "sprites/239.png",
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/239.png",
       "evolves_to": [
         {
           "pokemon_id": "electabuzz",
           "name": "Electabuzz",
           "sinnoh_dex": 198,
           "national_dex": 125,
-          "sprite_url": "sprites/125.png",
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/125.png",
           "method": {
             "trigger": "level-up",
             "level": 30
@@ -611,7 +611,7 @@
               "name": "Electivire",
               "sinnoh_dex": 199,
               "national_dex": 466,
-              "sprite_url": "sprites/466.png",
+              "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/466.png",
               "method": {
                 "trigger": "trade",
                 "held_item": "Electirizer"
@@ -629,14 +629,14 @@
       "name": "Magby",
       "sinnoh_dex": 200,
       "national_dex": 240,
-      "sprite_url": "sprites/240.png",
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/240.png",
       "evolves_to": [
         {
           "pokemon_id": "magmar",
           "name": "Magmar",
           "sinnoh_dex": 201,
           "national_dex": 126,
-          "sprite_url": "sprites/126.png",
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/126.png",
           "method": {
             "trigger": "level-up",
             "level": 30
@@ -647,7 +647,7 @@
               "name": "Magmortar",
               "sinnoh_dex": 202,
               "national_dex": 467,
-              "sprite_url": "sprites/467.png",
+              "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/467.png",
               "method": {
                 "trigger": "trade",
                 "held_item": "Magmarizer"
@@ -665,14 +665,14 @@
       "name": "Magikarp",
       "sinnoh_dex": 23,
       "national_dex": 129,
-      "sprite_url": "sprites/129.png",
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/129.png",
       "evolves_to": [
         {
           "pokemon_id": "gyarados",
           "name": "Gyarados",
           "sinnoh_dex": 24,
           "national_dex": 130,
-          "sprite_url": "sprites/130.png",
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/130.png",
           "method": {
             "trigger": "level-up",
             "level": 20
@@ -688,14 +688,14 @@
       "name": "Eevee",
       "sinnoh_dex": 163,
       "national_dex": 133,
-      "sprite_url": "sprites/133.png",
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/133.png",
       "evolves_to": [
         {
           "pokemon_id": "vaporeon",
           "name": "Vaporeon",
           "sinnoh_dex": 164,
           "national_dex": 134,
-          "sprite_url": "sprites/134.png",
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/134.png",
           "method": {
             "trigger": "use-item",
             "item": "Water Stone"
@@ -706,7 +706,7 @@
           "name": "Jolteon",
           "sinnoh_dex": 165,
           "national_dex": 135,
-          "sprite_url": "sprites/135.png",
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/135.png",
           "method": {
             "trigger": "use-item",
             "item": "Thunder Stone"
@@ -717,7 +717,7 @@
           "name": "Flareon",
           "sinnoh_dex": 166,
           "national_dex": 136,
-          "sprite_url": "sprites/136.png",
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/136.png",
           "method": {
             "trigger": "use-item",
             "item": "Fire Stone"
@@ -728,7 +728,7 @@
           "name": "Espeon",
           "sinnoh_dex": 167,
           "national_dex": 196,
-          "sprite_url": "sprites/196.png",
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/196.png",
           "method": {
             "trigger": "level-up",
             "happiness": 160,
@@ -740,7 +740,7 @@
           "name": "Umbreon",
           "sinnoh_dex": 168,
           "national_dex": 197,
-          "sprite_url": "sprites/197.png",
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/197.png",
           "method": {
             "trigger": "level-up",
             "happiness": 160,
@@ -752,7 +752,7 @@
           "name": "Leafeon",
           "sinnoh_dex": 169,
           "national_dex": 470,
-          "sprite_url": "sprites/470.png",
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/470.png",
           "method": {
             "trigger": "level-up",
             "location": "eterna-forest"
@@ -763,7 +763,7 @@
           "name": "Glaceon",
           "sinnoh_dex": 170,
           "national_dex": 471,
-          "sprite_url": "sprites/471.png",
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/471.png",
           "method": {
             "trigger": "level-up",
             "location": "sinnoh-route-217"
@@ -774,7 +774,7 @@
           "name": "Sylveon",
           "sinnoh_dex": null,
           "national_dex": 700,
-          "sprite_url": "sprites/700.png",
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/700.png",
           "method": {
             "trigger": "level-up"
           }
@@ -789,14 +789,14 @@
       "name": "Porygon",
       "sinnoh_dex": 192,
       "national_dex": 137,
-      "sprite_url": "sprites/137.png",
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/137.png",
       "evolves_to": [
         {
           "pokemon_id": "porygon2",
           "name": "Porygon2",
           "sinnoh_dex": 193,
           "national_dex": 233,
-          "sprite_url": "sprites/233.png",
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/233.png",
           "method": {
             "trigger": "trade",
             "held_item": "Up Grade"
@@ -807,7 +807,7 @@
               "name": "Porygon-z",
               "sinnoh_dex": 194,
               "national_dex": 474,
-              "sprite_url": "sprites/474.png",
+              "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/474.png",
               "method": {
                 "trigger": "trade",
                 "held_item": "Dubious Disc"
@@ -825,14 +825,14 @@
       "name": "Munchlax",
       "sinnoh_dex": 112,
       "national_dex": 446,
-      "sprite_url": "sprites/446.png",
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/446.png",
       "evolves_to": [
         {
           "pokemon_id": "snorlax",
           "name": "Snorlax",
           "sinnoh_dex": 113,
           "national_dex": 143,
-          "sprite_url": "sprites/143.png",
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/143.png",
           "method": {
             "trigger": "level-up",
             "happiness": 160
@@ -848,14 +848,14 @@
       "name": "Hoothoot",
       "sinnoh_dex": 106,
       "national_dex": 163,
-      "sprite_url": "sprites/163.png",
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/163.png",
       "evolves_to": [
         {
           "pokemon_id": "noctowl",
           "name": "Noctowl",
           "sinnoh_dex": 107,
           "national_dex": 164,
-          "sprite_url": "sprites/164.png",
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/164.png",
           "method": {
             "trigger": "level-up",
             "level": 20
@@ -871,14 +871,14 @@
       "name": "Togepi",
       "sinnoh_dex": 173,
       "national_dex": 175,
-      "sprite_url": "sprites/175.png",
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/175.png",
       "evolves_to": [
         {
           "pokemon_id": "togetic",
           "name": "Togetic",
           "sinnoh_dex": 174,
           "national_dex": 176,
-          "sprite_url": "sprites/176.png",
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/176.png",
           "method": {
             "trigger": "level-up",
             "happiness": 160
@@ -889,7 +889,7 @@
               "name": "Togekiss",
               "sinnoh_dex": 175,
               "national_dex": 468,
-              "sprite_url": "sprites/468.png",
+              "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/468.png",
               "method": {
                 "trigger": "use-item",
                 "item": "Shiny Stone"
@@ -907,14 +907,14 @@
       "name": "Azurill",
       "sinnoh_dex": 124,
       "national_dex": 298,
-      "sprite_url": "sprites/298.png",
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/298.png",
       "evolves_to": [
         {
           "pokemon_id": "marill",
           "name": "Marill",
           "sinnoh_dex": 125,
           "national_dex": 183,
-          "sprite_url": "sprites/183.png",
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/183.png",
           "method": {
             "trigger": "level-up",
             "happiness": 160
@@ -925,7 +925,7 @@
               "name": "Azumarill",
               "sinnoh_dex": 126,
               "national_dex": 184,
-              "sprite_url": "sprites/184.png",
+              "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/184.png",
               "method": {
                 "trigger": "level-up",
                 "level": 18
@@ -943,14 +943,14 @@
       "name": "Bonsly",
       "sinnoh_dex": 92,
       "national_dex": 438,
-      "sprite_url": "sprites/438.png",
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/438.png",
       "evolves_to": [
         {
           "pokemon_id": "sudowoodo",
           "name": "Sudowoodo",
           "sinnoh_dex": 93,
           "national_dex": 185,
-          "sprite_url": "sprites/185.png",
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/185.png",
           "method": {
             "trigger": "level-up",
             "known_move": "mimic"
@@ -966,14 +966,14 @@
       "name": "Aipom",
       "sinnoh_dex": 63,
       "national_dex": 190,
-      "sprite_url": "sprites/190.png",
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/190.png",
       "evolves_to": [
         {
           "pokemon_id": "ambipom",
           "name": "Ambipom",
           "sinnoh_dex": 64,
           "national_dex": 424,
-          "sprite_url": "sprites/424.png",
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/424.png",
           "method": {
             "trigger": "level-up",
             "known_move": "double-hit"
@@ -989,14 +989,14 @@
       "name": "Yanma",
       "sinnoh_dex": 183,
       "national_dex": 193,
-      "sprite_url": "sprites/193.png",
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/193.png",
       "evolves_to": [
         {
           "pokemon_id": "yanmega",
           "name": "Yanmega",
           "sinnoh_dex": 184,
           "national_dex": 469,
-          "sprite_url": "sprites/469.png",
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/469.png",
           "method": {
             "trigger": "level-up",
             "known_move": "ancient-power"
@@ -1012,14 +1012,14 @@
       "name": "Wooper",
       "sinnoh_dex": 117,
       "national_dex": 194,
-      "sprite_url": "sprites/194.png",
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/194.png",
       "evolves_to": [
         {
           "pokemon_id": "quagsire",
           "name": "Quagsire",
           "sinnoh_dex": 118,
           "national_dex": 195,
-          "sprite_url": "sprites/195.png",
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/195.png",
           "method": {
             "trigger": "level-up",
             "level": 20
@@ -1030,7 +1030,7 @@
           "name": "Clodsire",
           "sinnoh_dex": null,
           "national_dex": 980,
-          "sprite_url": "sprites/980.png",
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/980.png",
           "method": {
             "trigger": "level-up",
             "level": 20
@@ -1046,14 +1046,14 @@
       "name": "Murkrow",
       "sinnoh_dex": 74,
       "national_dex": 198,
-      "sprite_url": "sprites/198.png",
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/198.png",
       "evolves_to": [
         {
           "pokemon_id": "honchkrow",
           "name": "Honchkrow",
           "sinnoh_dex": 75,
           "national_dex": 430,
-          "sprite_url": "sprites/430.png",
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/430.png",
           "method": {
             "trigger": "use-item",
             "item": "Dusk Stone"
@@ -1069,14 +1069,14 @@
       "name": "Misdreavus",
       "sinnoh_dex": 72,
       "national_dex": 200,
-      "sprite_url": "sprites/200.png",
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/200.png",
       "evolves_to": [
         {
           "pokemon_id": "mismagius",
           "name": "Mismagius",
           "sinnoh_dex": 73,
           "national_dex": 429,
-          "sprite_url": "sprites/429.png",
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/429.png",
           "method": {
             "trigger": "use-item",
             "item": "Dusk Stone"
@@ -1092,7 +1092,7 @@
       "name": "Unown",
       "sinnoh_dex": 114,
       "national_dex": 201,
-      "sprite_url": "sprites/201.png"
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/201.png"
     }
   },
   {
@@ -1102,14 +1102,14 @@
       "name": "Girafarig",
       "sinnoh_dex": 121,
       "national_dex": 203,
-      "sprite_url": "sprites/203.png",
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/203.png",
       "evolves_to": [
         {
           "pokemon_id": "farigiraf",
           "name": "Farigiraf",
           "sinnoh_dex": null,
           "national_dex": 981,
-          "sprite_url": "sprites/981.png",
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/981.png",
           "method": {
             "trigger": "level-up",
             "known_move": "twin-beam"
@@ -1125,14 +1125,14 @@
       "name": "Gligar",
       "sinnoh_dex": 153,
       "national_dex": 207,
-      "sprite_url": "sprites/207.png",
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/207.png",
       "evolves_to": [
         {
           "pokemon_id": "gliscor",
           "name": "Gliscor",
           "sinnoh_dex": 154,
           "national_dex": 472,
-          "sprite_url": "sprites/472.png",
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/472.png",
           "method": {
             "trigger": "level-up",
             "time_of_day": "night"
@@ -1148,7 +1148,7 @@
       "name": "Heracross",
       "sinnoh_dex": 62,
       "national_dex": 214,
-      "sprite_url": "sprites/214.png"
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/214.png"
     }
   },
   {
@@ -1158,14 +1158,14 @@
       "name": "Sneasel",
       "sinnoh_dex": 144,
       "national_dex": 215,
-      "sprite_url": "sprites/215.png",
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/215.png",
       "evolves_to": [
         {
           "pokemon_id": "weavile",
           "name": "Weavile",
           "sinnoh_dex": 145,
           "national_dex": 461,
-          "sprite_url": "sprites/461.png",
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/461.png",
           "method": {
             "trigger": "level-up",
             "time_of_day": "night"
@@ -1176,7 +1176,7 @@
           "name": "Sneasler",
           "sinnoh_dex": null,
           "national_dex": 903,
-          "sprite_url": "sprites/903.png",
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/903.png",
           "method": {
             "trigger": "level-up",
             "time_of_day": "day"
@@ -1192,14 +1192,14 @@
       "name": "Swinub",
       "sinnoh_dex": 203,
       "national_dex": 220,
-      "sprite_url": "sprites/220.png",
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/220.png",
       "evolves_to": [
         {
           "pokemon_id": "piloswine",
           "name": "Piloswine",
           "sinnoh_dex": 204,
           "national_dex": 221,
-          "sprite_url": "sprites/221.png",
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/221.png",
           "method": {
             "trigger": "level-up",
             "level": 33
@@ -1210,7 +1210,7 @@
               "name": "Mamoswine",
               "sinnoh_dex": 205,
               "national_dex": 473,
-              "sprite_url": "sprites/473.png",
+              "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/473.png",
               "method": {
                 "trigger": "level-up",
                 "known_move": "ancient-power"
@@ -1228,14 +1228,14 @@
       "name": "Remoraid",
       "sinnoh_dex": 132,
       "national_dex": 223,
-      "sprite_url": "sprites/223.png",
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/223.png",
       "evolves_to": [
         {
           "pokemon_id": "octillery",
           "name": "Octillery",
           "sinnoh_dex": 133,
           "national_dex": 224,
-          "sprite_url": "sprites/224.png",
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/224.png",
           "method": {
             "trigger": "level-up",
             "level": 25
@@ -1251,14 +1251,14 @@
       "name": "Mantyke",
       "sinnoh_dex": 140,
       "national_dex": 458,
-      "sprite_url": "sprites/458.png",
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/458.png",
       "evolves_to": [
         {
           "pokemon_id": "mantine",
           "name": "Mantine",
           "sinnoh_dex": 141,
           "national_dex": 226,
-          "sprite_url": "sprites/226.png",
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/226.png",
           "method": {
             "trigger": "level-up"
           }
@@ -1273,14 +1273,14 @@
       "name": "Houndour",
       "sinnoh_dex": 176,
       "national_dex": 228,
-      "sprite_url": "sprites/228.png",
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/228.png",
       "evolves_to": [
         {
           "pokemon_id": "houndoom",
           "name": "Houndoom",
           "sinnoh_dex": 177,
           "national_dex": 229,
-          "sprite_url": "sprites/229.png",
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/229.png",
           "method": {
             "trigger": "level-up",
             "level": 24
@@ -1296,14 +1296,14 @@
       "name": "Wurmple",
       "sinnoh_dex": 48,
       "national_dex": 265,
-      "sprite_url": "sprites/265.png",
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/265.png",
       "evolves_to": [
         {
           "pokemon_id": "silcoon",
           "name": "Silcoon",
           "sinnoh_dex": 49,
           "national_dex": 266,
-          "sprite_url": "sprites/266.png",
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/266.png",
           "method": {
             "trigger": "level-up",
             "level": 7
@@ -1314,7 +1314,7 @@
               "name": "Beautifly",
               "sinnoh_dex": 50,
               "national_dex": 267,
-              "sprite_url": "sprites/267.png",
+              "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/267.png",
               "method": {
                 "trigger": "level-up",
                 "level": 10
@@ -1327,7 +1327,7 @@
           "name": "Cascoon",
           "sinnoh_dex": 51,
           "national_dex": 268,
-          "sprite_url": "sprites/268.png",
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/268.png",
           "method": {
             "trigger": "level-up",
             "level": 7
@@ -1338,7 +1338,7 @@
               "name": "Dustox",
               "sinnoh_dex": 52,
               "national_dex": 269,
-              "sprite_url": "sprites/269.png",
+              "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/269.png",
               "method": {
                 "trigger": "level-up",
                 "level": 10
@@ -1356,14 +1356,14 @@
       "name": "Wingull",
       "sinnoh_dex": 119,
       "national_dex": 278,
-      "sprite_url": "sprites/278.png",
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/278.png",
       "evolves_to": [
         {
           "pokemon_id": "pelipper",
           "name": "Pelipper",
           "sinnoh_dex": 120,
           "national_dex": 279,
-          "sprite_url": "sprites/279.png",
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/279.png",
           "method": {
             "trigger": "level-up",
             "level": 25
@@ -1379,14 +1379,14 @@
       "name": "Ralts",
       "sinnoh_dex": 157,
       "national_dex": 280,
-      "sprite_url": "sprites/280.png",
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/280.png",
       "evolves_to": [
         {
           "pokemon_id": "kirlia",
           "name": "Kirlia",
           "sinnoh_dex": 158,
           "national_dex": 281,
-          "sprite_url": "sprites/281.png",
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/281.png",
           "method": {
             "trigger": "level-up",
             "level": 20
@@ -1397,7 +1397,7 @@
               "name": "Gardevoir",
               "sinnoh_dex": 159,
               "national_dex": 282,
-              "sprite_url": "sprites/282.png",
+              "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/282.png",
               "method": {
                 "trigger": "level-up",
                 "level": 30
@@ -1408,7 +1408,7 @@
               "name": "Gallade",
               "sinnoh_dex": 160,
               "national_dex": 475,
-              "sprite_url": "sprites/475.png",
+              "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/475.png",
               "method": {
                 "trigger": "use-item",
                 "item": "Dawn Stone"
@@ -1426,14 +1426,14 @@
       "name": "Nosepass",
       "sinnoh_dex": 155,
       "national_dex": 299,
-      "sprite_url": "sprites/299.png",
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/299.png",
       "evolves_to": [
         {
           "pokemon_id": "probopass",
           "name": "Probopass",
           "sinnoh_dex": 156,
           "national_dex": 476,
-          "sprite_url": "sprites/476.png",
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/476.png",
           "method": {
             "trigger": "level-up",
             "location": "mt-coronet"
@@ -1449,14 +1449,14 @@
       "name": "Meditite",
       "sinnoh_dex": 86,
       "national_dex": 307,
-      "sprite_url": "sprites/307.png",
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/307.png",
       "evolves_to": [
         {
           "pokemon_id": "medicham",
           "name": "Medicham",
           "sinnoh_dex": 87,
           "national_dex": 308,
-          "sprite_url": "sprites/308.png",
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/308.png",
           "method": {
             "trigger": "level-up",
             "level": 37
@@ -1472,14 +1472,14 @@
       "name": "Budew",
       "sinnoh_dex": 25,
       "national_dex": 406,
-      "sprite_url": "sprites/406.png",
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/406.png",
       "evolves_to": [
         {
           "pokemon_id": "roselia",
           "name": "Roselia",
           "sinnoh_dex": 26,
           "national_dex": 315,
-          "sprite_url": "sprites/315.png",
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/315.png",
           "method": {
             "trigger": "level-up",
             "happiness": 160,
@@ -1491,7 +1491,7 @@
               "name": "Roserade",
               "sinnoh_dex": 27,
               "national_dex": 407,
-              "sprite_url": "sprites/407.png",
+              "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/407.png",
               "method": {
                 "trigger": "use-item",
                 "item": "Shiny Stone"
@@ -1509,14 +1509,14 @@
       "name": "Swablu",
       "sinnoh_dex": 171,
       "national_dex": 333,
-      "sprite_url": "sprites/333.png",
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/333.png",
       "evolves_to": [
         {
           "pokemon_id": "altaria",
           "name": "Altaria",
           "sinnoh_dex": 172,
           "national_dex": 334,
-          "sprite_url": "sprites/334.png",
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/334.png",
           "method": {
             "trigger": "level-up",
             "level": 35
@@ -1532,14 +1532,14 @@
       "name": "Barboach",
       "sinnoh_dex": 80,
       "national_dex": 339,
-      "sprite_url": "sprites/339.png",
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/339.png",
       "evolves_to": [
         {
           "pokemon_id": "whiscash",
           "name": "Whiscash",
           "sinnoh_dex": 81,
           "national_dex": 340,
-          "sprite_url": "sprites/340.png",
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/340.png",
           "method": {
             "trigger": "level-up",
             "level": 30
@@ -1555,14 +1555,14 @@
       "name": "Feebas",
       "sinnoh_dex": 138,
       "national_dex": 349,
-      "sprite_url": "sprites/349.png",
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/349.png",
       "evolves_to": [
         {
           "pokemon_id": "milotic",
           "name": "Milotic",
           "sinnoh_dex": 139,
           "national_dex": 350,
-          "sprite_url": "sprites/350.png",
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/350.png",
           "method": {
             "trigger": "level-up",
             "beauty": 170
@@ -1578,14 +1578,14 @@
       "name": "Duskull",
       "sinnoh_dex": 189,
       "national_dex": 355,
-      "sprite_url": "sprites/355.png",
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/355.png",
       "evolves_to": [
         {
           "pokemon_id": "dusclops",
           "name": "Dusclops",
           "sinnoh_dex": 190,
           "national_dex": 356,
-          "sprite_url": "sprites/356.png",
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/356.png",
           "method": {
             "trigger": "level-up",
             "level": 37
@@ -1596,7 +1596,7 @@
               "name": "Dusknoir",
               "sinnoh_dex": 191,
               "national_dex": 477,
-              "sprite_url": "sprites/477.png",
+              "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/477.png",
               "method": {
                 "trigger": "trade",
                 "held_item": "Reaper Cloth"
@@ -1614,7 +1614,7 @@
       "name": "Tropius",
       "sinnoh_dex": 185,
       "national_dex": 357,
-      "sprite_url": "sprites/357.png"
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/357.png"
     }
   },
   {
@@ -1624,14 +1624,14 @@
       "name": "Chingling",
       "sinnoh_dex": 82,
       "national_dex": 433,
-      "sprite_url": "sprites/433.png",
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/433.png",
       "evolves_to": [
         {
           "pokemon_id": "chimecho",
           "name": "Chimecho",
           "sinnoh_dex": 83,
           "national_dex": 358,
-          "sprite_url": "sprites/358.png",
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/358.png",
           "method": {
             "trigger": "level-up",
             "happiness": 220,
@@ -1648,7 +1648,7 @@
       "name": "Absol",
       "sinnoh_dex": 209,
       "national_dex": 359,
-      "sprite_url": "sprites/359.png"
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/359.png"
     }
   },
   {
@@ -1658,14 +1658,14 @@
       "name": "Snorunt",
       "sinnoh_dex": 206,
       "national_dex": 361,
-      "sprite_url": "sprites/361.png",
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/361.png",
       "evolves_to": [
         {
           "pokemon_id": "glalie",
           "name": "Glalie",
           "sinnoh_dex": 207,
           "national_dex": 362,
-          "sprite_url": "sprites/362.png",
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/362.png",
           "method": {
             "trigger": "level-up",
             "level": 42
@@ -1676,7 +1676,7 @@
           "name": "Froslass",
           "sinnoh_dex": 208,
           "national_dex": 478,
-          "sprite_url": "sprites/478.png",
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/478.png",
           "method": {
             "trigger": "use-item",
             "item": "Dawn Stone"
@@ -1692,14 +1692,14 @@
       "name": "Turtwig",
       "sinnoh_dex": 1,
       "national_dex": 387,
-      "sprite_url": "sprites/387.png",
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/387.png",
       "evolves_to": [
         {
           "pokemon_id": "grotle",
           "name": "Grotle",
           "sinnoh_dex": 2,
           "national_dex": 388,
-          "sprite_url": "sprites/388.png",
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/388.png",
           "method": {
             "trigger": "level-up",
             "level": 18
@@ -1710,7 +1710,7 @@
               "name": "Torterra",
               "sinnoh_dex": 3,
               "national_dex": 389,
-              "sprite_url": "sprites/389.png",
+              "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/389.png",
               "method": {
                 "trigger": "level-up",
                 "level": 32
@@ -1728,14 +1728,14 @@
       "name": "Chimchar",
       "sinnoh_dex": 4,
       "national_dex": 390,
-      "sprite_url": "sprites/390.png",
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/390.png",
       "evolves_to": [
         {
           "pokemon_id": "monferno",
           "name": "Monferno",
           "sinnoh_dex": 5,
           "national_dex": 391,
-          "sprite_url": "sprites/391.png",
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/391.png",
           "method": {
             "trigger": "level-up",
             "level": 14
@@ -1746,7 +1746,7 @@
               "name": "Infernape",
               "sinnoh_dex": 6,
               "national_dex": 392,
-              "sprite_url": "sprites/392.png",
+              "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/392.png",
               "method": {
                 "trigger": "level-up",
                 "level": 36
@@ -1764,14 +1764,14 @@
       "name": "Piplup",
       "sinnoh_dex": 7,
       "national_dex": 393,
-      "sprite_url": "sprites/393.png",
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/393.png",
       "evolves_to": [
         {
           "pokemon_id": "prinplup",
           "name": "Prinplup",
           "sinnoh_dex": 8,
           "national_dex": 394,
-          "sprite_url": "sprites/394.png",
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/394.png",
           "method": {
             "trigger": "level-up",
             "level": 16
@@ -1782,7 +1782,7 @@
               "name": "Empoleon",
               "sinnoh_dex": 9,
               "national_dex": 395,
-              "sprite_url": "sprites/395.png",
+              "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/395.png",
               "method": {
                 "trigger": "level-up",
                 "level": 36
@@ -1800,14 +1800,14 @@
       "name": "Starly",
       "sinnoh_dex": 10,
       "national_dex": 396,
-      "sprite_url": "sprites/396.png",
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/396.png",
       "evolves_to": [
         {
           "pokemon_id": "staravia",
           "name": "Staravia",
           "sinnoh_dex": 11,
           "national_dex": 397,
-          "sprite_url": "sprites/397.png",
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/397.png",
           "method": {
             "trigger": "level-up",
             "level": 14
@@ -1818,7 +1818,7 @@
               "name": "Staraptor",
               "sinnoh_dex": 12,
               "national_dex": 398,
-              "sprite_url": "sprites/398.png",
+              "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/398.png",
               "method": {
                 "trigger": "level-up",
                 "level": 34
@@ -1836,14 +1836,14 @@
       "name": "Bidoof",
       "sinnoh_dex": 13,
       "national_dex": 399,
-      "sprite_url": "sprites/399.png",
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/399.png",
       "evolves_to": [
         {
           "pokemon_id": "bibarel",
           "name": "Bibarel",
           "sinnoh_dex": 14,
           "national_dex": 400,
-          "sprite_url": "sprites/400.png",
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/400.png",
           "method": {
             "trigger": "level-up",
             "level": 15
@@ -1859,14 +1859,14 @@
       "name": "Kricketot",
       "sinnoh_dex": 15,
       "national_dex": 401,
-      "sprite_url": "sprites/401.png",
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/401.png",
       "evolves_to": [
         {
           "pokemon_id": "kricketune",
           "name": "Kricketune",
           "sinnoh_dex": 16,
           "national_dex": 402,
-          "sprite_url": "sprites/402.png",
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/402.png",
           "method": {
             "trigger": "level-up",
             "level": 10
@@ -1882,14 +1882,14 @@
       "name": "Shinx",
       "sinnoh_dex": 17,
       "national_dex": 403,
-      "sprite_url": "sprites/403.png",
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/403.png",
       "evolves_to": [
         {
           "pokemon_id": "luxio",
           "name": "Luxio",
           "sinnoh_dex": 18,
           "national_dex": 404,
-          "sprite_url": "sprites/404.png",
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/404.png",
           "method": {
             "trigger": "level-up",
             "level": 15
@@ -1900,7 +1900,7 @@
               "name": "Luxray",
               "sinnoh_dex": 19,
               "national_dex": 405,
-              "sprite_url": "sprites/405.png",
+              "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/405.png",
               "method": {
                 "trigger": "level-up",
                 "level": 30
@@ -1918,14 +1918,14 @@
       "name": "Cranidos",
       "sinnoh_dex": 36,
       "national_dex": 408,
-      "sprite_url": "sprites/408.png",
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/408.png",
       "evolves_to": [
         {
           "pokemon_id": "rampardos",
           "name": "Rampardos",
           "sinnoh_dex": 37,
           "national_dex": 409,
-          "sprite_url": "sprites/409.png",
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/409.png",
           "method": {
             "trigger": "level-up",
             "level": 30
@@ -1941,14 +1941,14 @@
       "name": "Shieldon",
       "sinnoh_dex": 38,
       "national_dex": 410,
-      "sprite_url": "sprites/410.png",
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/410.png",
       "evolves_to": [
         {
           "pokemon_id": "bastiodon",
           "name": "Bastiodon",
           "sinnoh_dex": 39,
           "national_dex": 411,
-          "sprite_url": "sprites/411.png",
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/411.png",
           "method": {
             "trigger": "level-up",
             "level": 30
@@ -1964,14 +1964,14 @@
       "name": "Burmy",
       "sinnoh_dex": 45,
       "national_dex": 412,
-      "sprite_url": "sprites/412.png",
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/412.png",
       "evolves_to": [
         {
           "pokemon_id": "wormadam",
           "name": "Wormadam",
           "sinnoh_dex": 46,
           "national_dex": 413,
-          "sprite_url": "sprites/413.png",
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/413.png",
           "method": {
             "trigger": "level-up",
             "level": 20
@@ -1982,7 +1982,7 @@
           "name": "Mothim",
           "sinnoh_dex": 47,
           "national_dex": 414,
-          "sprite_url": "sprites/414.png",
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/414.png",
           "method": {
             "trigger": "level-up",
             "level": 20
@@ -1998,14 +1998,14 @@
       "name": "Combee",
       "sinnoh_dex": 53,
       "national_dex": 415,
-      "sprite_url": "sprites/415.png",
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/415.png",
       "evolves_to": [
         {
           "pokemon_id": "vespiquen",
           "name": "Vespiquen",
           "sinnoh_dex": 54,
           "national_dex": 416,
-          "sprite_url": "sprites/416.png",
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/416.png",
           "method": {
             "trigger": "level-up",
             "level": 21
@@ -2021,7 +2021,7 @@
       "name": "Pachirisu",
       "sinnoh_dex": 55,
       "national_dex": 417,
-      "sprite_url": "sprites/417.png"
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/417.png"
     }
   },
   {
@@ -2031,14 +2031,14 @@
       "name": "Buizel",
       "sinnoh_dex": 56,
       "national_dex": 418,
-      "sprite_url": "sprites/418.png",
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/418.png",
       "evolves_to": [
         {
           "pokemon_id": "floatzel",
           "name": "Floatzel",
           "sinnoh_dex": 57,
           "national_dex": 419,
-          "sprite_url": "sprites/419.png",
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/419.png",
           "method": {
             "trigger": "level-up",
             "level": 26
@@ -2054,14 +2054,14 @@
       "name": "Cherubi",
       "sinnoh_dex": 58,
       "national_dex": 420,
-      "sprite_url": "sprites/420.png",
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/420.png",
       "evolves_to": [
         {
           "pokemon_id": "cherrim",
           "name": "Cherrim",
           "sinnoh_dex": 59,
           "national_dex": 421,
-          "sprite_url": "sprites/421.png",
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/421.png",
           "method": {
             "trigger": "level-up",
             "level": 25
@@ -2077,14 +2077,14 @@
       "name": "Shellos",
       "sinnoh_dex": 60,
       "national_dex": 422,
-      "sprite_url": "sprites/422.png",
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/422.png",
       "evolves_to": [
         {
           "pokemon_id": "gastrodon",
           "name": "Gastrodon",
           "sinnoh_dex": 61,
           "national_dex": 423,
-          "sprite_url": "sprites/423.png",
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/423.png",
           "method": {
             "trigger": "level-up",
             "level": 30
@@ -2100,14 +2100,14 @@
       "name": "Drifloon",
       "sinnoh_dex": 65,
       "national_dex": 425,
-      "sprite_url": "sprites/425.png",
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/425.png",
       "evolves_to": [
         {
           "pokemon_id": "drifblim",
           "name": "Drifblim",
           "sinnoh_dex": 66,
           "national_dex": 426,
-          "sprite_url": "sprites/426.png",
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/426.png",
           "method": {
             "trigger": "level-up",
             "level": 28
@@ -2123,14 +2123,14 @@
       "name": "Buneary",
       "sinnoh_dex": 67,
       "national_dex": 427,
-      "sprite_url": "sprites/427.png",
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/427.png",
       "evolves_to": [
         {
           "pokemon_id": "lopunny",
           "name": "Lopunny",
           "sinnoh_dex": 68,
           "national_dex": 428,
-          "sprite_url": "sprites/428.png",
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/428.png",
           "method": {
             "trigger": "level-up",
             "happiness": 160
@@ -2146,14 +2146,14 @@
       "name": "Glameow",
       "sinnoh_dex": 76,
       "national_dex": 431,
-      "sprite_url": "sprites/431.png",
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/431.png",
       "evolves_to": [
         {
           "pokemon_id": "purugly",
           "name": "Purugly",
           "sinnoh_dex": 77,
           "national_dex": 432,
-          "sprite_url": "sprites/432.png",
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/432.png",
           "method": {
             "trigger": "level-up",
             "level": 38
@@ -2169,14 +2169,14 @@
       "name": "Stunky",
       "sinnoh_dex": 84,
       "national_dex": 434,
-      "sprite_url": "sprites/434.png",
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/434.png",
       "evolves_to": [
         {
           "pokemon_id": "skuntank",
           "name": "Skuntank",
           "sinnoh_dex": 85,
           "national_dex": 435,
-          "sprite_url": "sprites/435.png",
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/435.png",
           "method": {
             "trigger": "level-up",
             "level": 34
@@ -2192,14 +2192,14 @@
       "name": "Bronzor",
       "sinnoh_dex": 88,
       "national_dex": 436,
-      "sprite_url": "sprites/436.png",
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/436.png",
       "evolves_to": [
         {
           "pokemon_id": "bronzong",
           "name": "Bronzong",
           "sinnoh_dex": 89,
           "national_dex": 437,
-          "sprite_url": "sprites/437.png",
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/437.png",
           "method": {
             "trigger": "level-up",
             "level": 33
@@ -2215,7 +2215,7 @@
       "name": "Chatot",
       "sinnoh_dex": 102,
       "national_dex": 441,
-      "sprite_url": "sprites/441.png"
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/441.png"
     }
   },
   {
@@ -2225,7 +2225,7 @@
       "name": "Spiritomb",
       "sinnoh_dex": 108,
       "national_dex": 442,
-      "sprite_url": "sprites/442.png"
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/442.png"
     }
   },
   {
@@ -2235,14 +2235,14 @@
       "name": "Gible",
       "sinnoh_dex": 109,
       "national_dex": 443,
-      "sprite_url": "sprites/443.png",
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/443.png",
       "evolves_to": [
         {
           "pokemon_id": "gabite",
           "name": "Gabite",
           "sinnoh_dex": 110,
           "national_dex": 444,
-          "sprite_url": "sprites/444.png",
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/444.png",
           "method": {
             "trigger": "level-up",
             "level": 24
@@ -2253,7 +2253,7 @@
               "name": "Garchomp",
               "sinnoh_dex": 111,
               "national_dex": 445,
-              "sprite_url": "sprites/445.png",
+              "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/445.png",
               "method": {
                 "trigger": "level-up",
                 "level": 48
@@ -2271,14 +2271,14 @@
       "name": "Riolu",
       "sinnoh_dex": 115,
       "national_dex": 447,
-      "sprite_url": "sprites/447.png",
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/447.png",
       "evolves_to": [
         {
           "pokemon_id": "lucario",
           "name": "Lucario",
           "sinnoh_dex": 116,
           "national_dex": 448,
-          "sprite_url": "sprites/448.png",
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/448.png",
           "method": {
             "trigger": "level-up",
             "happiness": 160,
@@ -2295,14 +2295,14 @@
       "name": "Hippopotas",
       "sinnoh_dex": 122,
       "national_dex": 449,
-      "sprite_url": "sprites/449.png",
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/449.png",
       "evolves_to": [
         {
           "pokemon_id": "hippowdon",
           "name": "Hippowdon",
           "sinnoh_dex": 123,
           "national_dex": 450,
-          "sprite_url": "sprites/450.png",
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/450.png",
           "method": {
             "trigger": "level-up",
             "level": 34
@@ -2318,14 +2318,14 @@
       "name": "Skorupi",
       "sinnoh_dex": 127,
       "national_dex": 451,
-      "sprite_url": "sprites/451.png",
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/451.png",
       "evolves_to": [
         {
           "pokemon_id": "drapion",
           "name": "Drapion",
           "sinnoh_dex": 128,
           "national_dex": 452,
-          "sprite_url": "sprites/452.png",
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/452.png",
           "method": {
             "trigger": "level-up",
             "level": 40
@@ -2341,14 +2341,14 @@
       "name": "Croagunk",
       "sinnoh_dex": 129,
       "national_dex": 453,
-      "sprite_url": "sprites/453.png",
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/453.png",
       "evolves_to": [
         {
           "pokemon_id": "toxicroak",
           "name": "Toxicroak",
           "sinnoh_dex": 130,
           "national_dex": 454,
-          "sprite_url": "sprites/454.png",
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/454.png",
           "method": {
             "trigger": "level-up",
             "level": 37
@@ -2364,7 +2364,7 @@
       "name": "Carnivine",
       "sinnoh_dex": 131,
       "national_dex": 455,
-      "sprite_url": "sprites/455.png"
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/455.png"
     }
   },
   {
@@ -2374,14 +2374,14 @@
       "name": "Finneon",
       "sinnoh_dex": 134,
       "national_dex": 456,
-      "sprite_url": "sprites/456.png",
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/456.png",
       "evolves_to": [
         {
           "pokemon_id": "lumineon",
           "name": "Lumineon",
           "sinnoh_dex": 135,
           "national_dex": 457,
-          "sprite_url": "sprites/457.png",
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/457.png",
           "method": {
             "trigger": "level-up",
             "level": 31
@@ -2397,14 +2397,14 @@
       "name": "Snover",
       "sinnoh_dex": 142,
       "national_dex": 459,
-      "sprite_url": "sprites/459.png",
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/459.png",
       "evolves_to": [
         {
           "pokemon_id": "abomasnow",
           "name": "Abomasnow",
           "sinnoh_dex": 143,
           "national_dex": 460,
-          "sprite_url": "sprites/460.png",
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/460.png",
           "method": {
             "trigger": "level-up",
             "level": 40
@@ -2420,7 +2420,7 @@
       "name": "Rotom",
       "sinnoh_dex": 152,
       "national_dex": 479,
-      "sprite_url": "sprites/479.png"
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/479.png"
     }
   },
   {
@@ -2430,7 +2430,7 @@
       "name": "Uxie",
       "sinnoh_dex": 146,
       "national_dex": 480,
-      "sprite_url": "sprites/480.png"
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/480.png"
     }
   },
   {
@@ -2440,7 +2440,7 @@
       "name": "Mesprit",
       "sinnoh_dex": 147,
       "national_dex": 481,
-      "sprite_url": "sprites/481.png"
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/481.png"
     }
   },
   {
@@ -2450,7 +2450,7 @@
       "name": "Azelf",
       "sinnoh_dex": 148,
       "national_dex": 482,
-      "sprite_url": "sprites/482.png"
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/482.png"
     }
   },
   {
@@ -2460,7 +2460,7 @@
       "name": "Dialga",
       "sinnoh_dex": 149,
       "national_dex": 483,
-      "sprite_url": "sprites/483.png"
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/483.png"
     }
   },
   {
@@ -2470,7 +2470,7 @@
       "name": "Palkia",
       "sinnoh_dex": 150,
       "national_dex": 484,
-      "sprite_url": "sprites/484.png"
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/484.png"
     }
   },
   {
@@ -2480,7 +2480,7 @@
       "name": "Giratina",
       "sinnoh_dex": 210,
       "national_dex": 487,
-      "sprite_url": "sprites/487.png"
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/487.png"
     }
   },
   {
@@ -2490,14 +2490,14 @@
       "name": "Phione",
       "sinnoh_dex": null,
       "national_dex": 489,
-      "sprite_url": "sprites/489.png",
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/489.png",
       "evolves_to": [
         {
           "pokemon_id": "manaphy",
           "name": "Manaphy",
           "sinnoh_dex": 151,
           "national_dex": 490,
-          "sprite_url": "sprites/490.png"
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/490.png"
         }
       ]
     }

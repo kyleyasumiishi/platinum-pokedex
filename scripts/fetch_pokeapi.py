@@ -329,6 +329,11 @@ def get_move_details(move_id: str) -> dict | None:
                 effect_text = entry["flavor_text"].replace("\n", " ").replace("\f", " ")
                 break
 
+    # Replace PokeAPI's $effect_chance placeholder with the actual number
+    effect_chance = data.get("effect_chance")
+    if effect_chance is not None:
+        effect_text = effect_text.replace("$effect_chance", str(effect_chance))
+
     category_map = {"physical": "Physical", "special": "Special", "status": "Status"}
     damage_class = data.get("damage_class", {}).get("name", "status")
 

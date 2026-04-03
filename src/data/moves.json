@@ -32,7 +32,7 @@
     "accuracy": 100,
     "pp": 30,
     "priority": 0,
-    "description": "Has a $effect_chance% chance to lower the target\u2019s Special Defense by one stage.",
+    "description": "Has a 10% chance to lower the target\u2019s Special Defense by one stage.",
     "learned_by": {
       "level_up": {
         "tentacool": 12,
@@ -284,7 +284,7 @@
     "accuracy": 95,
     "pp": 15,
     "priority": 0,
-    "description": "Has a $effect_chance% chance to make the target flinch.",
+    "description": "Has a 30% chance to make the target flinch.",
     "learned_by": {
       "level_up": {
         "zubat": 41,
@@ -351,7 +351,7 @@
     "accuracy": 100,
     "pp": 5,
     "priority": 0,
-    "description": "Has a $effect_chance% chance to raise all of the user\u2019s stats by one stage.",
+    "description": "Has a 10% chance to raise all of the user\u2019s stats by one stage.",
     "learned_by": {
       "level_up": {
         "cranidos": 28,
@@ -604,7 +604,7 @@
     "accuracy": 100,
     "pp": 15,
     "priority": 0,
-    "description": "Has a $effect_chance% chance to make the target flinch.",
+    "description": "Has a 30% chance to make the target flinch.",
     "learned_by": {
       "level_up": {
         "zubat": 9,
@@ -901,7 +901,7 @@
     "accuracy": 100,
     "pp": 20,
     "priority": 0,
-    "description": "Has a $effect_chance% chance to lower the target\u2019s Attack by one stage.",
+    "description": "Has a 10% chance to lower the target\u2019s Attack by one stage.",
     "learned_by": {
       "level_up": {
         "remoraid": 14,
@@ -1120,7 +1120,7 @@
     "accuracy": 100,
     "pp": 25,
     "priority": 0,
-    "description": "Has a $effect_chance% chance to make the target flinch.",
+    "description": "Has a 30% chance to make the target flinch.",
     "learned_by": {
       "level_up": {
         "turtwig": 21,
@@ -1185,7 +1185,7 @@
     "accuracy": 90,
     "pp": 10,
     "priority": 0,
-    "description": "Has an increased chance for a critical hit and a $effect_chance% chance to burn the target.",
+    "description": "Has an increased chance for a critical hit and a 10% chance to burn the target.",
     "learned_by": {
       "level_up": {},
       "tm_hm": {},
@@ -1204,7 +1204,7 @@
     "accuracy": 70,
     "pp": 5,
     "priority": 0,
-    "description": "Has a $effect_chance% chance to freeze the target.",
+    "description": "Has a 10% chance to freeze the target.",
     "learned_by": {
       "level_up": {
         "snover": 41,
@@ -1333,7 +1333,7 @@
     "accuracy": 100,
     "pp": 15,
     "priority": 0,
-    "description": "Has a $effect_chance% chance to paralyze the target.",
+    "description": "Has a 30% chance to paralyze the target.",
     "learned_by": {
       "level_up": {
         "shellos": 29,
@@ -1590,7 +1590,7 @@
     "accuracy": 100,
     "pp": 30,
     "priority": 0,
-    "description": "Has a $effect_chance% chance to lower the target\u2019s Speed by one stage.",
+    "description": "Has a 10% chance to lower the target\u2019s Speed by one stage.",
     "learned_by": {
       "level_up": {
         "piplup": 8,
@@ -1614,7 +1614,7 @@
     "accuracy": 100,
     "pp": 20,
     "priority": 0,
-    "description": "Has a $effect_chance% chance to lower the target\u2019s Speed by one stage.",
+    "description": "Has a 10% chance to lower the target\u2019s Speed by one stage.",
     "learned_by": {
       "level_up": {
         "piplup": 18,
@@ -1669,7 +1669,7 @@
     "accuracy": 100,
     "pp": 10,
     "priority": 0,
-    "description": "Has a $effect_chance% chance to lower the target\u2019s Special Defense by one stage.",
+    "description": "Has a 10% chance to lower the target\u2019s Special Defense by one stage.",
     "learned_by": {
       "level_up": {
         "kricketune": 46,
@@ -2116,7 +2116,7 @@
     "accuracy": 90,
     "pp": 10,
     "priority": 0,
-    "description": "Has a $effect_chance% chance to raise the user\u2019s Special Attack by one stage.",
+    "description": "Has a 70% chance to raise the user\u2019s Special Attack by one stage.",
     "learned_by": {
       "level_up": {},
       "tm_hm": {
@@ -2317,7 +2317,7 @@
     "accuracy": 100,
     "pp": 25,
     "priority": 0,
-    "description": "Has a $effect_chance% chance to confuse the target.",
+    "description": "Has a 10% chance to confuse the target.",
     "learned_by": {
       "level_up": {
         "kadabra": 16,
@@ -2362,7 +2362,7 @@
     "accuracy": 100,
     "pp": 35,
     "priority": 0,
-    "description": "Has a $effect_chance% chance to lower the target\u2019s Speed by one stage.",
+    "description": "Has a 10% chance to lower the target\u2019s Speed by one stage.",
     "learned_by": {
       "level_up": {
         "drifloon": 1,
@@ -2568,7 +2568,7 @@
     "accuracy": 100,
     "pp": 20,
     "priority": 0,
-    "description": "Has an increased chance for a critical hit and a $effect_chance% chance to poison the target.",
+    "description": "Has an increased chance for a critical hit and a 10% chance to poison the target.",
     "learned_by": {
       "level_up": {
         "crobat": 1,
@@ -2590,7 +2590,7 @@
     "accuracy": 100,
     "pp": 15,
     "priority": 0,
-    "description": "Has a $effect_chance% chance to lower the target\u2019s Defense by one stage.",
+    "description": "Has a 20% chance to lower the target\u2019s Defense by one stage.",
     "learned_by": {
       "level_up": {
         "turtwig": 37,
@@ -2632,7 +2632,7 @@
     "accuracy": 95,
     "pp": 10,
     "priority": 0,
-    "description": "Has a $effect_chance% chance to lower the target\u2019s Defense by one stage.",
+    "description": "Has a 50% chance to lower the target\u2019s Defense by one stage.",
     "learned_by": {
       "level_up": {},
       "tm_hm": {},
@@ -2775,7 +2775,7 @@
     "accuracy": 100,
     "pp": 15,
     "priority": 0,
-    "description": "Has a $effect_chance% chance to make the target flinch.",
+    "description": "Has a 20% chance to make the target flinch.",
     "learned_by": {
       "level_up": {
         "gastly": 36,
@@ -3128,7 +3128,7 @@
     "accuracy": 100,
     "pp": 15,
     "priority": 0,
-    "description": "Has a $effect_chance% chance to paralyze the target.",
+    "description": "Has a 30% chance to paralyze the target.",
     "learned_by": {
       "level_up": {
         "shinx": 41,
@@ -3214,7 +3214,7 @@
     "accuracy": 100,
     "pp": 10,
     "priority": 0,
-    "description": "Has a $effect_chance% chance to confuse the target.",
+    "description": "Has a 20% chance to confuse the target.",
     "learned_by": {
       "level_up": {
         "buneary": 36,
@@ -3620,7 +3620,7 @@
     "accuracy": 100,
     "pp": 20,
     "priority": 0,
-    "description": "Has a $effect_chance% chance to paralyze the target.",
+    "description": "Has a 30% chance to paralyze the target.",
     "learned_by": {
       "level_up": {
         "onix": 33,
@@ -3756,7 +3756,7 @@
     "accuracy": 75,
     "pp": 10,
     "priority": 0,
-    "description": "Has a $effect_chance% chance to make the target flinch.",
+    "description": "Has a 20% chance to make the target flinch.",
     "learned_by": {
       "level_up": {
         "gible": 37,
@@ -3936,7 +3936,7 @@
     "accuracy": 50,
     "pp": 5,
     "priority": 0,
-    "description": "Has a $effect_chance% chance to confuse the target.",
+    "description": "Has a 100% chance to confuse the target.",
     "learned_by": {
       "level_up": {
         "machop": 46,
@@ -3961,7 +3961,7 @@
     "accuracy": 100,
     "pp": 10,
     "priority": 0,
-    "description": "Has a $effect_chance% chance to lower the target\u2019s Special Defense by one stage.",
+    "description": "Has a 10% chance to lower the target\u2019s Special Defense by one stage.",
     "learned_by": {
       "level_up": {
         "dialga": 60,
@@ -4188,7 +4188,7 @@
     "accuracy": 100,
     "pp": 25,
     "priority": 0,
-    "description": "Has a $effect_chance% chance to burn the target.",
+    "description": "Has a 10% chance to burn the target.",
     "learned_by": {
       "level_up": {
         "chimchar": 7,
@@ -4536,7 +4536,7 @@
     "accuracy": 100,
     "pp": 10,
     "priority": 0,
-    "description": "Has a $effect_chance% chance to lower the target\u2019s Special Defense by one stage.",
+    "description": "Has a 10% chance to lower the target\u2019s Special Defense by one stage.",
     "learned_by": {
       "level_up": {},
       "tm_hm": {
@@ -4643,7 +4643,7 @@
     "accuracy": 100,
     "pp": 20,
     "priority": 0,
-    "description": "Has a $effect_chance% chance to make the target flinch.",
+    "description": "Has a 10% chance to make the target flinch.",
     "learned_by": {
       "level_up": {
         "chimecho": 46,
@@ -5104,7 +5104,7 @@
     "accuracy": 85,
     "pp": 5,
     "priority": 0,
-    "description": "Has a $effect_chance% chance to burn the target.",
+    "description": "Has a 10% chance to burn the target.",
     "learned_by": {
       "level_up": {
         "ponyta": 37,
@@ -5178,7 +5178,7 @@
     "accuracy": 95,
     "pp": 15,
     "priority": 0,
-    "description": "Has a $effect_chance% chance to burn the target and a $effect_chance% chance to make the target flinch.",
+    "description": "Has a 10% chance to burn the target and a 10% chance to make the target flinch.",
     "learned_by": {
       "level_up": {
         "steelix": 1,
@@ -5207,7 +5207,7 @@
     "accuracy": 100,
     "pp": 15,
     "priority": 0,
-    "description": "Has a $effect_chance% chance to burn the target.",
+    "description": "Has a 10% chance to burn the target.",
     "learned_by": {
       "level_up": {
         "medicham": 1,
@@ -5381,7 +5381,7 @@
     "accuracy": 100,
     "pp": 25,
     "priority": 0,
-    "description": "Has a $effect_chance% chance to burn the target.  Lets frozen Pok\u00e9mon thaw themselves.",
+    "description": "Has a 10% chance to burn the target.  Lets frozen Pok\u00e9mon thaw themselves.",
     "learned_by": {
       "level_up": {
         "chimchar": 17,
@@ -5405,7 +5405,7 @@
     "accuracy": 100,
     "pp": 15,
     "priority": 0,
-    "description": "Has a $effect_chance% chance to burn the target.",
+    "description": "Has a 10% chance to burn the target.",
     "learned_by": {
       "level_up": {
         "chimchar": 41,
@@ -5481,7 +5481,7 @@
     "accuracy": 100,
     "pp": 15,
     "priority": 0,
-    "description": "User takes 1/3 the damage inflicted in recoil.  Has a $effect_chance% chance to burn the target.",
+    "description": "User takes 1/3 the damage inflicted in recoil.  Has a 10% chance to burn the target.",
     "learned_by": {
       "level_up": {
         "monferno": 49,
@@ -5617,7 +5617,7 @@
     "accuracy": 100,
     "pp": 10,
     "priority": 0,
-    "description": "Has a $effect_chance% chance to lower the target\u2019s Special Defense by one stage.",
+    "description": "Has a 10% chance to lower the target\u2019s Special Defense by one stage.",
     "learned_by": {
       "level_up": {
         "dialga": 80
@@ -5825,7 +5825,7 @@
     "accuracy": 70,
     "pp": 5,
     "priority": 0,
-    "description": "Has a $effect_chance% chance to lower the target\u2019s Special Defense by one stage.",
+    "description": "Has a 10% chance to lower the target\u2019s Special Defense by one stage.",
     "learned_by": {
       "level_up": {},
       "tm_hm": {
@@ -6016,7 +6016,7 @@
     "accuracy": 100,
     "pp": 10,
     "priority": 0,
-    "description": "Has a $effect_chance% chance to paralyze the target.",
+    "description": "Has a 30% chance to paralyze the target.",
     "learned_by": {
       "level_up": {
         "meditite": 29,
@@ -6981,7 +6981,7 @@
     "accuracy": 80,
     "pp": 5,
     "priority": 0,
-    "description": "Has a $effect_chance% chance to poison the target.",
+    "description": "Has a 30% chance to poison the target.",
     "learned_by": {
       "level_up": {
         "octillery": 1
@@ -7260,7 +7260,7 @@
     "accuracy": 100,
     "pp": 15,
     "priority": 0,
-    "description": "Has a $effect_chance% chance to make the target flinch.",
+    "description": "Has a 30% chance to make the target flinch.",
     "learned_by": {
       "level_up": {
         "bidoof": 17,
@@ -7398,7 +7398,7 @@
     "accuracy": 90,
     "pp": 10,
     "priority": 0,
-    "description": "Has a $effect_chance% chance to burn the target.",
+    "description": "Has a 10% chance to burn the target.",
     "learned_by": {
       "level_up": {},
       "tm_hm": {},
@@ -8046,7 +8046,7 @@
     "accuracy": 90,
     "pp": 15,
     "priority": 0,
-    "description": "Has a $effect_chance% chance to make the target flinch.",
+    "description": "Has a 10% chance to make the target flinch.",
     "learned_by": {
       "level_up": {
         "bidoof": 21,
@@ -8124,7 +8124,7 @@
     "accuracy": 100,
     "pp": 10,
     "priority": 0,
-    "description": "Has a $effect_chance% chance to freeze the target.",
+    "description": "Has a 10% chance to freeze the target.",
     "learned_by": {
       "level_up": {
         "remoraid": 40,
@@ -8220,7 +8220,7 @@
     "accuracy": 95,
     "pp": 15,
     "priority": 0,
-    "description": "Has a $effect_chance% chance to freeze the target and a $effect_chance% chance to make the target flinch.",
+    "description": "Has a 10% chance to freeze the target and a 10% chance to make the target flinch.",
     "learned_by": {
       "level_up": {
         "gyarados": 32,
@@ -8251,7 +8251,7 @@
     "accuracy": 100,
     "pp": 15,
     "priority": 0,
-    "description": "Has a $effect_chance% chance to freeze the target.",
+    "description": "Has a 10% chance to freeze the target.",
     "learned_by": {
       "level_up": {
         "medicham": 1,
@@ -8382,7 +8382,7 @@
     "accuracy": 95,
     "pp": 15,
     "priority": 0,
-    "description": "Has a $effect_chance% chance to lower the target\u2019s Speed by one stage.",
+    "description": "Has a 100% chance to lower the target\u2019s Speed by one stage.",
     "learned_by": {
       "level_up": {
         "snover": 9,
@@ -8587,7 +8587,7 @@
     "accuracy": 100,
     "pp": 15,
     "priority": 0,
-    "description": "Has a $effect_chance% chance to make the target flinch.",
+    "description": "Has a 30% chance to make the target flinch.",
     "learned_by": {
       "level_up": {
         "shieldon": 43,
@@ -8635,7 +8635,7 @@
     "accuracy": 75,
     "pp": 15,
     "priority": 0,
-    "description": "Has a $effect_chance% chance to lower the target\u2019s Defense by one stage.",
+    "description": "Has a 30% chance to lower the target\u2019s Defense by one stage.",
     "learned_by": {
       "level_up": {
         "onix": 41,
@@ -8964,7 +8964,7 @@
     "accuracy": 100,
     "pp": 15,
     "priority": 0,
-    "description": "Has a $effect_chance% chance to burn the target.",
+    "description": "Has a 30% chance to burn the target.",
     "learned_by": {
       "level_up": {
         "flareon": 78,
@@ -9142,7 +9142,7 @@
     "accuracy": 100,
     "pp": 30,
     "priority": 0,
-    "description": "Has a $effect_chance% chance to paralyze the target.",
+    "description": "Has a 30% chance to paralyze the target.",
     "learned_by": {
       "level_up": {
         "gastly": 1,
@@ -9710,7 +9710,7 @@
     "accuracy": 95,
     "pp": 35,
     "priority": 0,
-    "description": "Has a $effect_chance% chance to raise the user\u2019s Attack by one stage.",
+    "description": "Has a 10% chance to raise the user\u2019s Attack by one stage.",
     "learned_by": {
       "level_up": {
         "prinplup": 16,
@@ -9760,7 +9760,7 @@
     "accuracy": 90,
     "pp": 10,
     "priority": 0,
-    "description": "Has a $effect_chance% chance to raise the user\u2019s Attack by one stage.",
+    "description": "Has a 20% chance to raise the user\u2019s Attack by one stage.",
     "learned_by": {
       "level_up": {
         "clefairy": 43
@@ -9945,7 +9945,7 @@
     "accuracy": 85,
     "pp": 10,
     "priority": 0,
-    "description": "Has a $effect_chance% chance to lower the target\u2019s accuracy by one stage.",
+    "description": "Has a 30% chance to lower the target\u2019s accuracy by one stage.",
     "learned_by": {
       "level_up": {
         "magnemite": 43,
@@ -10039,7 +10039,7 @@
     "accuracy": 85,
     "pp": 10,
     "priority": 0,
-    "description": "Has a $effect_chance% chance to lower the target\u2019s accuracy by one stage.",
+    "description": "Has a 30% chance to lower the target\u2019s accuracy by one stage.",
     "learned_by": {
       "level_up": {
         "shellos": 11,
@@ -10069,7 +10069,7 @@
     "accuracy": 95,
     "pp": 15,
     "priority": 0,
-    "description": "Has a $effect_chance% chance to lower the target\u2019s Speed by one stage.",
+    "description": "Has a 100% chance to lower the target\u2019s Speed by one stage.",
     "learned_by": {
       "level_up": {
         "wooper": 9,
@@ -10090,7 +10090,7 @@
     "accuracy": 100,
     "pp": 10,
     "priority": 0,
-    "description": "Has a $effect_chance% chance to lower the target\u2019s accuracy by one stage.",
+    "description": "Has a 100% chance to lower the target\u2019s accuracy by one stage.",
     "learned_by": {
       "level_up": {
         "shellos": 1,
@@ -10318,7 +10318,7 @@
     "accuracy": 85,
     "pp": 10,
     "priority": 0,
-    "description": "Has a $effect_chance% chance to lower the target\u2019s accuracy by one stage.",
+    "description": "Has a 30% chance to lower the target\u2019s accuracy by one stage.",
     "learned_by": {
       "level_up": {
         "shellos": 37,
@@ -10704,7 +10704,7 @@
     "accuracy": 85,
     "pp": 10,
     "priority": 0,
-    "description": "Has a $effect_chance% chance to lower the target\u2019s accuracy by one stage.",
+    "description": "Has a 50% chance to lower the target\u2019s accuracy by one stage.",
     "learned_by": {
       "level_up": {
         "octillery": 25
@@ -10751,7 +10751,7 @@
     "accuracy": 100,
     "pp": 5,
     "priority": 0,
-    "description": "Has a $effect_chance% chance to raise all of the user\u2019s stats by one stage.",
+    "description": "Has a 10% chance to raise all of the user\u2019s stats by one stage.",
     "learned_by": {
       "level_up": {
         "drifloon": 30,
@@ -11139,7 +11139,7 @@
     "accuracy": 100,
     "pp": 15,
     "priority": 0,
-    "description": "Has a $effect_chance% chance to badly poison the target.",
+    "description": "Has a 50% chance to badly poison the target.",
     "learned_by": {
       "level_up": {
         "zubat": 33,
@@ -11180,7 +11180,7 @@
     "accuracy": 100,
     "pp": 20,
     "priority": 0,
-    "description": "Has a $effect_chance% chance to poison the target.",
+    "description": "Has a 30% chance to poison the target.",
     "learned_by": {
       "level_up": {
         "seaking": 1,
@@ -11259,7 +11259,7 @@
     "accuracy": 100,
     "pp": 35,
     "priority": 0,
-    "description": "Has a $effect_chance% chance to poison the target.",
+    "description": "Has a 30% chance to poison the target.",
     "learned_by": {
       "level_up": {
         "roselia": 7,
@@ -11314,7 +11314,7 @@
     "accuracy": 100,
     "pp": 25,
     "priority": 0,
-    "description": "Has a $effect_chance% chance to freeze the target.",
+    "description": "Has a 10% chance to freeze the target.",
     "learned_by": {
       "level_up": {
         "snover": 1,
@@ -11679,7 +11679,7 @@
     "accuracy": 100,
     "pp": 20,
     "priority": 0,
-    "description": "Has a $effect_chance% chance to confuse the target.",
+    "description": "Has a 10% chance to confuse the target.",
     "learned_by": {
       "level_up": {
         "kadabra": 24,
@@ -11828,7 +11828,7 @@
     "accuracy": 100,
     "pp": 10,
     "priority": 0,
-    "description": "Has a $effect_chance% chance to lower the target\u2019s Special Defense by one stage.",
+    "description": "Has a 10% chance to lower the target\u2019s Special Defense by one stage.",
     "learned_by": {
       "level_up": {
         "kadabra": 40,
@@ -13219,7 +13219,7 @@
     "accuracy": 85,
     "pp": 20,
     "priority": 0,
-    "description": "Has a $effect_chance% chance to confuse the target.",
+    "description": "Has a 20% chance to confuse the target.",
     "learned_by": {
       "level_up": {},
       "tm_hm": {
@@ -13322,7 +13322,7 @@
     "accuracy": 90,
     "pp": 10,
     "priority": 0,
-    "description": "Has a $effect_chance% chance to make the target flinch.",
+    "description": "Has a 30% chance to make the target flinch.",
     "learned_by": {
       "level_up": {
         "bonsly": 33,
@@ -13415,7 +13415,7 @@
     "accuracy": 100,
     "pp": 15,
     "priority": 0,
-    "description": "Has a $effect_chance% chance to lower the target\u2019s Defense by one stage.",
+    "description": "Has a 50% chance to lower the target\u2019s Defense by one stage.",
     "learned_by": {
       "level_up": {},
       "tm_hm": {
@@ -13567,7 +13567,7 @@
     "accuracy": 95,
     "pp": 15,
     "priority": 0,
-    "description": "Has a $effect_chance% chance to lower the target\u2019s Speed by one stage.",
+    "description": "Has a 100% chance to lower the target\u2019s Speed by one stage.",
     "learned_by": {
       "level_up": {
         "onix": 17,
@@ -13697,7 +13697,7 @@
     "accuracy": 85,
     "pp": 15,
     "priority": 0,
-    "description": "Has a $effect_chance% chance to make the target flinch.",
+    "description": "Has a 30% chance to make the target flinch.",
     "learned_by": {
       "level_up": {},
       "tm_hm": {},
@@ -14208,7 +14208,7 @@
     "accuracy": 100,
     "pp": 20,
     "priority": 0,
-    "description": "Has a $effect_chance% chance to inflict a status effect which depends upon the terrain.",
+    "description": "Has a 30% chance to inflict a status effect which depends upon the terrain.",
     "learned_by": {
       "level_up": {},
       "tm_hm": {
@@ -14514,7 +14514,7 @@
     "accuracy": 100,
     "pp": 15,
     "priority": 0,
-    "description": "Has a $effect_chance% chance to lower the target\u2019s Special Defense by one stage.",
+    "description": "Has a 20% chance to lower the target\u2019s Special Defense by one stage.",
     "learned_by": {
       "level_up": {
         "drifloon": 38,
@@ -14885,7 +14885,7 @@
     "accuracy": 100,
     "pp": 15,
     "priority": 0,
-    "description": "Has a $effect_chance% chance to confuse the target.",
+    "description": "Has a 10% chance to confuse the target.",
     "learned_by": {
       "level_up": {
         "remoraid": 36,
@@ -14975,7 +14975,7 @@
     "accuracy": 100,
     "pp": 5,
     "priority": 0,
-    "description": "Has a $effect_chance% chance to raise all of the user\u2019s stats by one stage.",
+    "description": "Has a 10% chance to raise all of the user\u2019s stats by one stage.",
     "learned_by": {
       "level_up": {
         "mothim": 38,
@@ -15099,7 +15099,7 @@
     "accuracy": 90,
     "pp": 5,
     "priority": 0,
-    "description": "User charges for one turn before attacking.  Has a $effect_chance% chance to make the target flinch.",
+    "description": "User charges for one turn before attacking.  Has a 30% chance to make the target flinch.",
     "learned_by": {
       "level_up": {
         "noctowl": 1,
@@ -15485,7 +15485,7 @@
     "accuracy": 100,
     "pp": 10,
     "priority": 0,
-    "description": "Has a $effect_chance% chance to poison the target.",
+    "description": "Has a 30% chance to poison the target.",
     "learned_by": {
       "level_up": {
         "croagunk": 43,
@@ -15555,7 +15555,7 @@
     "accuracy": 70,
     "pp": 20,
     "priority": 0,
-    "description": "Has a $effect_chance% chance to poison the target.",
+    "description": "Has a 40% chance to poison the target.",
     "learned_by": {
       "level_up": {
         "flareon": 57,
@@ -15666,7 +15666,7 @@
     "accuracy": 100,
     "pp": 15,
     "priority": 0,
-    "description": "Has a $effect_chance% chance to make the target flinch.  Only works if the user is sleeping.",
+    "description": "Has a 30% chance to make the target flinch.  Only works if the user is sleeping.",
     "learned_by": {
       "level_up": {
         "barboach": 31,
@@ -16029,7 +16029,7 @@
     "accuracy": 100,
     "pp": 20,
     "priority": 0,
-    "description": "Has a $effect_chance% chance to paralyze the target.",
+    "description": "Has a 30% chance to paralyze the target.",
     "learned_by": {
       "level_up": {
         "shinx": 13,
@@ -16323,7 +16323,7 @@
     "accuracy": 100,
     "pp": 20,
     "priority": 0,
-    "description": "Has a $effect_chance% chance to make the target flinch.",
+    "description": "Has a 30% chance to make the target flinch.",
     "learned_by": {
       "level_up": {
         "ponyta": 19,
@@ -18342,7 +18342,7 @@
     "accuracy": 70,
     "pp": 10,
     "priority": 0,
-    "description": "Has a $effect_chance% chance to paralyze the target.",
+    "description": "Has a 30% chance to paralyze the target.",
     "learned_by": {
       "level_up": {
         "pikachu": 45,
@@ -18424,7 +18424,7 @@
     "accuracy": 95,
     "pp": 15,
     "priority": 0,
-    "description": "Has a $effect_chance% chance to paralyze the target and a $effect_chance% chance to make the target flinch.",
+    "description": "Has a 10% chance to paralyze the target and a 10% chance to make the target flinch.",
     "learned_by": {
       "level_up": {
         "shinx": 29,
@@ -18454,7 +18454,7 @@
     "accuracy": 100,
     "pp": 15,
     "priority": 0,
-    "description": "Has a $effect_chance% chance to paralyze the target.",
+    "description": "Has a 10% chance to paralyze the target.",
     "learned_by": {
       "level_up": {
         "medicham": 1,
@@ -18546,7 +18546,7 @@
     "accuracy": 100,
     "pp": 30,
     "priority": 0,
-    "description": "Has a $effect_chance% chance to paralyze the target.",
+    "description": "Has a 10% chance to paralyze the target.",
     "learned_by": {
       "level_up": {
         "pichu": 1,
@@ -18667,7 +18667,7 @@
     "accuracy": 100,
     "pp": 15,
     "priority": 0,
-    "description": "Has a $effect_chance% chance to paralyze the target.",
+    "description": "Has a 10% chance to paralyze the target.",
     "learned_by": {
       "level_up": {
         "pikachu": 26,
@@ -19114,7 +19114,7 @@
     "accuracy": 100,
     "pp": 10,
     "priority": 0,
-    "description": "Has a $effect_chance% chance to burn, freeze, or paralyze the target.",
+    "description": "Has a 20% chance to burn, freeze, or paralyze the target.",
     "learned_by": {
       "level_up": {
         "magneton": 1,
@@ -19271,7 +19271,7 @@
     "accuracy": 100,
     "pp": 20,
     "priority": 0,
-    "description": "Has a $effect_chance% chance to make the target flinch.",
+    "description": "Has a 20% chance to make the target flinch.",
     "learned_by": {
       "level_up": {
         "gyarados": 29,
@@ -19607,7 +19607,7 @@
     "accuracy": 100,
     "pp": 20,
     "priority": 0,
-    "description": "Has a $effect_chance% chance to confuse the target.",
+    "description": "Has a 20% chance to confuse the target.",
     "learned_by": {
       "level_up": {
         "psyduck": 22,
@@ -19749,7 +19749,7 @@
     "accuracy": 100,
     "pp": 15,
     "priority": 0,
-    "description": "Has a $effect_chance% chance to make the target flinch.",
+    "description": "Has a 20% chance to make the target flinch.",
     "learned_by": {
       "level_up": {
         "goldeen": 37,
@@ -20174,7 +20174,7 @@
     "accuracy": 50,
     "pp": 5,
     "priority": 0,
-    "description": "Has a $effect_chance% chance to paralyze the target.",
+    "description": "Has a 100% chance to paralyze the target.",
     "learned_by": {
       "level_up": {
         "nosepass": 67,
@@ -20199,7 +20199,7 @@
     "accuracy": 90,
     "pp": 15,
     "priority": 0,
-    "description": "Has a $effect_chance% chance to make the target flinch.",
+    "description": "Has a 20% chance to make the target flinch.",
     "learned_by": {
       "level_up": {
         "cranidos": 33,

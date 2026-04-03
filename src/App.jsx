@@ -25,6 +25,7 @@ import PokedexPage      from './pages/PokedexPage'
 import PokemonDetailPage from './pages/PokemonDetailPage'
 import RoutesPage        from './pages/RoutesPage'
 import MovesPage         from './pages/MovesPage'
+import MoveDetailPage    from './pages/MoveDetailPage'
 import TypesPage         from './pages/TypesPage'
 
 export default function App() {
@@ -48,6 +49,7 @@ export default function App() {
             <Route path="/pokemon/:sinnohDex" element={<PokemonDetailPage />} />
             <Route path="/routes"             element={<RoutesPage />}        />
             <Route path="/moves"              element={<MovesPage />}         />
+            <Route path="/moves/:moveId"      element={<MoveDetailPage />}    />
             <Route path="/types"              element={<TypesPage />}         />
           </Routes>
         </main>
