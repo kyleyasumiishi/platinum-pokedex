@@ -27,15 +27,16 @@ const ALL_TYPES = [
 ]
 
 const SORT_OPTIONS = [
-  { value: 'dex',   label: 'Dex #' },
-  { value: 'alpha', label: 'A–Z'   },
-  { value: 'bst',   label: 'BST'   },
+  { value: 'dex',   label: 'Dex #', defaultDir: 'asc'  },
+  { value: 'alpha', label: 'A–Z',   defaultDir: 'asc'  },
+  { value: 'bst',   label: 'BST',   defaultDir: 'desc' },
 ]
 
 export default function PokemonList() {
-  const [query, setQuery]           = useState('')
-  const [typeFilter, setTypeFilter] = useState([])
-  const [sortBy, setSortBy]         = useState('dex')
+  const [query, setQuery]             = useState('')
+  const [typeFilter, setTypeFilter]   = useState([])
+  const [sortBy, setSortBy]           = useState('dex')
+  const [sortDir, setSortDir]         = useState('asc')  // 'asc' or 'desc'
   const [showFilters, setShowFilters] = useState(false)
 
   // Toggle a type in/out of the filter array
@@ -43,6 +44,18 @@ export default function PokemonList() {
     setTypeFilter(prev =>
       prev.includes(type) ? prev.filter(t => t !== type) : [...prev, type]
     )
+  }
+
+  // Clicking the active sort button reverses direction.
+  // Clicking a different button switches to it in ascending order.
+  function handleSort(value) {
+    if (value === sortBy) {
+      setSortDir(d => d === 'asc' ? 'desc' : 'asc')
+    } else {
+      const opt = SORT_OPTIONS.find(o => o.value === value)
+      setSortBy(value)
+      setSortDir(opt.defaultDir)
+    }
   }
 
   // Compute filtered + sorted list — only recalculates when dependencies change
@@ -64,13 +77,14 @@ export default function PokemonList() {
       return true
     })
 
-    // Sort
-    if (sortBy === 'alpha') list = [...list].sort((a, b) => a.name.localeCompare(b.name))
-    if (sortBy === 'bst')   list = [...list].sort((a, b) => b.base_stat_total - a.base_stat_total)
-    // 'dex' is already sorted by default (array is ordered by sinnoh_dex)
+    // Sort — for each option, 'asc' is the natural order, 'desc' reverses it
+    const dir = sortDir === 'asc' ? 1 : -1
+    if (sortBy === 'dex')   list = [...list].sort((a, b) => (a.sinnoh_dex - b.sinnoh_dex) * dir)
+    if (sortBy === 'alpha') list = [...list].sort((a, b) => a.name.localeCompare(b.name) * dir)
+    if (sortBy === 'bst')   list = [...list].sort((a, b) => (b.base_stat_total - a.base_stat_total) * dir)
 
     return list
-  }, [query, typeFilter, sortBy])
+  }, [query, typeFilter, sortBy, sortDir])
 
   return (
     <div>
@@ -98,24 +112,28 @@ export default function PokemonList() {
         <div className="flex items-center gap-2 mt-2">
           {/* Sort buttons */}
           <div className="flex gap-1 flex-1">
-            {SORT_OPTIONS.map(opt => (
-              <button
-                key={opt.value}
-                onClick={() => setSortBy(opt.value)}
-                style={{
-                  fontSize: '0.65rem',
-                  fontFamily: '"Share Tech Mono", monospace',
-                  padding: '3px 8px',
-                  borderRadius: 4,
-                  border: 'none',
-                  cursor: 'pointer',
-                  backgroundColor: sortBy === opt.value ? 'var(--dex-red)' : 'var(--screen-bg)',
-                  color: sortBy === opt.value ? 'white' : 'var(--screen-green-dim)',
-                }}
-              >
-                {opt.label}
-              </button>
-            ))}
+            {SORT_OPTIONS.map(opt => {
+              const isActive = sortBy === opt.value
+              const arrow = isActive ? (sortDir === 'asc' ? ' ↑' : ' ↓') : ''
+              return (
+                <button
+                  key={opt.value}
+                  onClick={() => handleSort(opt.value)}
+                  style={{
+                    fontSize: '0.65rem',
+                    fontFamily: '"Share Tech Mono", monospace',
+                    padding: '3px 8px',
+                    borderRadius: 4,
+                    border: 'none',
+                    cursor: 'pointer',
+                    backgroundColor: isActive ? 'var(--dex-red)' : 'var(--screen-bg)',
+                    color: isActive ? 'white' : 'var(--screen-green-dim)',
+                  }}
+                >
+                  {opt.label}{arrow}
+                </button>
+              )
+            })}
           </div>
 
           {/* Filter toggle */}
