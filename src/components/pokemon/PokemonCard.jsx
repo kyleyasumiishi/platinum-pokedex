@@ -1,27 +1,25 @@
 /**
  * PokemonCard.jsx — A single Pokémon list item card.
  *
- * Tapping navigates to the detail view via React Router's Link component.
- * Link renders an <a> tag under the hood but intercepts the click to do
- * client-side navigation (no full page reload).
- *
- * Props:
- *   pokemon (object) — one entry from pokemon.json
+ * The Master Ball button sits outside the Link so tapping it doesn't
+ * navigate to the detail page — it just toggles the team. We stop the
+ * click event from bubbling up to the Link with e.stopPropagation()
+ * (otherwise the tap would both toggle AND navigate).
  */
 import { Link } from 'react-router-dom'
 import TypeBadge from '../shared/TypeBadge'
 import { spriteUrl } from '../../utils/dataLoader'
+import { useTeamContext } from '../../context/TeamContext'
+
+const MASTER_BALL_URL = `${import.meta.env.BASE_URL}sprites/items/master-ball.png`
 
 export default function PokemonCard({ pokemon: p }) {
+  const { isOnTeam, toggleTeam } = useTeamContext()
+  const pinned = isOnTeam(p.sinnoh_dex)
+
   return (
-    <Link
-      to={`/pokemon/${p.sinnoh_dex}`}
-      style={{ textDecoration: 'none' }}
-    >
-      <div
-        className="dex-card flex items-center gap-3 px-3 py-2"
-        style={{ minHeight: 64 }}
-      >
+    <div className="dex-card flex items-center gap-3 px-3 py-2" style={{ minHeight: 64 }}>
+      <Link to={`/pokemon/${p.sinnoh_dex}`} style={{ textDecoration: 'none', display: 'flex', alignItems: 'center', gap: 12, flex: 1, minWidth: 0 }}>
         {/* Sprite */}
         <img
           src={spriteUrl(p.national_dex)}
@@ -31,7 +29,7 @@ export default function PokemonCard({ pokemon: p }) {
           loading="lazy"
         />
 
-        {/* Dex number + name */}
+        {/* Dex number + name + types */}
         <div className="flex-1 min-w-0">
           <div style={{ fontSize: '0.65rem', color: '#888', fontFamily: '"Share Tech Mono", monospace' }}>
             #{String(p.sinnoh_dex).padStart(3, '0')}
@@ -45,10 +43,24 @@ export default function PokemonCard({ pokemon: p }) {
             ))}
           </div>
         </div>
+      </Link>
 
-        {/* Arrow hint */}
-        <span style={{ color: '#ccc', fontSize: '0.8rem', flexShrink: 0 }}>›</span>
-      </div>
-    </Link>
+      {/* Master Ball toggle — outside Link so it doesn't navigate */}
+      <button
+        onClick={e => { e.stopPropagation(); toggleTeam(p.sinnoh_dex) }}
+        style={{
+          background: 'none',
+          border: 'none',
+          cursor: 'pointer',
+          padding: 4,
+          flexShrink: 0,
+          opacity: pinned ? 1 : 0.25,
+          transition: 'opacity 0.15s',
+        }}
+        title={pinned ? 'Remove from team' : 'Add to team'}
+      >
+        <img src={MASTER_BALL_URL} alt="Master Ball" style={{ width: 24, height: 24 }} />
+      </button>
+    </div>
   )
 }

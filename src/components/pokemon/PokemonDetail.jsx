@@ -17,6 +17,7 @@
  */
 import { useParams, useNavigate } from 'react-router-dom'
 import { pokemonBySinnohDex, spriteUrl } from '../../utils/dataLoader'
+import { useTeamContext } from '../../context/TeamContext'
 import TypeBadge from '../shared/TypeBadge'
 import CollapsibleSection from '../shared/CollapsibleSection'
 import StatsChart from './StatsChart'
@@ -25,9 +26,12 @@ import EncounterTable from './EncounterTable'
 import EvolutionChain from './EvolutionChain'
 import TypeMatchups from './TypeMatchups'
 
+const MASTER_BALL_URL = `${import.meta.env.BASE_URL}sprites/items/master-ball.png`
+
 export default function PokemonDetail() {
   const { sinnohDex } = useParams()
   const navigate = useNavigate()
+  const { isOnTeam, toggleTeam } = useTeamContext()
   const p = pokemonBySinnohDex.get(Number(sinnohDex))
 
   if (!p) {
@@ -40,24 +44,42 @@ export default function PokemonDetail() {
 
   return (
     <div>
-      {/* Back button */}
-      <button
-        onClick={() => navigate(-1)}
-        style={{
-          display: 'flex',
-          alignItems: 'center',
-          gap: 4,
-          padding: '8px 12px',
-          background: 'none',
-          border: 'none',
-          color: 'var(--screen-green-dim)',
-          fontFamily: '"Share Tech Mono", monospace',
-          fontSize: '0.75rem',
-          cursor: 'pointer',
-        }}
-      >
-        ‹ Back
-      </button>
+      {/* Back button + Master Ball toggle row */}
+      <div className="flex items-center justify-between px-2">
+        <button
+          onClick={() => navigate(-1)}
+          style={{
+            display: 'flex',
+            alignItems: 'center',
+            gap: 4,
+            padding: '8px 12px',
+            background: 'none',
+            border: 'none',
+            color: 'var(--screen-green-dim)',
+            fontFamily: '"Share Tech Mono", monospace',
+            fontSize: '0.75rem',
+            cursor: 'pointer',
+          }}
+        >
+          ‹ Back
+        </button>
+
+        <button
+          onClick={() => toggleTeam(p.sinnoh_dex)}
+          style={{
+            background: 'none',
+            border: 'none',
+            cursor: 'pointer',
+            padding: '8px 12px',
+            opacity: isOnTeam(p.sinnoh_dex) ? 1 : 0.3,
+            transition: 'opacity 0.15s, transform 0.1s',
+            transform: isOnTeam(p.sinnoh_dex) ? 'scale(1.1)' : 'scale(1)',
+          }}
+          title={isOnTeam(p.sinnoh_dex) ? 'Remove from team' : 'Add to team'}
+        >
+          <img src={MASTER_BALL_URL} alt="Master Ball" style={{ width: 32, height: 32 }} />
+        </button>
+      </div>
 
       {/* ── Above-fold content ───────────────────────────────────────── */}
       <div className="px-4 pb-4">

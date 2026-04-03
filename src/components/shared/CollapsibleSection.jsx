@@ -40,9 +40,19 @@ export default function CollapsibleSection({ title, children, defaultOpen = fals
       {isOpen && (
         <div
           className="section-content"
-          style={{ backgroundColor: 'var(--screen-bg-alt)', padding: '12px' }}
+          style={{
+            backgroundColor: 'var(--screen-bg-alt)',
+            padding: '12px',
+            animation: 'expandDown 0.2s ease',
+          }}
         >
           {children}
+          <style>{`
+            @keyframes expandDown {
+              from { opacity: 0; transform: translateY(-6px); }
+              to   { opacity: 1; transform: translateY(0);    }
+            }
+          `}</style>
         </div>
       )}
     </div>

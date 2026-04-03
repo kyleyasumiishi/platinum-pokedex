@@ -18,8 +18,10 @@
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
+import { TeamProvider } from './context/TeamContext'
 import Header    from './components/layout/Header'
 import BottomNav from './components/layout/BottomNav'
+import TeamTray  from './components/layout/TeamTray'
 
 import PokedexPage      from './pages/PokedexPage'
 import PokemonDetailPage from './pages/PokemonDetailPage'
@@ -31,6 +33,7 @@ import TypesPage         from './pages/TypesPage'
 
 export default function App() {
   return (
+    <TeamProvider>
     <BrowserRouter basename={import.meta.env.BASE_URL}>
       <div className="flex flex-col" style={{ minHeight: '100dvh' }}>
 
@@ -57,8 +60,10 @@ export default function App() {
         </main>
 
         <BottomNav />
+        <TeamTray />
 
       </div>
     </BrowserRouter>
+    </TeamProvider>
   )
 }
