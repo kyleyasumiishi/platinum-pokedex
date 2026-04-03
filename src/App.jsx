@@ -24,6 +24,7 @@ import BottomNav from './components/layout/BottomNav'
 import PokedexPage      from './pages/PokedexPage'
 import PokemonDetailPage from './pages/PokemonDetailPage'
 import RoutesPage        from './pages/RoutesPage'
+import RouteDetailPage   from './pages/RouteDetailPage'
 import MovesPage         from './pages/MovesPage'
 import MoveDetailPage    from './pages/MoveDetailPage'
 import TypesPage         from './pages/TypesPage'
@@ -47,7 +48,8 @@ export default function App() {
           <Routes>
             <Route path="/"                   element={<PokedexPage />}      />
             <Route path="/pokemon/:sinnohDex" element={<PokemonDetailPage />} />
-            <Route path="/routes"             element={<RoutesPage />}        />
+            <Route path="/routes"                  element={<RoutesPage />}       />
+            <Route path="/routes/:locationId"     element={<RouteDetailPage />}  />
             <Route path="/moves"              element={<MovesPage />}         />
             <Route path="/moves/:moveId"      element={<MoveDetailPage />}    />
             <Route path="/types"              element={<TypesPage />}         />
