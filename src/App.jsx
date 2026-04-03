@@ -21,10 +21,11 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Header    from './components/layout/Header'
 import BottomNav from './components/layout/BottomNav'
 
-import PokedexPage from './pages/PokedexPage'
-import RoutesPage  from './pages/RoutesPage'
-import MovesPage   from './pages/MovesPage'
-import TypesPage   from './pages/TypesPage'
+import PokedexPage      from './pages/PokedexPage'
+import PokemonDetailPage from './pages/PokemonDetailPage'
+import RoutesPage        from './pages/RoutesPage'
+import MovesPage         from './pages/MovesPage'
+import TypesPage         from './pages/TypesPage'
 
 export default function App() {
   return (
@@ -43,10 +44,11 @@ export default function App() {
           }}
         >
           <Routes>
-            <Route path="/"       element={<PokedexPage />} />
-            <Route path="/routes" element={<RoutesPage />}  />
-            <Route path="/moves"  element={<MovesPage />}   />
-            <Route path="/types"  element={<TypesPage />}   />
+            <Route path="/"                   element={<PokedexPage />}      />
+            <Route path="/pokemon/:sinnohDex" element={<PokemonDetailPage />} />
+            <Route path="/routes"             element={<RoutesPage />}        />
+            <Route path="/moves"              element={<MovesPage />}         />
+            <Route path="/types"              element={<TypesPage />}         />
           </Routes>
         </main>
 
