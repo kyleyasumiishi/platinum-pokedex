@@ -1,19 +1,21 @@
 """
-fetch_pokeapi.py — Sinnoh Platinum Pokédex Data Pipeline
+fetch_pokeapi.py — Regional Pokédex Data Pipeline
 
-Fetches all data needed for the app from PokeAPI, filters for Platinum-specific
-data, and outputs 5 static JSON files to src/data/.
+Fetches all data needed for the app from PokeAPI, filters for one regional
+pokedex (Sinnoh Platinum or Unova Black), and outputs 5 static JSON files to
+src/data/gen{N}/.
 
 Run once locally:
   pip install -r requirements.txt
-  python scripts/fetch_pokeapi.py
+  python scripts/fetch_pokeapi.py --gen 4    # default
+  python scripts/fetch_pokeapi.py --gen 5
 
 Caches raw API responses in scripts/cache/ so re-runs are fast (no re-fetching).
 Output files are committed to the repo and used as static assets in the React app.
 """
 
+import argparse
 import json
-import os
 import time
 from pathlib import Path
 
@@ -25,20 +27,76 @@ import requests
 
 SCRIPT_DIR = Path(__file__).parent
 CACHE_DIR = SCRIPT_DIR / "cache"
-OUTPUT_DIR = SCRIPT_DIR.parent / "src" / "data"
 
 CACHE_DIR.mkdir(exist_ok=True)
-OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 BASE_URL = "https://pokeapi.co/api/v2"
+SPRITE_BASE = "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon"
+
+# ---------------------------------------------------------------------------
+# Per-generation config — choose endpoints, versions, and validation targets
+# ---------------------------------------------------------------------------
+
+GEN_CONFIG = {
+    4: {
+        "pokedex_id": 6,                 # Sinnoh Platinum dex
+        "version_group": "platinum",
+        "version": "platinum",
+        "preferred_flavor_versions": ["platinum", "diamond", "pearl"],
+        "preferred_move_version_groups": ["platinum", "diamond-pearl", "heartgold-soulsilver"],
+        "expected_count": 210,
+        "starters": ["turtwig", "chimchar", "piplup"],
+        "region": "Sinnoh",
+    },
+    5: {
+        "pokedex_id": 8,                 # Unova Black/White dex
+        "version_group": "black-white",
+        "version": "black",
+        "preferred_flavor_versions": ["black", "white"],
+        "preferred_move_version_groups": ["black-white", "black-2-white-2"],
+        "expected_count": 156,
+        "starters": ["snivy", "tepig", "oshawott"],
+        "region": "Unova",
+    },
+}
+
+# Set by main() once args are parsed; consulted by helpers below.
+CFG: dict = {}
+
+# ---------------------------------------------------------------------------
+# Black/White version exclusives (Gen 5 only)
+# ---------------------------------------------------------------------------
+# Sourced from Bulbapedia. Pokémon NOT obtainable in Black except by trade
+# get version_exclusive="white" (their `encounters` array will be empty).
+# Pokémon obtainable in Black get version_exclusive=null OR "black" (informational).
+
+WHITE_EXCLUSIVES = {
+    "sawk",
+    "petilil", "lilligant",
+    "solosis", "duosion", "reuniclus",
+    "rufflet", "braviary",
+    "thundurus",
+    "zekrom",
+    "archen", "archeops",      # Plume Fossil
+}
+
+BLACK_EXCLUSIVES = {
+    "throh",
+    "cottonee", "whimsicott",
+    "gothita", "gothorita", "gothitelle",
+    "vullaby", "mandibuzz",
+    "tornadus",
+    "reshiram",
+    "tirtouga", "carracosta",  # Cover Fossil
+}
 
 # ---------------------------------------------------------------------------
 # HTTP helpers — cache every GET response to disk
 # ---------------------------------------------------------------------------
 
-def fetch(url: str) -> dict:
-    """GET a URL, returning parsed JSON. Caches result to disk keyed by URL."""
-    # Turn the URL into a safe filename: strip the base URL, replace / with _
+def fetch(url: str, max_attempts: int = 5) -> dict:
+    """GET a URL, returning parsed JSON. Caches result to disk keyed by URL.
+    Retries with exponential backoff on transient network errors."""
     key = url.replace(BASE_URL + "/", "").replace("https://", "").replace("/", "_").rstrip("_")
     cache_path = CACHE_DIR / f"{key}.json"
 
@@ -46,10 +104,23 @@ def fetch(url: str) -> dict:
         with open(cache_path) as f:
             return json.load(f)
 
-    print(f"  Fetching: {url}")
-    resp = requests.get(url, timeout=30)
-    resp.raise_for_status()
-    data = resp.json()
+    last_err = None
+    for attempt in range(1, max_attempts + 1):
+        try:
+            print(f"  Fetching: {url}" + (f" (attempt {attempt})" if attempt > 1 else ""))
+            resp = requests.get(url, timeout=30)
+            resp.raise_for_status()
+            data = resp.json()
+            break
+        except (requests.exceptions.Timeout,
+                requests.exceptions.ConnectionError,
+                requests.exceptions.HTTPError) as e:
+            last_err = e
+            if attempt == max_attempts:
+                raise
+            backoff = min(2 ** attempt, 30)
+            print(f"    ! {type(e).__name__}: retrying in {backoff}s...")
+            time.sleep(backoff)
 
     with open(cache_path, "w") as f:
         json.dump(data, f)
@@ -58,20 +129,21 @@ def fetch(url: str) -> dict:
     return data
 
 # ---------------------------------------------------------------------------
-# Step 1 — Get the Sinnoh Platinum dex (pokedex index 6)
-#           Returns list of (sinnoh_dex_number, pokemon_name) tuples
+# Step 1 — Get the regional dex for the active generation
 # ---------------------------------------------------------------------------
 
-def get_sinnoh_dex() -> list[tuple[int, str]]:
-    print("\n[1/6] Fetching Sinnoh dex index...")
-    dex = fetch(f"{BASE_URL}/pokedex/6/")
+def get_regional_dex() -> list[tuple[int, str]]:
+    pokedex_id = CFG["pokedex_id"]
+    region = CFG["region"]
+    print(f"\n[1/6] Fetching {region} dex index (pokedex/{pokedex_id})...")
+    dex = fetch(f"{BASE_URL}/pokedex/{pokedex_id}/")
     entries = []
     for entry in dex["pokemon_entries"]:
-        sinnoh_num = entry["entry_number"]
+        regional_num = entry["entry_number"]
         name = entry["pokemon_species"]["name"]
-        entries.append((sinnoh_num, name))
+        entries.append((regional_num, name))
     entries.sort(key=lambda x: x[0])
-    print(f"      Found {len(entries)} Pokémon in the Sinnoh dex.")
+    print(f"      Found {len(entries)} Pokémon in the {region} dex.")
     return entries
 
 # ---------------------------------------------------------------------------
@@ -79,8 +151,8 @@ def get_sinnoh_dex() -> list[tuple[int, str]]:
 # ---------------------------------------------------------------------------
 
 def get_flavor_text(species_data: dict) -> str:
-    """Find the Platinum flavor text, fall back to Diamond/Pearl, then any English."""
-    preferred_versions = ["platinum", "diamond", "pearl"]
+    """Find a preferred-version flavor text, fall back to any English entry."""
+    preferred_versions = CFG["preferred_flavor_versions"]
     entries_by_version = {}
     for entry in species_data.get("flavor_text_entries", []):
         if entry["language"]["name"] == "en":
@@ -91,7 +163,6 @@ def get_flavor_text(species_data: dict) -> str:
         if ver in entries_by_version:
             return entries_by_version[ver]
 
-    # Fall back to any English entry
     if entries_by_version:
         return list(entries_by_version.values())[0]
     return ""
@@ -119,7 +190,28 @@ def get_abilities(pokemon_data: dict) -> dict:
 
 
 def get_types(pokemon_data: dict) -> list[str]:
-    return [t["type"]["name"].capitalize() for t in pokemon_data.get("types", [])]
+    types = [t["type"]["name"].capitalize() for t in pokemon_data.get("types", [])]
+    # PokeAPI returns modern types. Fairy didn't exist before Gen 6, so strip it
+    # for Gen 4/5 datasets. For Pokémon that were pure Fairy in modern data,
+    # stripping leaves them empty — restore their pre-Gen-6 typing here.
+    if CFG.get("version_group") in ("platinum", "black-white"):
+        name = pokemon_data["name"]
+        if name in PRE_FAIRY_TYPES:
+            return PRE_FAIRY_TYPES[name]
+        types = [t for t in types if t != "Fairy"]
+    return types
+
+
+# Historical types for Pokémon retyped to (or partly to) Fairy in Gen 6.
+# Only those whose modern types become empty/wrong after stripping Fairy need an entry.
+PRE_FAIRY_TYPES = {
+    "cleffa":   ["Normal"],
+    "clefairy": ["Normal"],
+    "clefable": ["Normal"],
+    "togepi":   ["Normal"],
+    "togetic":  ["Normal", "Flying"],
+    "togekiss": ["Normal", "Flying"],
+}
 
 
 def get_base_stats(pokemon_data: dict) -> tuple[dict, int]:
@@ -143,11 +235,12 @@ def get_base_stats(pokemon_data: dict) -> tuple[dict, int]:
 
 
 def get_held_items(pokemon_data: dict) -> list[dict]:
+    version = CFG["version"]
     items = []
     for item_slot in pokemon_data.get("held_items", []):
         item_name = item_slot["item"]["name"].replace("-", " ").title()
         for version_detail in item_slot["version_details"]:
-            if version_detail["version"]["name"] == "platinum":
+            if version_detail["version"]["name"] == version:
                 items.append({
                     "item": item_name,
                     "rarity": version_detail["rarity"],
@@ -155,11 +248,9 @@ def get_held_items(pokemon_data: dict) -> list[dict]:
     return items
 
 
-def get_platinum_moves(pokemon_data: dict) -> dict:
-    """
-    Extract moves learned in the Platinum version group.
-    Returns dict with keys: level_up, tm_hm, tutor, egg
-    """
+def get_moves_for_version_group(pokemon_data: dict) -> dict:
+    """Extract moves learned in the active version group (level_up, tm_hm, tutor, egg)."""
+    version_group = CFG["version_group"]
     level_up = []
     tm_hm = []
     tutor = []
@@ -168,7 +259,7 @@ def get_platinum_moves(pokemon_data: dict) -> dict:
     for move_entry in pokemon_data.get("moves", []):
         move_id = move_entry["move"]["name"]
         for vgd in move_entry["version_group_details"]:
-            if vgd["version_group"]["name"] != "platinum":
+            if vgd["version_group"]["name"] != version_group:
                 continue
             method = vgd["move_learn_method"]["name"]
             level = vgd["level_learned_at"]
@@ -191,8 +282,9 @@ def get_platinum_moves(pokemon_data: dict) -> dict:
     }
 
 
-def get_platinum_encounters(national_dex_id: int) -> list[dict]:
-    """Fetch encounter locations for a Pokémon filtered to Platinum version."""
+def get_encounters_for_version(national_dex_id: int) -> list[dict]:
+    """Fetch encounter locations for a Pokémon, filtered to the active version."""
+    version = CFG["version"]
     url = f"{BASE_URL}/pokemon/{national_dex_id}/encounters"
     raw = fetch(url)
     encounters = []
@@ -200,7 +292,7 @@ def get_platinum_encounters(national_dex_id: int) -> list[dict]:
     for loc_entry in raw:
         location_id = loc_entry["location_area"]["name"]
         for version_detail in loc_entry["version_details"]:
-            if version_detail["version"]["name"] != "platinum":
+            if version_detail["version"]["name"] != version:
                 continue
             for encounter_detail in version_detail["encounter_details"]:
                 method = encounter_detail["method"]["name"]
@@ -208,7 +300,6 @@ def get_platinum_encounters(national_dex_id: int) -> list[dict]:
                 max_lvl = encounter_detail.get("max_level")
                 chance = encounter_detail.get("chance")
 
-                # Time of day comes from condition values
                 time_of_day = "all"
                 for cond in encounter_detail.get("condition_values", []):
                     cname = cond["name"]
@@ -219,7 +310,6 @@ def get_platinum_encounters(national_dex_id: int) -> list[dict]:
                     elif "night" in cname:
                         time_of_day = "night"
 
-                # Detect special encounter types
                 special = None
                 if "swarm" in location_id or any("swarm" in c["name"] for c in encounter_detail.get("condition_values", [])):
                     special = "swarm"
@@ -237,35 +327,40 @@ def get_platinum_encounters(national_dex_id: int) -> list[dict]:
 
     return encounters
 
+
+def classify_version_exclusive(name_lower: str) -> str | None:
+    """Return 'white' / 'black' / None for Gen 5; always None for Gen 4."""
+    if CFG.get("version") != "black":
+        return None
+    if name_lower in WHITE_EXCLUSIVES:
+        return "white"
+    if name_lower in BLACK_EXCLUSIVES:
+        return "black"
+    return None
+
 # ---------------------------------------------------------------------------
 # Step 3 — Evolution chains
 # ---------------------------------------------------------------------------
 
-def parse_evolution_chain(chain_data: dict, chain_id: int, sinnoh_name_to_dex: dict, sprite_base: str) -> dict:
-    """
-    Recursively flatten a potentially branching evolution chain into stages.
-    For branching chains (e.g. Eevee, Ralts), we store the branches as a list
-    of next-stage options rather than a strictly linear list. The UI can render
-    a simple linear chain for non-branching cases.
-    """
+def parse_evolution_chain(chain_data: dict, chain_id: int, regional_name_to_dex: dict) -> dict:
+    """Recursively flatten an evolution chain (may branch)."""
 
     def parse_link(link: dict) -> dict:
         name = link["species"]["name"]
         national_id = link["species"]["url"].rstrip("/").split("/")[-1]
-        sinnoh_num = sinnoh_name_to_dex.get(name)
+        regional_num = regional_name_to_dex.get(name)
 
         node = {
             "pokemon_id": name,
             "name": name.capitalize(),
-            "regional_dex": sinnoh_num,
+            "regional_dex": regional_num,
             "national_dex": int(national_id),
-            "sprite_url": f"{sprite_base}/{national_id}.png",
+            "sprite_url": f"{SPRITE_BASE}/{national_id}.png",
         }
 
-        # Parse the evolution detail (how it evolves INTO this stage)
         evo_details = link.get("evolution_details", [])
         if evo_details:
-            detail = evo_details[0]  # Take the first/primary method
+            detail = evo_details[0]
             trigger = detail.get("trigger", {}).get("name", "")
             method_info = {"trigger": trigger}
 
@@ -291,7 +386,6 @@ def parse_evolution_chain(chain_data: dict, chain_id: int, sinnoh_name_to_dex: d
 
             node["method"] = method_info
 
-        # Recurse into evolves_to (may be multiple for branching chains)
         next_stages = link.get("evolves_to", [])
         if next_stages:
             node["evolves_to"] = [parse_link(n) for n in next_stages]
@@ -315,21 +409,19 @@ def get_move_details(move_id: str) -> dict | None:
     except Exception:
         return None
 
-    # Get English effect description; prefer short_effect
     effect_text = ""
     for entry in data.get("effect_entries", []):
         if entry["language"]["name"] == "en":
             effect_text = entry.get("short_effect", entry.get("effect", ""))
             break
 
-    # Fall back to flavor text if no effect entries
     if not effect_text:
         for entry in data.get("flavor_text_entries", []):
-            if entry["language"]["name"] == "en" and entry.get("version_group", {}).get("name") in ("platinum", "diamond-pearl", "heartgold-soulsilver"):
+            vg = entry.get("version_group", {}).get("name")
+            if entry["language"]["name"] == "en" and vg in CFG["preferred_move_version_groups"]:
                 effect_text = entry["flavor_text"].replace("\n", " ").replace("\f", " ")
                 break
 
-    # Replace PokeAPI's $effect_chance placeholder with the actual number
     effect_chance = data.get("effect_chance")
     if effect_chance is not None:
         effect_text = effect_text.replace("$effect_chance", str(effect_chance))
@@ -355,25 +447,25 @@ def get_move_details(move_id: str) -> dict | None:
     }
 
 # ---------------------------------------------------------------------------
-# Step 5 — Type effectiveness chart (Gen 4 — no Fairy)
+# Step 5 — Type effectiveness chart (Gen 4/5 — both 17 types, no Fairy)
 # ---------------------------------------------------------------------------
 
-GEN4_TYPES = [
+GEN4_5_TYPES = [
     "Normal", "Fire", "Water", "Electric", "Grass", "Ice",
     "Fighting", "Poison", "Ground", "Flying", "Psychic", "Bug",
     "Rock", "Ghost", "Dragon", "Dark", "Steel"
 ]
 
 def build_type_chart() -> dict:
-    print("\n[5/6] Building Gen 4 type chart...")
-    matrix = {t: {} for t in GEN4_TYPES}
+    region = CFG["region"]
+    print(f"\n[5/6] Building {region} type chart (17 types)...")
+    matrix = {t: {} for t in GEN4_5_TYPES}
 
-    for atk_type in GEN4_TYPES:
+    for atk_type in GEN4_5_TYPES:
         data = fetch(f"{BASE_URL}/type/{atk_type.lower()}/")
         relations = data.get("damage_relations", {})
 
-        # Initialize all to 1x
-        for def_type in GEN4_TYPES:
+        for def_type in GEN4_5_TYPES:
             matrix[atk_type][def_type] = 1
 
         for rel in relations.get("double_damage_to", []):
@@ -391,51 +483,62 @@ def build_type_chart() -> dict:
             if t in matrix[atk_type]:
                 matrix[atk_type][t] = 0
 
-    return {"types": GEN4_TYPES, "matrix": matrix}
+    return {"types": GEN4_5_TYPES, "matrix": matrix}
 
 
 def compute_type_matchups(types: list[str], type_chart: dict) -> dict:
-    """Pre-compute defensive type matchups for a Pokémon given its type(s)."""
     matrix = type_chart["matrix"]
     matchups = {}
 
-    for atk_type in GEN4_TYPES:
+    for atk_type in GEN4_5_TYPES:
         multiplier = 1.0
         for def_type in types:
             multiplier *= matrix.get(atk_type, {}).get(def_type, 1)
         if multiplier != 1.0:
             matchups[atk_type] = multiplier
 
-    result = {
+    return {
         "weak_to_4x": [t for t, m in matchups.items() if m == 4],
         "weak_to_2x": [t for t, m in matchups.items() if m == 2],
         "resistant_0_5x": [t for t, m in matchups.items() if m == 0.5],
         "resistant_0_25x": [t for t, m in matchups.items() if m == 0.25],
         "immune_to": [t for t, m in matchups.items() if m == 0],
     }
-    return result
 
 # ---------------------------------------------------------------------------
 # Main pipeline
 # ---------------------------------------------------------------------------
 
 def main():
-    SPRITE_BASE = "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon"
+    parser = argparse.ArgumentParser(description="Fetch PokeAPI data for one generation.")
+    parser.add_argument("--gen", type=int, choices=(4, 5), default=4,
+                        help="Generation to build (default: 4)")
+    args = parser.parse_args()
 
-    # --- Step 1: Get Sinnoh dex index ---
-    sinnoh_entries = get_sinnoh_dex()
-    # Map pokemon name → sinnoh dex number (used for cross-referencing)
-    sinnoh_name_to_dex = {name: num for num, name in sinnoh_entries}
+    global CFG
+    CFG = GEN_CONFIG[args.gen]
+    output_dir = SCRIPT_DIR.parent / "src" / "data" / f"gen{args.gen}"
+    output_dir.mkdir(parents=True, exist_ok=True)
 
-    # --- Step 2: Fetch all Pokémon data ---
-    print(f"\n[2/6] Fetching data for {len(sinnoh_entries)} Pokémon...")
+    print(f"=== Building Gen {args.gen} ({CFG['region']} — {CFG['version']}) ===")
+
+    # --- Step 1: Regional dex index ---
+    regional_entries = get_regional_dex()
+    regional_name_to_dex = {name: num for num, name in regional_entries}
+
+    expected = CFG["expected_count"]
+    if len(regional_entries) != expected:
+        print(f"  WARNING: expected {expected} entries, got {len(regional_entries)}")
+
+    # --- Step 2: Per-Pokémon data ---
+    print(f"\n[2/6] Fetching data for {len(regional_entries)} Pokémon...")
     pokemon_list = []
     all_move_ids = set()
     evolution_chain_ids_seen = set()
-    evolution_chains_raw = {}  # chain_id → raw chain data
+    evolution_chains_raw = {}
 
-    for sinnoh_num, name in sinnoh_entries:
-        print(f"  [{sinnoh_num:03d}/210] {name.capitalize()}")
+    for regional_num, name in regional_entries:
+        print(f"  [{regional_num:03d}/{len(regional_entries)}] {name.capitalize()}")
 
         species_data = fetch(f"{BASE_URL}/pokemon-species/{name}/")
         national_id = int(species_data["id"])
@@ -444,25 +547,29 @@ def main():
         types = get_types(pokemon_data)
         base_stats, bst = get_base_stats(pokemon_data)
         abilities = get_abilities(pokemon_data)
-        moves = get_platinum_moves(pokemon_data)
+        moves = get_moves_for_version_group(pokemon_data)
         held_items = get_held_items(pokemon_data)
-        encounters = get_platinum_encounters(national_id)
+        version_exclusive = classify_version_exclusive(name)
+
+        # White-exclusives have no Black encounters; skip the fetch entirely.
+        if version_exclusive == "white":
+            encounters = []
+        else:
+            encounters = get_encounters_for_version(national_id)
+
         flavor_text = get_flavor_text(species_data)
         gender_ratio = get_gender_ratio(species_data)
 
-        # Hatch steps: egg_cycles * 255 (Gen 4 formula)
         egg_cycles = species_data.get("hatch_counter", 0)
         hatch_steps = egg_cycles * 255
 
         egg_groups = [g["name"].replace("-", " ").title() for g in species_data.get("egg_groups", [])]
 
-        # Collect all move IDs we'll need to fetch later
         for mu in moves["level_up"]:
             all_move_ids.add(mu["move_id"])
         for mid in moves["tm_hm"] + moves["tutor"] + moves["egg"]:
             all_move_ids.add(mid)
 
-        # Track evolution chain IDs
         chain_url = species_data.get("evolution_chain", {}).get("url", "")
         chain_id = int(chain_url.rstrip("/").split("/")[-1]) if chain_url else None
         if chain_id and chain_id not in evolution_chain_ids_seen:
@@ -470,8 +577,8 @@ def main():
             chain_data = fetch(chain_url)
             evolution_chains_raw[chain_id] = chain_data
 
-        pokemon_list.append({
-            "regional_dex": sinnoh_num,
+        record = {
+            "regional_dex": regional_num,
             "national_dex": national_id,
             "name": name.capitalize(),
             "types": types,
@@ -480,8 +587,8 @@ def main():
             "base_stats": base_stats,
             "base_stat_total": bst,
             "abilities": abilities,
-            "height": round(pokemon_data.get("height", 0) / 10, 1),  # dm → m
-            "weight": round(pokemon_data.get("weight", 0) / 10, 1),  # hg → kg
+            "height": round(pokemon_data.get("height", 0) / 10, 1),
+            "weight": round(pokemon_data.get("weight", 0) / 10, 1),
             "catch_rate": species_data.get("capture_rate"),
             "gender_ratio": gender_ratio,
             "egg_groups": egg_groups,
@@ -490,11 +597,13 @@ def main():
             "evolution_chain_id": chain_id,
             "moves": moves,
             "encounters": encounters,
-            # type_matchups filled in after type chart is built
-            "type_matchups": None,
-        })
+            "type_matchups": None,  # filled in after type chart is built
+        }
+        if args.gen >= 5:
+            record["version_exclusive"] = version_exclusive
+        pokemon_list.append(record)
 
-    # --- Step 3: Fetch all move details ---
+    # --- Step 3: Move details ---
     print(f"\n[3/6] Fetching {len(all_move_ids)} move details...")
     moves_data = {}
     for move_id in sorted(all_move_ids):
@@ -503,7 +612,6 @@ def main():
         if details:
             moves_data[move_id] = details
 
-    # Back-fill "learned_by" on each move
     for poke in pokemon_list:
         name_lower = poke["name"].lower()
         for entry in poke["moves"]["level_up"]:
@@ -520,30 +628,26 @@ def main():
             if mid in moves_data:
                 moves_data[mid]["learned_by"]["egg"][name_lower] = True
 
-    # --- Step 4: Parse evolution chains ---
+    # --- Step 4: Evolution chains ---
     print(f"\n[4/6] Parsing {len(evolution_chains_raw)} evolution chains...")
     evolutions = []
     for chain_id, chain_data in sorted(evolution_chains_raw.items()):
-        parsed = parse_evolution_chain(chain_data, chain_id, sinnoh_name_to_dex, SPRITE_BASE)
+        parsed = parse_evolution_chain(chain_data, chain_id, regional_name_to_dex)
         evolutions.append(parsed)
 
-    # --- Step 5: Build type chart ---
+    # --- Step 5: Type chart ---
     type_chart = build_type_chart()
 
-    # Back-fill type matchups onto each Pokémon
     for poke in pokemon_list:
         poke["type_matchups"] = compute_type_matchups(poke["types"], type_chart)
 
-    # --- Step 6: Build locations.json ---
+    # --- Step 6: Locations index ---
     print("\n[6/6] Building locations index...")
     locations = {}
-    sinnoh_name_lower_to_data = {p["name"].lower(): p for p in pokemon_list}
-
     for poke in pokemon_list:
         for enc in poke["encounters"]:
             loc_id = enc["location"]
             if loc_id not in locations:
-                # Pretty-print location name
                 loc_name = loc_id.replace("-", " ").title()
                 locations[loc_id] = {"name": loc_name, "encounters": []}
             locations[loc_id]["encounters"].append({
@@ -559,8 +663,6 @@ def main():
                 "special": enc["special"],
             })
 
-    # Remove raw encounters from pokemon_list (we normalized them into locations)
-    # but keep a simplified version per Pokémon for the detail view
     for poke in pokemon_list:
         poke["encounters"] = [
             {
@@ -576,12 +678,11 @@ def main():
 
     # --- Write output files ---
     print("\nWriting output files...")
-
-    out_pokemon = OUTPUT_DIR / "pokemon.json"
-    out_moves = OUTPUT_DIR / "moves.json"
-    out_locations = OUTPUT_DIR / "locations.json"
-    out_evolutions = OUTPUT_DIR / "evolutions.json"
-    out_type_chart = OUTPUT_DIR / "type_chart.json"
+    out_pokemon    = output_dir / "pokemon.json"
+    out_moves      = output_dir / "moves.json"
+    out_locations  = output_dir / "locations.json"
+    out_evolutions = output_dir / "evolutions.json"
+    out_type_chart = output_dir / "type_chart.json"
 
     with open(out_pokemon, "w") as f:
         json.dump(pokemon_list, f, indent=2)
@@ -605,9 +706,14 @@ def main():
 
     # --- Validation ---
     print("\n--- Validation ---")
-    assert len(pokemon_list) == 210, f"Expected 210 Pokémon, got {len(pokemon_list)}"
-    dex_nums = [p["regional_dex"] for p in pokemon_list]
-    assert dex_nums == list(range(1, 211)), "Sinnoh dex numbers are not 1-210 with no gaps"
+    assert len(pokemon_list) == expected, f"Expected {expected} Pokémon, got {len(pokemon_list)}"
+    print(f"  OK: exactly {expected} Pokémon")
+
+    dex_nums = sorted(p["regional_dex"] for p in pokemon_list)
+    # Some regional dexes (e.g. Unova B/W) are 0-indexed (Victini=000); accept either.
+    assert dex_nums == list(range(dex_nums[0], dex_nums[0] + expected)), \
+        f"Regional dex numbers are not contiguous: min={dex_nums[0]}, max={dex_nums[-1]}, count={len(dex_nums)}"
+    print(f"  OK: regional_dex values are {dex_nums[0]}-{dex_nums[-1]} with no gaps")
 
     no_moves = [p["name"] for p in pokemon_list if not p["moves"]["level_up"]]
     if no_moves:
@@ -615,20 +721,29 @@ def main():
     else:
         print("  OK: All Pokémon have at least one level-up move")
 
-    starters = ["turtwig", "chimchar", "piplup"]
-    for starter in starters:
+    for starter in CFG["starters"]:
         match = next((p for p in pokemon_list if p["name"].lower() == starter), None)
         if match:
-            print(f"  OK: {starter.capitalize()} found at Sinnoh #{match['regional_dex']} (national #{match['national_dex']})")
+            print(f"  OK: {starter.capitalize()} found at {CFG['region']} #{match['regional_dex']} (national #{match['national_dex']})")
         else:
             print(f"  WARNING: {starter} not found in output!")
 
+    if args.gen >= 5:
+        white_count = sum(1 for p in pokemon_list if p.get("version_exclusive") == "white")
+        black_count = sum(1 for p in pokemon_list if p.get("version_exclusive") == "black")
+        print(f"  OK: version exclusives — White: {white_count}, Black: {black_count}")
+        # Spot-check a few
+        for n in ("zekrom", "thundurus", "solosis", "rufflet", "reshiram"):
+            m = next((p for p in pokemon_list if p["name"].lower() == n), None)
+            if m:
+                print(f"    {n.capitalize():10} → version_exclusive={m.get('version_exclusive')!r}")
+
     assert len(type_chart["types"]) == 17, "Type chart should have 17 types"
-    for t in GEN4_TYPES:
+    for t in GEN4_5_TYPES:
         assert len(type_chart["matrix"][t]) == 17, f"Type {t} row is missing entries"
     print("  OK: Type chart is 17x17")
 
-    print("\nDone! All data files written to src/data/")
+    print(f"\nDone! All data files written to {output_dir}/")
 
 
 if __name__ == "__main__":

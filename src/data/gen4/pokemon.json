@@ -39415,8 +39415,7 @@
     "national_dex": 439,
     "name": "Mime-jr",
     "types": [
-      "Psychic",
-      "Fairy"
+      "Psychic"
     ],
     "description": "It mimics the expressions and motions of those it sees to understand the feelings of others.",
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/439.png",
@@ -39619,8 +39618,7 @@
     "national_dex": 122,
     "name": "Mr-mime",
     "types": [
-      "Psychic",
-      "Fairy"
+      "Psychic"
     ],
     "description": "It shapes an invisible wall in midair by minutely vibrating its fingertips to stop molecules in the air.",
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/122.png",
@@ -40536,7 +40534,7 @@
     "national_dex": 173,
     "name": "Cleffa",
     "types": [
-      "Fairy"
+      "Normal"
     ],
     "description": "It is often seen when shooting stars fill the night skies. It\u2019s said to arrive riding on a shooting star.",
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/173.png",
@@ -40700,10 +40698,14 @@
     ],
     "type_matchups": {
       "weak_to_4x": [],
-      "weak_to_2x": [],
+      "weak_to_2x": [
+        "Fighting"
+      ],
       "resistant_0_5x": [],
       "resistant_0_25x": [],
-      "immune_to": []
+      "immune_to": [
+        "Ghost"
+      ]
     }
   },
   {
@@ -40711,7 +40713,7 @@
     "national_dex": 35,
     "name": "Clefairy",
     "types": [
-      "Fairy"
+      "Normal"
     ],
     "description": "It is said that happiness will come to those who see a gathering of CLEFAIRY dancing under a full moon.",
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/35.png",
@@ -41119,10 +41121,14 @@
     ],
     "type_matchups": {
       "weak_to_4x": [],
-      "weak_to_2x": [],
+      "weak_to_2x": [
+        "Fighting"
+      ],
       "resistant_0_5x": [],
       "resistant_0_25x": [],
-      "immune_to": []
+      "immune_to": [
+        "Ghost"
+      ]
     }
   },
   {
@@ -41130,7 +41136,7 @@
     "national_dex": 36,
     "name": "Clefable",
     "types": [
-      "Fairy"
+      "Normal"
     ],
     "description": "It is very wary and rarely shows itself to people. Its ears can hear a pin drop over half a mile away.",
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/36.png",
@@ -41268,10 +41274,14 @@
     "encounters": [],
     "type_matchups": {
       "weak_to_4x": [],
-      "weak_to_2x": [],
+      "weak_to_2x": [
+        "Fighting"
+      ],
       "resistant_0_5x": [],
       "resistant_0_25x": [],
-      "immune_to": []
+      "immune_to": [
+        "Ghost"
+      ]
     }
   },
   {
@@ -49239,8 +49249,7 @@
     "national_dex": 298,
     "name": "Azurill",
     "types": [
-      "Normal",
-      "Fairy"
+      "Normal"
     ],
     "description": "Its tail bounces like a rubber ball. It flings that tail around to fight opponents bigger than itself.",
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/298.png",
@@ -49363,8 +49372,7 @@
     "national_dex": 183,
     "name": "Marill",
     "types": [
-      "Water",
-      "Fairy"
+      "Water"
     ],
     "description": "The oil-filled end of its tail floats on water. It keeps MARILL from drowning even in a strong current.",
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/183.png",
@@ -49638,8 +49646,7 @@
     "national_dex": 184,
     "name": "Azumarill",
     "types": [
-      "Water",
-      "Fairy"
+      "Water"
     ],
     "description": "It can spend all day in water, since it can inhale and store a large volume of air.",
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/184.png",
@@ -57956,8 +57963,7 @@
     "national_dex": 280,
     "name": "Ralts",
     "types": [
-      "Psychic",
-      "Fairy"
+      "Psychic"
     ],
     "description": "If its horns capture the warm feelings of people or Pok\u00e9mon, its body warms up slightly.",
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/280.png",
@@ -58266,8 +58272,7 @@
     "national_dex": 281,
     "name": "Kirlia",
     "types": [
-      "Psychic",
-      "Fairy"
+      "Psychic"
     ],
     "description": "If its Trainer becomes happy, it overflows with energy, dancing joyously while spinning about.",
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/281.png",
@@ -58524,8 +58529,7 @@
     "national_dex": 282,
     "name": "Gardevoir",
     "types": [
-      "Psychic",
-      "Fairy"
+      "Psychic"
     ],
     "description": "To protect its Trainer, it will expend all its psychic power to create a small black hole.",
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/282.png",
@@ -60958,7 +60962,7 @@
     "national_dex": 175,
     "name": "Togepi",
     "types": [
-      "Fairy"
+      "Normal"
     ],
     "description": "It transforms the kindness and joy of others into happiness, which it stores in its shell.",
     "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/175.png",
@@ -61168,10 +61172,14 @@
     ],
     "type_matchups": {
       "weak_to_4x": [],
-      "weak_to_2x": [],
+      "weak_to_2x": [
+        "Fighting"
+      ],
       "resistant_0_5x": [],
       "resistant_0_25x": [],
-      "immune_to": []
+      "immune_to": [
+        "Ghost"
+      ]
     }
   },
   {
@@ -61179,7 +61187,7 @@
     "national_dex": 176,
     "name": "Togetic",
     "types": [
-      "Fairy",
+      "Normal",
       "Flying"
     ],
     "description": "To share its happiness, it flies around the world seeking kind\u00ad hearted people.",
@@ -61357,12 +61365,12 @@
       ],
       "resistant_0_5x": [
         "Grass",
-        "Fighting",
         "Bug"
       ],
       "resistant_0_25x": [],
       "immune_to": [
-        "Ground"
+        "Ground",
+        "Ghost"
       ]
     }
   },
@@ -61371,7 +61379,7 @@
     "national_dex": 468,
     "name": "Togekiss",
     "types": [
-      "Fairy",
+      "Normal",
       "Flying"
     ],
     "description": "It shares many blessings with people who respect one another\u2019s rights and avoid needless strife.",
@@ -61502,12 +61510,12 @@
       ],
       "resistant_0_5x": [
         "Grass",
-        "Fighting",
         "Bug"
       ],
       "resistant_0_25x": [],
       "immune_to": [
-        "Ground"
+        "Ground",
+        "Ghost"
       ]
     }
   },

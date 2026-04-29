@@ -1,0 +1,1814 @@
+[
+  {
+    "chain_id": 255,
+    "stages": {
+      "pokemon_id": "victini",
+      "name": "Victini",
+      "regional_dex": 0,
+      "national_dex": 494,
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/494.png"
+    }
+  },
+  {
+    "chain_id": 256,
+    "stages": {
+      "pokemon_id": "snivy",
+      "name": "Snivy",
+      "regional_dex": 1,
+      "national_dex": 495,
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/495.png",
+      "evolves_to": [
+        {
+          "pokemon_id": "servine",
+          "name": "Servine",
+          "regional_dex": 2,
+          "national_dex": 496,
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/496.png",
+          "method": {
+            "trigger": "level-up",
+            "level": 17
+          },
+          "evolves_to": [
+            {
+              "pokemon_id": "serperior",
+              "name": "Serperior",
+              "regional_dex": 3,
+              "national_dex": 497,
+              "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/497.png",
+              "method": {
+                "trigger": "level-up",
+                "level": 36
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "chain_id": 257,
+    "stages": {
+      "pokemon_id": "tepig",
+      "name": "Tepig",
+      "regional_dex": 4,
+      "national_dex": 498,
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/498.png",
+      "evolves_to": [
+        {
+          "pokemon_id": "pignite",
+          "name": "Pignite",
+          "regional_dex": 5,
+          "national_dex": 499,
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/499.png",
+          "method": {
+            "trigger": "level-up",
+            "level": 17
+          },
+          "evolves_to": [
+            {
+              "pokemon_id": "emboar",
+              "name": "Emboar",
+              "regional_dex": 6,
+              "national_dex": 500,
+              "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/500.png",
+              "method": {
+                "trigger": "level-up",
+                "level": 36
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "chain_id": 258,
+    "stages": {
+      "pokemon_id": "oshawott",
+      "name": "Oshawott",
+      "regional_dex": 7,
+      "national_dex": 501,
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/501.png",
+      "evolves_to": [
+        {
+          "pokemon_id": "dewott",
+          "name": "Dewott",
+          "regional_dex": 8,
+          "national_dex": 502,
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/502.png",
+          "method": {
+            "trigger": "level-up",
+            "level": 17
+          },
+          "evolves_to": [
+            {
+              "pokemon_id": "samurott",
+              "name": "Samurott",
+              "regional_dex": 9,
+              "national_dex": 503,
+              "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/503.png",
+              "method": {
+                "trigger": "level-up",
+                "level": 36
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "chain_id": 259,
+    "stages": {
+      "pokemon_id": "patrat",
+      "name": "Patrat",
+      "regional_dex": 10,
+      "national_dex": 504,
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/504.png",
+      "evolves_to": [
+        {
+          "pokemon_id": "watchog",
+          "name": "Watchog",
+          "regional_dex": 11,
+          "national_dex": 505,
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/505.png",
+          "method": {
+            "trigger": "level-up",
+            "level": 20
+          }
+        }
+      ]
+    }
+  },
+  {
+    "chain_id": 260,
+    "stages": {
+      "pokemon_id": "lillipup",
+      "name": "Lillipup",
+      "regional_dex": 12,
+      "national_dex": 506,
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/506.png",
+      "evolves_to": [
+        {
+          "pokemon_id": "herdier",
+          "name": "Herdier",
+          "regional_dex": 13,
+          "national_dex": 507,
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/507.png",
+          "method": {
+            "trigger": "level-up",
+            "level": 16
+          },
+          "evolves_to": [
+            {
+              "pokemon_id": "stoutland",
+              "name": "Stoutland",
+              "regional_dex": 14,
+              "national_dex": 508,
+              "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/508.png",
+              "method": {
+                "trigger": "level-up",
+                "level": 32
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "chain_id": 261,
+    "stages": {
+      "pokemon_id": "purrloin",
+      "name": "Purrloin",
+      "regional_dex": 15,
+      "national_dex": 509,
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/509.png",
+      "evolves_to": [
+        {
+          "pokemon_id": "liepard",
+          "name": "Liepard",
+          "regional_dex": 16,
+          "national_dex": 510,
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/510.png",
+          "method": {
+            "trigger": "level-up",
+            "level": 20
+          }
+        }
+      ]
+    }
+  },
+  {
+    "chain_id": 262,
+    "stages": {
+      "pokemon_id": "pansage",
+      "name": "Pansage",
+      "regional_dex": 17,
+      "national_dex": 511,
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/511.png",
+      "evolves_to": [
+        {
+          "pokemon_id": "simisage",
+          "name": "Simisage",
+          "regional_dex": 18,
+          "national_dex": 512,
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/512.png",
+          "method": {
+            "trigger": "use-item",
+            "item": "Leaf Stone"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "chain_id": 263,
+    "stages": {
+      "pokemon_id": "pansear",
+      "name": "Pansear",
+      "regional_dex": 19,
+      "national_dex": 513,
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/513.png",
+      "evolves_to": [
+        {
+          "pokemon_id": "simisear",
+          "name": "Simisear",
+          "regional_dex": 20,
+          "national_dex": 514,
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/514.png",
+          "method": {
+            "trigger": "use-item",
+            "item": "Fire Stone"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "chain_id": 264,
+    "stages": {
+      "pokemon_id": "panpour",
+      "name": "Panpour",
+      "regional_dex": 21,
+      "national_dex": 515,
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/515.png",
+      "evolves_to": [
+        {
+          "pokemon_id": "simipour",
+          "name": "Simipour",
+          "regional_dex": 22,
+          "national_dex": 516,
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/516.png",
+          "method": {
+            "trigger": "use-item",
+            "item": "Water Stone"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "chain_id": 265,
+    "stages": {
+      "pokemon_id": "munna",
+      "name": "Munna",
+      "regional_dex": 23,
+      "national_dex": 517,
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/517.png",
+      "evolves_to": [
+        {
+          "pokemon_id": "musharna",
+          "name": "Musharna",
+          "regional_dex": 24,
+          "national_dex": 518,
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/518.png",
+          "method": {
+            "trigger": "use-item",
+            "item": "Moon Stone"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "chain_id": 266,
+    "stages": {
+      "pokemon_id": "pidove",
+      "name": "Pidove",
+      "regional_dex": 25,
+      "national_dex": 519,
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/519.png",
+      "evolves_to": [
+        {
+          "pokemon_id": "tranquill",
+          "name": "Tranquill",
+          "regional_dex": 26,
+          "national_dex": 520,
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/520.png",
+          "method": {
+            "trigger": "level-up",
+            "level": 21
+          },
+          "evolves_to": [
+            {
+              "pokemon_id": "unfezant",
+              "name": "Unfezant",
+              "regional_dex": 27,
+              "national_dex": 521,
+              "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/521.png",
+              "method": {
+                "trigger": "level-up",
+                "level": 32
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "chain_id": 267,
+    "stages": {
+      "pokemon_id": "blitzle",
+      "name": "Blitzle",
+      "regional_dex": 28,
+      "national_dex": 522,
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/522.png",
+      "evolves_to": [
+        {
+          "pokemon_id": "zebstrika",
+          "name": "Zebstrika",
+          "regional_dex": 29,
+          "national_dex": 523,
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/523.png",
+          "method": {
+            "trigger": "level-up",
+            "level": 27
+          }
+        }
+      ]
+    }
+  },
+  {
+    "chain_id": 268,
+    "stages": {
+      "pokemon_id": "roggenrola",
+      "name": "Roggenrola",
+      "regional_dex": 30,
+      "national_dex": 524,
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/524.png",
+      "evolves_to": [
+        {
+          "pokemon_id": "boldore",
+          "name": "Boldore",
+          "regional_dex": 31,
+          "national_dex": 525,
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/525.png",
+          "method": {
+            "trigger": "level-up",
+            "level": 25
+          },
+          "evolves_to": [
+            {
+              "pokemon_id": "gigalith",
+              "name": "Gigalith",
+              "regional_dex": 32,
+              "national_dex": 526,
+              "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/526.png",
+              "method": {
+                "trigger": "trade"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "chain_id": 269,
+    "stages": {
+      "pokemon_id": "woobat",
+      "name": "Woobat",
+      "regional_dex": 33,
+      "national_dex": 527,
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/527.png",
+      "evolves_to": [
+        {
+          "pokemon_id": "swoobat",
+          "name": "Swoobat",
+          "regional_dex": 34,
+          "national_dex": 528,
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/528.png",
+          "method": {
+            "trigger": "level-up",
+            "happiness": 160
+          }
+        }
+      ]
+    }
+  },
+  {
+    "chain_id": 270,
+    "stages": {
+      "pokemon_id": "drilbur",
+      "name": "Drilbur",
+      "regional_dex": 35,
+      "national_dex": 529,
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/529.png",
+      "evolves_to": [
+        {
+          "pokemon_id": "excadrill",
+          "name": "Excadrill",
+          "regional_dex": 36,
+          "national_dex": 530,
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/530.png",
+          "method": {
+            "trigger": "level-up",
+            "level": 31
+          }
+        }
+      ]
+    }
+  },
+  {
+    "chain_id": 271,
+    "stages": {
+      "pokemon_id": "audino",
+      "name": "Audino",
+      "regional_dex": 37,
+      "national_dex": 531,
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/531.png"
+    }
+  },
+  {
+    "chain_id": 272,
+    "stages": {
+      "pokemon_id": "timburr",
+      "name": "Timburr",
+      "regional_dex": 38,
+      "national_dex": 532,
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/532.png",
+      "evolves_to": [
+        {
+          "pokemon_id": "gurdurr",
+          "name": "Gurdurr",
+          "regional_dex": 39,
+          "national_dex": 533,
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/533.png",
+          "method": {
+            "trigger": "level-up",
+            "level": 25
+          },
+          "evolves_to": [
+            {
+              "pokemon_id": "conkeldurr",
+              "name": "Conkeldurr",
+              "regional_dex": 40,
+              "national_dex": 534,
+              "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/534.png",
+              "method": {
+                "trigger": "trade"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "chain_id": 273,
+    "stages": {
+      "pokemon_id": "tympole",
+      "name": "Tympole",
+      "regional_dex": 41,
+      "national_dex": 535,
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/535.png",
+      "evolves_to": [
+        {
+          "pokemon_id": "palpitoad",
+          "name": "Palpitoad",
+          "regional_dex": 42,
+          "national_dex": 536,
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/536.png",
+          "method": {
+            "trigger": "level-up",
+            "level": 25
+          },
+          "evolves_to": [
+            {
+              "pokemon_id": "seismitoad",
+              "name": "Seismitoad",
+              "regional_dex": 43,
+              "national_dex": 537,
+              "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/537.png",
+              "method": {
+                "trigger": "level-up",
+                "level": 36
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "chain_id": 274,
+    "stages": {
+      "pokemon_id": "throh",
+      "name": "Throh",
+      "regional_dex": 44,
+      "national_dex": 538,
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/538.png"
+    }
+  },
+  {
+    "chain_id": 275,
+    "stages": {
+      "pokemon_id": "sawk",
+      "name": "Sawk",
+      "regional_dex": 45,
+      "national_dex": 539,
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/539.png"
+    }
+  },
+  {
+    "chain_id": 276,
+    "stages": {
+      "pokemon_id": "sewaddle",
+      "name": "Sewaddle",
+      "regional_dex": 46,
+      "national_dex": 540,
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/540.png",
+      "evolves_to": [
+        {
+          "pokemon_id": "swadloon",
+          "name": "Swadloon",
+          "regional_dex": 47,
+          "national_dex": 541,
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/541.png",
+          "method": {
+            "trigger": "level-up",
+            "level": 20
+          },
+          "evolves_to": [
+            {
+              "pokemon_id": "leavanny",
+              "name": "Leavanny",
+              "regional_dex": 48,
+              "national_dex": 542,
+              "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/542.png",
+              "method": {
+                "trigger": "level-up",
+                "happiness": 220
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "chain_id": 277,
+    "stages": {
+      "pokemon_id": "venipede",
+      "name": "Venipede",
+      "regional_dex": 49,
+      "national_dex": 543,
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/543.png",
+      "evolves_to": [
+        {
+          "pokemon_id": "whirlipede",
+          "name": "Whirlipede",
+          "regional_dex": 50,
+          "national_dex": 544,
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/544.png",
+          "method": {
+            "trigger": "level-up",
+            "level": 22
+          },
+          "evolves_to": [
+            {
+              "pokemon_id": "scolipede",
+              "name": "Scolipede",
+              "regional_dex": 51,
+              "national_dex": 545,
+              "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/545.png",
+              "method": {
+                "trigger": "level-up",
+                "level": 30
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "chain_id": 278,
+    "stages": {
+      "pokemon_id": "cottonee",
+      "name": "Cottonee",
+      "regional_dex": 52,
+      "national_dex": 546,
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/546.png",
+      "evolves_to": [
+        {
+          "pokemon_id": "whimsicott",
+          "name": "Whimsicott",
+          "regional_dex": 53,
+          "national_dex": 547,
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/547.png",
+          "method": {
+            "trigger": "use-item",
+            "item": "Sun Stone"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "chain_id": 279,
+    "stages": {
+      "pokemon_id": "petilil",
+      "name": "Petilil",
+      "regional_dex": 54,
+      "national_dex": 548,
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/548.png",
+      "evolves_to": [
+        {
+          "pokemon_id": "lilligant",
+          "name": "Lilligant",
+          "regional_dex": 55,
+          "national_dex": 549,
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/549.png",
+          "method": {
+            "trigger": "use-item",
+            "item": "Sun Stone"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "chain_id": 280,
+    "stages": {
+      "pokemon_id": "basculin",
+      "name": "Basculin",
+      "regional_dex": 56,
+      "national_dex": 550,
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/550.png",
+      "evolves_to": [
+        {
+          "pokemon_id": "basculegion",
+          "name": "Basculegion",
+          "regional_dex": null,
+          "national_dex": 902,
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/902.png",
+          "method": {
+            "trigger": "recoil-damage"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "chain_id": 281,
+    "stages": {
+      "pokemon_id": "sandile",
+      "name": "Sandile",
+      "regional_dex": 57,
+      "national_dex": 551,
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/551.png",
+      "evolves_to": [
+        {
+          "pokemon_id": "krokorok",
+          "name": "Krokorok",
+          "regional_dex": 58,
+          "national_dex": 552,
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/552.png",
+          "method": {
+            "trigger": "level-up",
+            "level": 29
+          },
+          "evolves_to": [
+            {
+              "pokemon_id": "krookodile",
+              "name": "Krookodile",
+              "regional_dex": 59,
+              "national_dex": 553,
+              "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/553.png",
+              "method": {
+                "trigger": "level-up",
+                "level": 40
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "chain_id": 282,
+    "stages": {
+      "pokemon_id": "darumaka",
+      "name": "Darumaka",
+      "regional_dex": 60,
+      "national_dex": 554,
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/554.png",
+      "evolves_to": [
+        {
+          "pokemon_id": "darmanitan",
+          "name": "Darmanitan",
+          "regional_dex": 61,
+          "national_dex": 555,
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/555.png",
+          "method": {
+            "trigger": "level-up",
+            "level": 35
+          }
+        }
+      ]
+    }
+  },
+  {
+    "chain_id": 283,
+    "stages": {
+      "pokemon_id": "maractus",
+      "name": "Maractus",
+      "regional_dex": 62,
+      "national_dex": 556,
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/556.png"
+    }
+  },
+  {
+    "chain_id": 284,
+    "stages": {
+      "pokemon_id": "dwebble",
+      "name": "Dwebble",
+      "regional_dex": 63,
+      "national_dex": 557,
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/557.png",
+      "evolves_to": [
+        {
+          "pokemon_id": "crustle",
+          "name": "Crustle",
+          "regional_dex": 64,
+          "national_dex": 558,
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/558.png",
+          "method": {
+            "trigger": "level-up",
+            "level": 34
+          }
+        }
+      ]
+    }
+  },
+  {
+    "chain_id": 285,
+    "stages": {
+      "pokemon_id": "scraggy",
+      "name": "Scraggy",
+      "regional_dex": 65,
+      "national_dex": 559,
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/559.png",
+      "evolves_to": [
+        {
+          "pokemon_id": "scrafty",
+          "name": "Scrafty",
+          "regional_dex": 66,
+          "national_dex": 560,
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/560.png",
+          "method": {
+            "trigger": "level-up",
+            "level": 39
+          }
+        }
+      ]
+    }
+  },
+  {
+    "chain_id": 286,
+    "stages": {
+      "pokemon_id": "sigilyph",
+      "name": "Sigilyph",
+      "regional_dex": 67,
+      "national_dex": 561,
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/561.png"
+    }
+  },
+  {
+    "chain_id": 287,
+    "stages": {
+      "pokemon_id": "yamask",
+      "name": "Yamask",
+      "regional_dex": 68,
+      "national_dex": 562,
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/562.png",
+      "evolves_to": [
+        {
+          "pokemon_id": "cofagrigus",
+          "name": "Cofagrigus",
+          "regional_dex": 69,
+          "national_dex": 563,
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/563.png",
+          "method": {
+            "trigger": "level-up",
+            "level": 34
+          }
+        },
+        {
+          "pokemon_id": "runerigus",
+          "name": "Runerigus",
+          "regional_dex": null,
+          "national_dex": 867,
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/867.png",
+          "method": {
+            "trigger": "take-damage"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "chain_id": 288,
+    "stages": {
+      "pokemon_id": "tirtouga",
+      "name": "Tirtouga",
+      "regional_dex": 70,
+      "national_dex": 564,
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/564.png",
+      "evolves_to": [
+        {
+          "pokemon_id": "carracosta",
+          "name": "Carracosta",
+          "regional_dex": 71,
+          "national_dex": 565,
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/565.png",
+          "method": {
+            "trigger": "level-up",
+            "level": 37
+          }
+        }
+      ]
+    }
+  },
+  {
+    "chain_id": 289,
+    "stages": {
+      "pokemon_id": "archen",
+      "name": "Archen",
+      "regional_dex": 72,
+      "national_dex": 566,
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/566.png",
+      "evolves_to": [
+        {
+          "pokemon_id": "archeops",
+          "name": "Archeops",
+          "regional_dex": 73,
+          "national_dex": 567,
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/567.png",
+          "method": {
+            "trigger": "level-up",
+            "level": 37
+          }
+        }
+      ]
+    }
+  },
+  {
+    "chain_id": 290,
+    "stages": {
+      "pokemon_id": "trubbish",
+      "name": "Trubbish",
+      "regional_dex": 74,
+      "national_dex": 568,
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/568.png",
+      "evolves_to": [
+        {
+          "pokemon_id": "garbodor",
+          "name": "Garbodor",
+          "regional_dex": 75,
+          "national_dex": 569,
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/569.png",
+          "method": {
+            "trigger": "level-up",
+            "level": 36
+          }
+        }
+      ]
+    }
+  },
+  {
+    "chain_id": 291,
+    "stages": {
+      "pokemon_id": "zorua",
+      "name": "Zorua",
+      "regional_dex": 76,
+      "national_dex": 570,
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/570.png",
+      "evolves_to": [
+        {
+          "pokemon_id": "zoroark",
+          "name": "Zoroark",
+          "regional_dex": 77,
+          "national_dex": 571,
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/571.png",
+          "method": {
+            "trigger": "level-up",
+            "level": 30
+          }
+        }
+      ]
+    }
+  },
+  {
+    "chain_id": 292,
+    "stages": {
+      "pokemon_id": "minccino",
+      "name": "Minccino",
+      "regional_dex": 78,
+      "national_dex": 572,
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/572.png",
+      "evolves_to": [
+        {
+          "pokemon_id": "cinccino",
+          "name": "Cinccino",
+          "regional_dex": 79,
+          "national_dex": 573,
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/573.png",
+          "method": {
+            "trigger": "use-item",
+            "item": "Shiny Stone"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "chain_id": 293,
+    "stages": {
+      "pokemon_id": "gothita",
+      "name": "Gothita",
+      "regional_dex": 80,
+      "national_dex": 574,
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/574.png",
+      "evolves_to": [
+        {
+          "pokemon_id": "gothorita",
+          "name": "Gothorita",
+          "regional_dex": 81,
+          "national_dex": 575,
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/575.png",
+          "method": {
+            "trigger": "level-up",
+            "level": 32
+          },
+          "evolves_to": [
+            {
+              "pokemon_id": "gothitelle",
+              "name": "Gothitelle",
+              "regional_dex": 82,
+              "national_dex": 576,
+              "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/576.png",
+              "method": {
+                "trigger": "level-up",
+                "level": 41
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "chain_id": 294,
+    "stages": {
+      "pokemon_id": "solosis",
+      "name": "Solosis",
+      "regional_dex": 83,
+      "national_dex": 577,
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/577.png",
+      "evolves_to": [
+        {
+          "pokemon_id": "duosion",
+          "name": "Duosion",
+          "regional_dex": 84,
+          "national_dex": 578,
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/578.png",
+          "method": {
+            "trigger": "level-up",
+            "level": 32
+          },
+          "evolves_to": [
+            {
+              "pokemon_id": "reuniclus",
+              "name": "Reuniclus",
+              "regional_dex": 85,
+              "national_dex": 579,
+              "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/579.png",
+              "method": {
+                "trigger": "level-up",
+                "level": 41
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "chain_id": 295,
+    "stages": {
+      "pokemon_id": "ducklett",
+      "name": "Ducklett",
+      "regional_dex": 86,
+      "national_dex": 580,
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/580.png",
+      "evolves_to": [
+        {
+          "pokemon_id": "swanna",
+          "name": "Swanna",
+          "regional_dex": 87,
+          "national_dex": 581,
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/581.png",
+          "method": {
+            "trigger": "level-up",
+            "level": 35
+          }
+        }
+      ]
+    }
+  },
+  {
+    "chain_id": 296,
+    "stages": {
+      "pokemon_id": "vanillite",
+      "name": "Vanillite",
+      "regional_dex": 88,
+      "national_dex": 582,
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/582.png",
+      "evolves_to": [
+        {
+          "pokemon_id": "vanillish",
+          "name": "Vanillish",
+          "regional_dex": 89,
+          "national_dex": 583,
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/583.png",
+          "method": {
+            "trigger": "level-up",
+            "level": 35
+          },
+          "evolves_to": [
+            {
+              "pokemon_id": "vanilluxe",
+              "name": "Vanilluxe",
+              "regional_dex": 90,
+              "national_dex": 584,
+              "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/584.png",
+              "method": {
+                "trigger": "level-up",
+                "level": 47
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "chain_id": 297,
+    "stages": {
+      "pokemon_id": "deerling",
+      "name": "Deerling",
+      "regional_dex": 91,
+      "national_dex": 585,
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/585.png",
+      "evolves_to": [
+        {
+          "pokemon_id": "sawsbuck",
+          "name": "Sawsbuck",
+          "regional_dex": 92,
+          "national_dex": 586,
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/586.png",
+          "method": {
+            "trigger": "level-up",
+            "level": 34
+          }
+        }
+      ]
+    }
+  },
+  {
+    "chain_id": 298,
+    "stages": {
+      "pokemon_id": "emolga",
+      "name": "Emolga",
+      "regional_dex": 93,
+      "national_dex": 587,
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/587.png"
+    }
+  },
+  {
+    "chain_id": 299,
+    "stages": {
+      "pokemon_id": "karrablast",
+      "name": "Karrablast",
+      "regional_dex": 94,
+      "national_dex": 588,
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/588.png",
+      "evolves_to": [
+        {
+          "pokemon_id": "escavalier",
+          "name": "Escavalier",
+          "regional_dex": 95,
+          "national_dex": 589,
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/589.png",
+          "method": {
+            "trigger": "trade"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "chain_id": 300,
+    "stages": {
+      "pokemon_id": "foongus",
+      "name": "Foongus",
+      "regional_dex": 96,
+      "national_dex": 590,
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/590.png",
+      "evolves_to": [
+        {
+          "pokemon_id": "amoonguss",
+          "name": "Amoonguss",
+          "regional_dex": 97,
+          "national_dex": 591,
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/591.png",
+          "method": {
+            "trigger": "level-up",
+            "level": 39
+          }
+        }
+      ]
+    }
+  },
+  {
+    "chain_id": 301,
+    "stages": {
+      "pokemon_id": "frillish",
+      "name": "Frillish",
+      "regional_dex": 98,
+      "national_dex": 592,
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/592.png",
+      "evolves_to": [
+        {
+          "pokemon_id": "jellicent",
+          "name": "Jellicent",
+          "regional_dex": 99,
+          "national_dex": 593,
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/593.png",
+          "method": {
+            "trigger": "level-up",
+            "level": 40
+          }
+        }
+      ]
+    }
+  },
+  {
+    "chain_id": 302,
+    "stages": {
+      "pokemon_id": "alomomola",
+      "name": "Alomomola",
+      "regional_dex": 100,
+      "national_dex": 594,
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/594.png"
+    }
+  },
+  {
+    "chain_id": 303,
+    "stages": {
+      "pokemon_id": "joltik",
+      "name": "Joltik",
+      "regional_dex": 101,
+      "national_dex": 595,
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/595.png",
+      "evolves_to": [
+        {
+          "pokemon_id": "galvantula",
+          "name": "Galvantula",
+          "regional_dex": 102,
+          "national_dex": 596,
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/596.png",
+          "method": {
+            "trigger": "level-up",
+            "level": 36
+          }
+        }
+      ]
+    }
+  },
+  {
+    "chain_id": 304,
+    "stages": {
+      "pokemon_id": "ferroseed",
+      "name": "Ferroseed",
+      "regional_dex": 103,
+      "national_dex": 597,
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/597.png",
+      "evolves_to": [
+        {
+          "pokemon_id": "ferrothorn",
+          "name": "Ferrothorn",
+          "regional_dex": 104,
+          "national_dex": 598,
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/598.png",
+          "method": {
+            "trigger": "level-up",
+            "level": 40
+          }
+        }
+      ]
+    }
+  },
+  {
+    "chain_id": 305,
+    "stages": {
+      "pokemon_id": "klink",
+      "name": "Klink",
+      "regional_dex": 105,
+      "national_dex": 599,
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/599.png",
+      "evolves_to": [
+        {
+          "pokemon_id": "klang",
+          "name": "Klang",
+          "regional_dex": 106,
+          "national_dex": 600,
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/600.png",
+          "method": {
+            "trigger": "level-up",
+            "level": 38
+          },
+          "evolves_to": [
+            {
+              "pokemon_id": "klinklang",
+              "name": "Klinklang",
+              "regional_dex": 107,
+              "national_dex": 601,
+              "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/601.png",
+              "method": {
+                "trigger": "level-up",
+                "level": 49
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "chain_id": 306,
+    "stages": {
+      "pokemon_id": "tynamo",
+      "name": "Tynamo",
+      "regional_dex": 108,
+      "national_dex": 602,
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/602.png",
+      "evolves_to": [
+        {
+          "pokemon_id": "eelektrik",
+          "name": "Eelektrik",
+          "regional_dex": 109,
+          "national_dex": 603,
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/603.png",
+          "method": {
+            "trigger": "level-up",
+            "level": 39
+          },
+          "evolves_to": [
+            {
+              "pokemon_id": "eelektross",
+              "name": "Eelektross",
+              "regional_dex": 110,
+              "national_dex": 604,
+              "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/604.png",
+              "method": {
+                "trigger": "use-item",
+                "item": "Thunder Stone"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "chain_id": 307,
+    "stages": {
+      "pokemon_id": "elgyem",
+      "name": "Elgyem",
+      "regional_dex": 111,
+      "national_dex": 605,
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/605.png",
+      "evolves_to": [
+        {
+          "pokemon_id": "beheeyem",
+          "name": "Beheeyem",
+          "regional_dex": 112,
+          "national_dex": 606,
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/606.png",
+          "method": {
+            "trigger": "level-up",
+            "level": 42
+          }
+        }
+      ]
+    }
+  },
+  {
+    "chain_id": 308,
+    "stages": {
+      "pokemon_id": "litwick",
+      "name": "Litwick",
+      "regional_dex": 113,
+      "national_dex": 607,
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/607.png",
+      "evolves_to": [
+        {
+          "pokemon_id": "lampent",
+          "name": "Lampent",
+          "regional_dex": 114,
+          "national_dex": 608,
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/608.png",
+          "method": {
+            "trigger": "level-up",
+            "level": 41
+          },
+          "evolves_to": [
+            {
+              "pokemon_id": "chandelure",
+              "name": "Chandelure",
+              "regional_dex": 115,
+              "national_dex": 609,
+              "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/609.png",
+              "method": {
+                "trigger": "use-item",
+                "item": "Dusk Stone"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "chain_id": 309,
+    "stages": {
+      "pokemon_id": "axew",
+      "name": "Axew",
+      "regional_dex": 116,
+      "national_dex": 610,
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/610.png",
+      "evolves_to": [
+        {
+          "pokemon_id": "fraxure",
+          "name": "Fraxure",
+          "regional_dex": 117,
+          "national_dex": 611,
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/611.png",
+          "method": {
+            "trigger": "level-up",
+            "level": 38
+          },
+          "evolves_to": [
+            {
+              "pokemon_id": "haxorus",
+              "name": "Haxorus",
+              "regional_dex": 118,
+              "national_dex": 612,
+              "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/612.png",
+              "method": {
+                "trigger": "level-up",
+                "level": 48
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "chain_id": 310,
+    "stages": {
+      "pokemon_id": "cubchoo",
+      "name": "Cubchoo",
+      "regional_dex": 119,
+      "national_dex": 613,
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/613.png",
+      "evolves_to": [
+        {
+          "pokemon_id": "beartic",
+          "name": "Beartic",
+          "regional_dex": 120,
+          "national_dex": 614,
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/614.png",
+          "method": {
+            "trigger": "level-up",
+            "level": 37
+          }
+        }
+      ]
+    }
+  },
+  {
+    "chain_id": 311,
+    "stages": {
+      "pokemon_id": "cryogonal",
+      "name": "Cryogonal",
+      "regional_dex": 121,
+      "national_dex": 615,
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/615.png"
+    }
+  },
+  {
+    "chain_id": 312,
+    "stages": {
+      "pokemon_id": "shelmet",
+      "name": "Shelmet",
+      "regional_dex": 122,
+      "national_dex": 616,
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/616.png",
+      "evolves_to": [
+        {
+          "pokemon_id": "accelgor",
+          "name": "Accelgor",
+          "regional_dex": 123,
+          "national_dex": 617,
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/617.png",
+          "method": {
+            "trigger": "trade"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "chain_id": 313,
+    "stages": {
+      "pokemon_id": "stunfisk",
+      "name": "Stunfisk",
+      "regional_dex": 124,
+      "national_dex": 618,
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/618.png"
+    }
+  },
+  {
+    "chain_id": 314,
+    "stages": {
+      "pokemon_id": "mienfoo",
+      "name": "Mienfoo",
+      "regional_dex": 125,
+      "national_dex": 619,
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/619.png",
+      "evolves_to": [
+        {
+          "pokemon_id": "mienshao",
+          "name": "Mienshao",
+          "regional_dex": 126,
+          "national_dex": 620,
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/620.png",
+          "method": {
+            "trigger": "level-up",
+            "level": 50
+          }
+        }
+      ]
+    }
+  },
+  {
+    "chain_id": 315,
+    "stages": {
+      "pokemon_id": "druddigon",
+      "name": "Druddigon",
+      "regional_dex": 127,
+      "national_dex": 621,
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/621.png"
+    }
+  },
+  {
+    "chain_id": 316,
+    "stages": {
+      "pokemon_id": "golett",
+      "name": "Golett",
+      "regional_dex": 128,
+      "national_dex": 622,
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/622.png",
+      "evolves_to": [
+        {
+          "pokemon_id": "golurk",
+          "name": "Golurk",
+          "regional_dex": 129,
+          "national_dex": 623,
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/623.png",
+          "method": {
+            "trigger": "level-up",
+            "level": 43
+          }
+        }
+      ]
+    }
+  },
+  {
+    "chain_id": 317,
+    "stages": {
+      "pokemon_id": "pawniard",
+      "name": "Pawniard",
+      "regional_dex": 130,
+      "national_dex": 624,
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/624.png",
+      "evolves_to": [
+        {
+          "pokemon_id": "bisharp",
+          "name": "Bisharp",
+          "regional_dex": 131,
+          "national_dex": 625,
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/625.png",
+          "method": {
+            "trigger": "level-up",
+            "level": 52
+          },
+          "evolves_to": [
+            {
+              "pokemon_id": "kingambit",
+              "name": "Kingambit",
+              "regional_dex": null,
+              "national_dex": 983,
+              "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/983.png",
+              "method": {
+                "trigger": "three-defeated-bisharp"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "chain_id": 318,
+    "stages": {
+      "pokemon_id": "bouffalant",
+      "name": "Bouffalant",
+      "regional_dex": 132,
+      "national_dex": 626,
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/626.png"
+    }
+  },
+  {
+    "chain_id": 319,
+    "stages": {
+      "pokemon_id": "rufflet",
+      "name": "Rufflet",
+      "regional_dex": 133,
+      "national_dex": 627,
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/627.png",
+      "evolves_to": [
+        {
+          "pokemon_id": "braviary",
+          "name": "Braviary",
+          "regional_dex": 134,
+          "national_dex": 628,
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/628.png",
+          "method": {
+            "trigger": "level-up",
+            "level": 54
+          }
+        }
+      ]
+    }
+  },
+  {
+    "chain_id": 320,
+    "stages": {
+      "pokemon_id": "vullaby",
+      "name": "Vullaby",
+      "regional_dex": 135,
+      "national_dex": 629,
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/629.png",
+      "evolves_to": [
+        {
+          "pokemon_id": "mandibuzz",
+          "name": "Mandibuzz",
+          "regional_dex": 136,
+          "national_dex": 630,
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/630.png",
+          "method": {
+            "trigger": "level-up",
+            "level": 54
+          }
+        }
+      ]
+    }
+  },
+  {
+    "chain_id": 321,
+    "stages": {
+      "pokemon_id": "heatmor",
+      "name": "Heatmor",
+      "regional_dex": 137,
+      "national_dex": 631,
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/631.png"
+    }
+  },
+  {
+    "chain_id": 322,
+    "stages": {
+      "pokemon_id": "durant",
+      "name": "Durant",
+      "regional_dex": 138,
+      "national_dex": 632,
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/632.png"
+    }
+  },
+  {
+    "chain_id": 323,
+    "stages": {
+      "pokemon_id": "deino",
+      "name": "Deino",
+      "regional_dex": 139,
+      "national_dex": 633,
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/633.png",
+      "evolves_to": [
+        {
+          "pokemon_id": "zweilous",
+          "name": "Zweilous",
+          "regional_dex": 140,
+          "national_dex": 634,
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/634.png",
+          "method": {
+            "trigger": "level-up",
+            "level": 50
+          },
+          "evolves_to": [
+            {
+              "pokemon_id": "hydreigon",
+              "name": "Hydreigon",
+              "regional_dex": 141,
+              "national_dex": 635,
+              "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/635.png",
+              "method": {
+                "trigger": "level-up",
+                "level": 64
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "chain_id": 324,
+    "stages": {
+      "pokemon_id": "larvesta",
+      "name": "Larvesta",
+      "regional_dex": 142,
+      "national_dex": 636,
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/636.png",
+      "evolves_to": [
+        {
+          "pokemon_id": "volcarona",
+          "name": "Volcarona",
+          "regional_dex": 143,
+          "national_dex": 637,
+          "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/637.png",
+          "method": {
+            "trigger": "level-up",
+            "level": 59
+          }
+        }
+      ]
+    }
+  },
+  {
+    "chain_id": 325,
+    "stages": {
+      "pokemon_id": "cobalion",
+      "name": "Cobalion",
+      "regional_dex": 144,
+      "national_dex": 638,
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/638.png"
+    }
+  },
+  {
+    "chain_id": 326,
+    "stages": {
+      "pokemon_id": "terrakion",
+      "name": "Terrakion",
+      "regional_dex": 145,
+      "national_dex": 639,
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/639.png"
+    }
+  },
+  {
+    "chain_id": 327,
+    "stages": {
+      "pokemon_id": "virizion",
+      "name": "Virizion",
+      "regional_dex": 146,
+      "national_dex": 640,
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/640.png"
+    }
+  },
+  {
+    "chain_id": 328,
+    "stages": {
+      "pokemon_id": "tornadus",
+      "name": "Tornadus",
+      "regional_dex": 147,
+      "national_dex": 641,
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/641.png"
+    }
+  },
+  {
+    "chain_id": 329,
+    "stages": {
+      "pokemon_id": "thundurus",
+      "name": "Thundurus",
+      "regional_dex": 148,
+      "national_dex": 642,
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/642.png"
+    }
+  },
+  {
+    "chain_id": 330,
+    "stages": {
+      "pokemon_id": "reshiram",
+      "name": "Reshiram",
+      "regional_dex": 149,
+      "national_dex": 643,
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/643.png"
+    }
+  },
+  {
+    "chain_id": 331,
+    "stages": {
+      "pokemon_id": "zekrom",
+      "name": "Zekrom",
+      "regional_dex": 150,
+      "national_dex": 644,
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/644.png"
+    }
+  },
+  {
+    "chain_id": 332,
+    "stages": {
+      "pokemon_id": "landorus",
+      "name": "Landorus",
+      "regional_dex": 151,
+      "national_dex": 645,
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/645.png"
+    }
+  },
+  {
+    "chain_id": 333,
+    "stages": {
+      "pokemon_id": "kyurem",
+      "name": "Kyurem",
+      "regional_dex": 152,
+      "national_dex": 646,
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/646.png"
+    }
+  },
+  {
+    "chain_id": 334,
+    "stages": {
+      "pokemon_id": "keldeo",
+      "name": "Keldeo",
+      "regional_dex": 153,
+      "national_dex": 647,
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/647.png"
+    }
+  },
+  {
+    "chain_id": 335,
+    "stages": {
+      "pokemon_id": "meloetta",
+      "name": "Meloetta",
+      "regional_dex": 154,
+      "national_dex": 648,
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/648.png"
+    }
+  },
+  {
+    "chain_id": 336,
+    "stages": {
+      "pokemon_id": "genesect",
+      "name": "Genesect",
+      "regional_dex": 155,
+      "national_dex": 649,
+      "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/649.png"
+    }
+  }
+]
