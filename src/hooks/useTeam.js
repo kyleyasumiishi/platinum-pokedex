@@ -1,7 +1,7 @@
 /**
  * useTeam.js — Custom hook for managing the pinned Pokémon team.
  *
- * Stores up to 6 Sinnoh dex numbers in localStorage so the team persists
+ * Stores up to 6 regional dex numbers in localStorage so the team persists
  * across sessions (closing and reopening the browser).
  *
  * HOW localStorage WORKS:
@@ -16,8 +16,8 @@
  *   React manages the state in memory and we sync to localStorage on changes.
  *
  * RETURNS:
- *   team         — array of sinnoh_dex numbers currently on the team (max 6)
- *   isOnTeam(n)  — returns true if sinnoh_dex n is on the team
+ *   team         — array of regional_dex numbers currently on the team (max 6)
+ *   isOnTeam(n)  — returns true if regional_dex n is on the team
  *   toggleTeam(n)— adds n if not present (if room), removes it if present
  */
 import { useState, useEffect } from 'react'
@@ -40,21 +40,21 @@ export function useTeam() {
     localStorage.setItem(STORAGE_KEY, JSON.stringify(team))
   }, [team])
 
-  function isOnTeam(sinnohDex) {
-    return team.includes(sinnohDex)
+  function isOnTeam(regionalDex) {
+    return team.includes(regionalDex)
   }
 
-  function toggleTeam(sinnohDex) {
+  function toggleTeam(regionalDex) {
     setTeam(prev => {
-      if (prev.includes(sinnohDex)) {
+      if (prev.includes(regionalDex)) {
         // Remove from team
-        return prev.filter(n => n !== sinnohDex)
+        return prev.filter(n => n !== regionalDex)
       }
       if (prev.length >= MAX_TEAM) {
         // Team is full — don't add, return unchanged
         return prev
       }
-      return [...prev, sinnohDex]
+      return [...prev, regionalDex]
     })
   }
 

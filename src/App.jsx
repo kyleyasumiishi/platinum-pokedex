@@ -50,7 +50,7 @@ export default function App() {
         >
           <Routes>
             <Route path="/"                   element={<PokedexPage />}      />
-            <Route path="/pokemon/:sinnohDex" element={<PokemonDetailPage />} />
+            <Route path="/pokemon/:regionalDex" element={<PokemonDetailPage />} />
             <Route path="/routes"                  element={<RoutesPage />}       />
             <Route path="/routes/:locationId"     element={<RouteDetailPage />}  />
             <Route path="/moves"              element={<MovesPage />}         />

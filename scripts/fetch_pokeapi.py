@@ -257,7 +257,7 @@ def parse_evolution_chain(chain_data: dict, chain_id: int, sinnoh_name_to_dex: d
         node = {
             "pokemon_id": name,
             "name": name.capitalize(),
-            "sinnoh_dex": sinnoh_num,
+            "regional_dex": sinnoh_num,
             "national_dex": int(national_id),
             "sprite_url": f"{sprite_base}/{national_id}.png",
         }
@@ -471,7 +471,7 @@ def main():
             evolution_chains_raw[chain_id] = chain_data
 
         pokemon_list.append({
-            "sinnoh_dex": sinnoh_num,
+            "regional_dex": sinnoh_num,
             "national_dex": national_id,
             "name": name.capitalize(),
             "types": types,
@@ -549,7 +549,7 @@ def main():
             locations[loc_id]["encounters"].append({
                 "pokemon_id": poke["name"].lower(),
                 "pokemon_name": poke["name"],
-                "sinnoh_dex": poke["sinnoh_dex"],
+                "regional_dex": poke["regional_dex"],
                 "national_dex": poke["national_dex"],
                 "sprite_url": poke["sprite_url"],
                 "method": enc["method"],
@@ -606,7 +606,7 @@ def main():
     # --- Validation ---
     print("\n--- Validation ---")
     assert len(pokemon_list) == 210, f"Expected 210 Pokémon, got {len(pokemon_list)}"
-    dex_nums = [p["sinnoh_dex"] for p in pokemon_list]
+    dex_nums = [p["regional_dex"] for p in pokemon_list]
     assert dex_nums == list(range(1, 211)), "Sinnoh dex numbers are not 1-210 with no gaps"
 
     no_moves = [p["name"] for p in pokemon_list if not p["moves"]["level_up"]]
@@ -619,7 +619,7 @@ def main():
     for starter in starters:
         match = next((p for p in pokemon_list if p["name"].lower() == starter), None)
         if match:
-            print(f"  OK: {starter.capitalize()} found at Sinnoh #{match['sinnoh_dex']} (national #{match['national_dex']})")
+            print(f"  OK: {starter.capitalize()} found at Sinnoh #{match['regional_dex']} (national #{match['national_dex']})")
         else:
             print(f"  WARNING: {starter} not found in output!")
 

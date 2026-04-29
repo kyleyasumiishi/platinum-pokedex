@@ -66,7 +66,7 @@ export default function PokemonList() {
       // Search match: name or dex number
       if (q) {
         const nameMatch = p.name.toLowerCase().includes(q)
-        const numMatch  = String(p.sinnoh_dex).startsWith(q)
+        const numMatch  = String(p.regional_dex).startsWith(q)
         if (!nameMatch && !numMatch) return false
       }
       // Type filter: Pokémon must have ALL selected types
@@ -79,7 +79,7 @@ export default function PokemonList() {
 
     // Sort — for each option, 'asc' is the natural order, 'desc' reverses it
     const dir = sortDir === 'asc' ? 1 : -1
-    if (sortBy === 'dex')   list = [...list].sort((a, b) => (a.sinnoh_dex - b.sinnoh_dex) * dir)
+    if (sortBy === 'dex')   list = [...list].sort((a, b) => (a.regional_dex - b.regional_dex) * dir)
     if (sortBy === 'alpha') list = [...list].sort((a, b) => a.name.localeCompare(b.name) * dir)
     if (sortBy === 'bst')   list = [...list].sort((a, b) => (b.base_stat_total - a.base_stat_total) * dir)
 
@@ -209,7 +209,7 @@ export default function PokemonList() {
             No Pokémon found.
           </div>
         ) : (
-          filtered.map(p => <PokemonCard key={p.sinnoh_dex} pokemon={p} />)
+          filtered.map(p => <PokemonCard key={p.regional_dex} pokemon={p} />)
         )}
       </div>
     </div>

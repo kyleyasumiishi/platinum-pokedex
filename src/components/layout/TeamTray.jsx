@@ -11,7 +11,7 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { useTeamContext } from '../../context/TeamContext'
-import { pokemonBySinnohDex, spriteUrl } from '../../utils/dataLoader'
+import { pokemonByRegionalDex, spriteUrl } from '../../utils/dataLoader'
 
 const MASTER_BALL_URL = `${import.meta.env.BASE_URL}sprites/items/master-ball.png`
 
@@ -57,13 +57,13 @@ export default function TeamTray() {
             </p>
           ) : (
             <div className="flex flex-wrap gap-2">
-              {team.map(sinnohDex => {
-                const p = pokemonBySinnohDex.get(sinnohDex)
+              {team.map(regionalDex => {
+                const p = pokemonByRegionalDex.get(regionalDex)
                 if (!p) return null
                 return (
-                  <div key={sinnohDex} style={{ position: 'relative' }}>
+                  <div key={regionalDex} style={{ position: 'relative' }}>
                     <Link
-                      to={`/pokemon/${sinnohDex}`}
+                      to={`/pokemon/${regionalDex}`}
                       onClick={() => setIsOpen(false)}
                       style={{ textDecoration: 'none' }}
                     >
@@ -85,7 +85,7 @@ export default function TeamTray() {
 
                     {/* Remove button */}
                     <button
-                      onClick={() => toggleTeam(sinnohDex)}
+                      onClick={() => toggleTeam(regionalDex)}
                       style={{
                         position: 'absolute',
                         top: -4,

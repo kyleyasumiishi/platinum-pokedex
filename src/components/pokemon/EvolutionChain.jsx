@@ -5,8 +5,8 @@
  * This component renders it recursively. For branching chains (e.g. Ralts →
  * Gardevoir OR Gallade), the branches are stacked vertically.
  *
- * Each Pokémon in the chain is a Link to its detail page (by Sinnoh dex number).
- * If the Pokémon is not in the Sinnoh dex (sinnoh_dex is null), we show the
+ * Each Pokémon in the chain is a Link to its detail page (by regional dex number).
+ * If the Pokémon is not in the regional dex (regional_dex is null), we show the
  * sprite and name but don't link — it's for context only.
  *
  * Props:
@@ -38,7 +38,7 @@ function methodLabel(method) {
 
 function ChainNode({ node, currentName }) {
   const isCurrentPokemon = node.pokemon_id === currentName
-  const hasSinnohDex = node.sinnoh_dex != null
+  const hasRegionalDex = node.regional_dex != null
 
   const sprite = (
     <img
@@ -57,8 +57,8 @@ function ChainNode({ node, currentName }) {
 
   const pokemonNode = (
     <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 2 }}>
-      {hasSinnohDex ? (
-        <Link to={`/pokemon/${node.sinnoh_dex}`} style={{ textDecoration: 'none' }}>
+      {hasRegionalDex ? (
+        <Link to={`/pokemon/${node.regional_dex}`} style={{ textDecoration: 'none' }}>
           <div
             style={{
               padding: 4,

@@ -245,7 +245,7 @@ export default function RouteDetail() {
                       {/* Sprite */}
                       <td style={{ padding: '4px 6px', width: 36 }}>
                         {poke && (
-                          <Link to={`/pokemon/${poke.sinnoh_dex}`}>
+                          <Link to={`/pokemon/${poke.regional_dex}`}>
                             <img
                               src={spriteUrl(poke.national_dex)}
                               alt={enc.pokemon_name}
@@ -260,7 +260,7 @@ export default function RouteDetail() {
                       <td style={{ padding: '4px 4px' }}>
                         {poke ? (
                           <Link
-                            to={`/pokemon/${poke.sinnoh_dex}`}
+                            to={`/pokemon/${poke.regional_dex}`}
                             style={{ color: 'var(--screen-green)', fontSize: '0.75rem', textDecoration: 'none' }}
                           >
                             {enc.pokemon_name}

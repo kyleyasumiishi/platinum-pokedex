@@ -15,11 +15,11 @@ const MASTER_BALL_URL = `${import.meta.env.BASE_URL}sprites/items/master-ball.pn
 
 export default function PokemonCard({ pokemon: p }) {
   const { isOnTeam, toggleTeam } = useTeamContext()
-  const pinned = isOnTeam(p.sinnoh_dex)
+  const pinned = isOnTeam(p.regional_dex)
 
   return (
     <div className="dex-card flex items-center gap-3 px-3 py-2" style={{ minHeight: 64 }}>
-      <Link to={`/pokemon/${p.sinnoh_dex}`} style={{ textDecoration: 'none', display: 'flex', alignItems: 'center', gap: 12, flex: 1, minWidth: 0 }}>
+      <Link to={`/pokemon/${p.regional_dex}`} style={{ textDecoration: 'none', display: 'flex', alignItems: 'center', gap: 12, flex: 1, minWidth: 0 }}>
         {/* Sprite */}
         <img
           src={spriteUrl(p.national_dex)}
@@ -32,7 +32,7 @@ export default function PokemonCard({ pokemon: p }) {
         {/* Dex number + name + types */}
         <div className="flex-1 min-w-0">
           <div style={{ fontSize: '0.65rem', color: '#888', fontFamily: '"Share Tech Mono", monospace' }}>
-            #{String(p.sinnoh_dex).padStart(3, '0')}
+            #{String(p.regional_dex).padStart(3, '0')}
           </div>
           <div style={{ fontSize: '0.95rem', fontWeight: 'bold', color: '#1a1a2e', lineHeight: 1.2 }}>
             {p.name}
@@ -47,7 +47,7 @@ export default function PokemonCard({ pokemon: p }) {
 
       {/* Master Ball toggle — outside Link so it doesn't navigate */}
       <button
-        onClick={e => { e.stopPropagation(); toggleTeam(p.sinnoh_dex) }}
+        onClick={e => { e.stopPropagation(); toggleTeam(p.regional_dex) }}
         style={{
           background: 'none',
           border: 'none',

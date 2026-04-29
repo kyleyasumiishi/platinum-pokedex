@@ -4,14 +4,14 @@
     "stages": {
       "pokemon_id": "pichu",
       "name": "Pichu",
-      "sinnoh_dex": 103,
+      "regional_dex": 103,
       "national_dex": 172,
       "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/172.png",
       "evolves_to": [
         {
           "pokemon_id": "pikachu",
           "name": "Pikachu",
-          "sinnoh_dex": 104,
+          "regional_dex": 104,
           "national_dex": 25,
           "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png",
           "method": {
@@ -22,7 +22,7 @@
             {
               "pokemon_id": "raichu",
               "name": "Raichu",
-              "sinnoh_dex": 105,
+              "regional_dex": 105,
               "national_dex": 26,
               "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/26.png",
               "method": {
@@ -40,14 +40,14 @@
     "stages": {
       "pokemon_id": "cleffa",
       "name": "Cleffa",
-      "sinnoh_dex": 99,
+      "regional_dex": 99,
       "national_dex": 173,
       "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/173.png",
       "evolves_to": [
         {
           "pokemon_id": "clefairy",
           "name": "Clefairy",
-          "sinnoh_dex": 100,
+          "regional_dex": 100,
           "national_dex": 35,
           "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/35.png",
           "method": {
@@ -58,7 +58,7 @@
             {
               "pokemon_id": "clefable",
               "name": "Clefable",
-              "sinnoh_dex": 101,
+              "regional_dex": 101,
               "national_dex": 36,
               "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/36.png",
               "method": {
@@ -76,14 +76,14 @@
     "stages": {
       "pokemon_id": "zubat",
       "name": "Zubat",
-      "sinnoh_dex": 28,
+      "regional_dex": 28,
       "national_dex": 41,
       "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/41.png",
       "evolves_to": [
         {
           "pokemon_id": "golbat",
           "name": "Golbat",
-          "sinnoh_dex": 29,
+          "regional_dex": 29,
           "national_dex": 42,
           "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/42.png",
           "method": {
@@ -94,7 +94,7 @@
             {
               "pokemon_id": "crobat",
               "name": "Crobat",
-              "sinnoh_dex": 30,
+              "regional_dex": 30,
               "national_dex": 169,
               "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/169.png",
               "method": {
@@ -112,14 +112,14 @@
     "stages": {
       "pokemon_id": "psyduck",
       "name": "Psyduck",
-      "sinnoh_dex": 43,
+      "regional_dex": 43,
       "national_dex": 54,
       "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/54.png",
       "evolves_to": [
         {
           "pokemon_id": "golduck",
           "name": "Golduck",
-          "sinnoh_dex": 44,
+          "regional_dex": 44,
           "national_dex": 55,
           "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/55.png",
           "method": {
@@ -135,14 +135,14 @@
     "stages": {
       "pokemon_id": "abra",
       "name": "Abra",
-      "sinnoh_dex": 20,
+      "regional_dex": 20,
       "national_dex": 63,
       "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/63.png",
       "evolves_to": [
         {
           "pokemon_id": "kadabra",
           "name": "Kadabra",
-          "sinnoh_dex": 21,
+          "regional_dex": 21,
           "national_dex": 64,
           "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/64.png",
           "method": {
@@ -153,7 +153,7 @@
             {
               "pokemon_id": "alakazam",
               "name": "Alakazam",
-              "sinnoh_dex": 22,
+              "regional_dex": 22,
               "national_dex": 65,
               "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/65.png",
               "method": {
@@ -170,14 +170,14 @@
     "stages": {
       "pokemon_id": "machop",
       "name": "Machop",
-      "sinnoh_dex": 40,
+      "regional_dex": 40,
       "national_dex": 66,
       "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/66.png",
       "evolves_to": [
         {
           "pokemon_id": "machoke",
           "name": "Machoke",
-          "sinnoh_dex": 41,
+          "regional_dex": 41,
           "national_dex": 67,
           "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/67.png",
           "method": {
@@ -188,7 +188,7 @@
             {
               "pokemon_id": "machamp",
               "name": "Machamp",
-              "sinnoh_dex": 42,
+              "regional_dex": 42,
               "national_dex": 68,
               "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/68.png",
               "method": {
@@ -205,14 +205,14 @@
     "stages": {
       "pokemon_id": "tentacool",
       "name": "Tentacool",
-      "sinnoh_dex": 136,
+      "regional_dex": 136,
       "national_dex": 72,
       "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/72.png",
       "evolves_to": [
         {
           "pokemon_id": "tentacruel",
           "name": "Tentacruel",
-          "sinnoh_dex": 137,
+          "regional_dex": 137,
           "national_dex": 73,
           "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/73.png",
           "method": {
@@ -228,14 +228,14 @@
     "stages": {
       "pokemon_id": "geodude",
       "name": "Geodude",
-      "sinnoh_dex": 31,
+      "regional_dex": 31,
       "national_dex": 74,
       "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/74.png",
       "evolves_to": [
         {
           "pokemon_id": "graveler",
           "name": "Graveler",
-          "sinnoh_dex": 32,
+          "regional_dex": 32,
           "national_dex": 75,
           "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/75.png",
           "method": {
@@ -246,7 +246,7 @@
             {
               "pokemon_id": "golem",
               "name": "Golem",
-              "sinnoh_dex": 33,
+              "regional_dex": 33,
               "national_dex": 76,
               "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/76.png",
               "method": {
@@ -263,14 +263,14 @@
     "stages": {
       "pokemon_id": "ponyta",
       "name": "Ponyta",
-      "sinnoh_dex": 90,
+      "regional_dex": 90,
       "national_dex": 77,
       "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/77.png",
       "evolves_to": [
         {
           "pokemon_id": "rapidash",
           "name": "Rapidash",
-          "sinnoh_dex": 91,
+          "regional_dex": 91,
           "national_dex": 78,
           "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/78.png",
           "method": {
@@ -286,14 +286,14 @@
     "stages": {
       "pokemon_id": "magnemite",
       "name": "Magnemite",
-      "sinnoh_dex": 178,
+      "regional_dex": 178,
       "national_dex": 81,
       "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/81.png",
       "evolves_to": [
         {
           "pokemon_id": "magneton",
           "name": "Magneton",
-          "sinnoh_dex": 179,
+          "regional_dex": 179,
           "national_dex": 82,
           "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/82.png",
           "method": {
@@ -304,7 +304,7 @@
             {
               "pokemon_id": "magnezone",
               "name": "Magnezone",
-              "sinnoh_dex": 180,
+              "regional_dex": 180,
               "national_dex": 462,
               "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/462.png",
               "method": {
@@ -322,14 +322,14 @@
     "stages": {
       "pokemon_id": "gastly",
       "name": "Gastly",
-      "sinnoh_dex": 69,
+      "regional_dex": 69,
       "national_dex": 92,
       "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/92.png",
       "evolves_to": [
         {
           "pokemon_id": "haunter",
           "name": "Haunter",
-          "sinnoh_dex": 70,
+          "regional_dex": 70,
           "national_dex": 93,
           "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/93.png",
           "method": {
@@ -340,7 +340,7 @@
             {
               "pokemon_id": "gengar",
               "name": "Gengar",
-              "sinnoh_dex": 71,
+              "regional_dex": 71,
               "national_dex": 94,
               "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/94.png",
               "method": {
@@ -357,14 +357,14 @@
     "stages": {
       "pokemon_id": "onix",
       "name": "Onix",
-      "sinnoh_dex": 34,
+      "regional_dex": 34,
       "national_dex": 95,
       "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/95.png",
       "evolves_to": [
         {
           "pokemon_id": "steelix",
           "name": "Steelix",
-          "sinnoh_dex": 35,
+          "regional_dex": 35,
           "national_dex": 208,
           "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/208.png",
           "method": {
@@ -380,14 +380,14 @@
     "stages": {
       "pokemon_id": "lickitung",
       "name": "Lickitung",
-      "sinnoh_dex": 161,
+      "regional_dex": 161,
       "national_dex": 108,
       "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/108.png",
       "evolves_to": [
         {
           "pokemon_id": "lickilicky",
           "name": "Lickilicky",
-          "sinnoh_dex": 162,
+          "regional_dex": 162,
           "national_dex": 463,
           "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/463.png",
           "method": {
@@ -403,14 +403,14 @@
     "stages": {
       "pokemon_id": "rhyhorn",
       "name": "Rhyhorn",
-      "sinnoh_dex": 186,
+      "regional_dex": 186,
       "national_dex": 111,
       "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/111.png",
       "evolves_to": [
         {
           "pokemon_id": "rhydon",
           "name": "Rhydon",
-          "sinnoh_dex": 187,
+          "regional_dex": 187,
           "national_dex": 112,
           "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/112.png",
           "method": {
@@ -421,7 +421,7 @@
             {
               "pokemon_id": "rhyperior",
               "name": "Rhyperior",
-              "sinnoh_dex": 188,
+              "regional_dex": 188,
               "national_dex": 464,
               "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/464.png",
               "method": {
@@ -439,14 +439,14 @@
     "stages": {
       "pokemon_id": "happiny",
       "name": "Happiny",
-      "sinnoh_dex": 96,
+      "regional_dex": 96,
       "national_dex": 440,
       "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/440.png",
       "evolves_to": [
         {
           "pokemon_id": "chansey",
           "name": "Chansey",
-          "sinnoh_dex": 97,
+          "regional_dex": 97,
           "national_dex": 113,
           "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/113.png",
           "method": {
@@ -457,7 +457,7 @@
             {
               "pokemon_id": "blissey",
               "name": "Blissey",
-              "sinnoh_dex": 98,
+              "regional_dex": 98,
               "national_dex": 242,
               "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/242.png",
               "method": {
@@ -475,14 +475,14 @@
     "stages": {
       "pokemon_id": "tangela",
       "name": "Tangela",
-      "sinnoh_dex": 181,
+      "regional_dex": 181,
       "national_dex": 114,
       "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/114.png",
       "evolves_to": [
         {
           "pokemon_id": "tangrowth",
           "name": "Tangrowth",
-          "sinnoh_dex": 182,
+          "regional_dex": 182,
           "national_dex": 465,
           "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/465.png",
           "method": {
@@ -498,14 +498,14 @@
     "stages": {
       "pokemon_id": "goldeen",
       "name": "Goldeen",
-      "sinnoh_dex": 78,
+      "regional_dex": 78,
       "national_dex": 118,
       "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/118.png",
       "evolves_to": [
         {
           "pokemon_id": "seaking",
           "name": "Seaking",
-          "sinnoh_dex": 79,
+          "regional_dex": 79,
           "national_dex": 119,
           "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/119.png",
           "method": {
@@ -521,14 +521,14 @@
     "stages": {
       "pokemon_id": "mime-jr",
       "name": "Mime-jr",
-      "sinnoh_dex": 94,
+      "regional_dex": 94,
       "national_dex": 439,
       "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/439.png",
       "evolves_to": [
         {
           "pokemon_id": "mr-mime",
           "name": "Mr-mime",
-          "sinnoh_dex": 95,
+          "regional_dex": 95,
           "national_dex": 122,
           "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/122.png",
           "method": {
@@ -539,7 +539,7 @@
             {
               "pokemon_id": "mr-rime",
               "name": "Mr-rime",
-              "sinnoh_dex": null,
+              "regional_dex": null,
               "national_dex": 866,
               "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/866.png",
               "method": {
@@ -557,14 +557,14 @@
     "stages": {
       "pokemon_id": "scyther",
       "name": "Scyther",
-      "sinnoh_dex": 195,
+      "regional_dex": 195,
       "national_dex": 123,
       "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/123.png",
       "evolves_to": [
         {
           "pokemon_id": "scizor",
           "name": "Scizor",
-          "sinnoh_dex": 196,
+          "regional_dex": 196,
           "national_dex": 212,
           "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/212.png",
           "method": {
@@ -575,7 +575,7 @@
         {
           "pokemon_id": "kleavor",
           "name": "Kleavor",
-          "sinnoh_dex": null,
+          "regional_dex": null,
           "national_dex": 900,
           "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/900.png",
           "method": {
@@ -591,14 +591,14 @@
     "stages": {
       "pokemon_id": "elekid",
       "name": "Elekid",
-      "sinnoh_dex": 197,
+      "regional_dex": 197,
       "national_dex": 239,
       "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/239.png",
       "evolves_to": [
         {
           "pokemon_id": "electabuzz",
           "name": "Electabuzz",
-          "sinnoh_dex": 198,
+          "regional_dex": 198,
           "national_dex": 125,
           "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/125.png",
           "method": {
@@ -609,7 +609,7 @@
             {
               "pokemon_id": "electivire",
               "name": "Electivire",
-              "sinnoh_dex": 199,
+              "regional_dex": 199,
               "national_dex": 466,
               "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/466.png",
               "method": {
@@ -627,14 +627,14 @@
     "stages": {
       "pokemon_id": "magby",
       "name": "Magby",
-      "sinnoh_dex": 200,
+      "regional_dex": 200,
       "national_dex": 240,
       "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/240.png",
       "evolves_to": [
         {
           "pokemon_id": "magmar",
           "name": "Magmar",
-          "sinnoh_dex": 201,
+          "regional_dex": 201,
           "national_dex": 126,
           "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/126.png",
           "method": {
@@ -645,7 +645,7 @@
             {
               "pokemon_id": "magmortar",
               "name": "Magmortar",
-              "sinnoh_dex": 202,
+              "regional_dex": 202,
               "national_dex": 467,
               "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/467.png",
               "method": {
@@ -663,14 +663,14 @@
     "stages": {
       "pokemon_id": "magikarp",
       "name": "Magikarp",
-      "sinnoh_dex": 23,
+      "regional_dex": 23,
       "national_dex": 129,
       "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/129.png",
       "evolves_to": [
         {
           "pokemon_id": "gyarados",
           "name": "Gyarados",
-          "sinnoh_dex": 24,
+          "regional_dex": 24,
           "national_dex": 130,
           "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/130.png",
           "method": {
@@ -686,14 +686,14 @@
     "stages": {
       "pokemon_id": "eevee",
       "name": "Eevee",
-      "sinnoh_dex": 163,
+      "regional_dex": 163,
       "national_dex": 133,
       "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/133.png",
       "evolves_to": [
         {
           "pokemon_id": "vaporeon",
           "name": "Vaporeon",
-          "sinnoh_dex": 164,
+          "regional_dex": 164,
           "national_dex": 134,
           "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/134.png",
           "method": {
@@ -704,7 +704,7 @@
         {
           "pokemon_id": "jolteon",
           "name": "Jolteon",
-          "sinnoh_dex": 165,
+          "regional_dex": 165,
           "national_dex": 135,
           "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/135.png",
           "method": {
@@ -715,7 +715,7 @@
         {
           "pokemon_id": "flareon",
           "name": "Flareon",
-          "sinnoh_dex": 166,
+          "regional_dex": 166,
           "national_dex": 136,
           "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/136.png",
           "method": {
@@ -726,7 +726,7 @@
         {
           "pokemon_id": "espeon",
           "name": "Espeon",
-          "sinnoh_dex": 167,
+          "regional_dex": 167,
           "national_dex": 196,
           "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/196.png",
           "method": {
@@ -738,7 +738,7 @@
         {
           "pokemon_id": "umbreon",
           "name": "Umbreon",
-          "sinnoh_dex": 168,
+          "regional_dex": 168,
           "national_dex": 197,
           "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/197.png",
           "method": {
@@ -750,7 +750,7 @@
         {
           "pokemon_id": "leafeon",
           "name": "Leafeon",
-          "sinnoh_dex": 169,
+          "regional_dex": 169,
           "national_dex": 470,
           "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/470.png",
           "method": {
@@ -761,7 +761,7 @@
         {
           "pokemon_id": "glaceon",
           "name": "Glaceon",
-          "sinnoh_dex": 170,
+          "regional_dex": 170,
           "national_dex": 471,
           "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/471.png",
           "method": {
@@ -772,7 +772,7 @@
         {
           "pokemon_id": "sylveon",
           "name": "Sylveon",
-          "sinnoh_dex": null,
+          "regional_dex": null,
           "national_dex": 700,
           "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/700.png",
           "method": {
@@ -787,14 +787,14 @@
     "stages": {
       "pokemon_id": "porygon",
       "name": "Porygon",
-      "sinnoh_dex": 192,
+      "regional_dex": 192,
       "national_dex": 137,
       "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/137.png",
       "evolves_to": [
         {
           "pokemon_id": "porygon2",
           "name": "Porygon2",
-          "sinnoh_dex": 193,
+          "regional_dex": 193,
           "national_dex": 233,
           "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/233.png",
           "method": {
@@ -805,7 +805,7 @@
             {
               "pokemon_id": "porygon-z",
               "name": "Porygon-z",
-              "sinnoh_dex": 194,
+              "regional_dex": 194,
               "national_dex": 474,
               "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/474.png",
               "method": {
@@ -823,14 +823,14 @@
     "stages": {
       "pokemon_id": "munchlax",
       "name": "Munchlax",
-      "sinnoh_dex": 112,
+      "regional_dex": 112,
       "national_dex": 446,
       "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/446.png",
       "evolves_to": [
         {
           "pokemon_id": "snorlax",
           "name": "Snorlax",
-          "sinnoh_dex": 113,
+          "regional_dex": 113,
           "national_dex": 143,
           "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/143.png",
           "method": {
@@ -846,14 +846,14 @@
     "stages": {
       "pokemon_id": "hoothoot",
       "name": "Hoothoot",
-      "sinnoh_dex": 106,
+      "regional_dex": 106,
       "national_dex": 163,
       "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/163.png",
       "evolves_to": [
         {
           "pokemon_id": "noctowl",
           "name": "Noctowl",
-          "sinnoh_dex": 107,
+          "regional_dex": 107,
           "national_dex": 164,
           "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/164.png",
           "method": {
@@ -869,14 +869,14 @@
     "stages": {
       "pokemon_id": "togepi",
       "name": "Togepi",
-      "sinnoh_dex": 173,
+      "regional_dex": 173,
       "national_dex": 175,
       "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/175.png",
       "evolves_to": [
         {
           "pokemon_id": "togetic",
           "name": "Togetic",
-          "sinnoh_dex": 174,
+          "regional_dex": 174,
           "national_dex": 176,
           "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/176.png",
           "method": {
@@ -887,7 +887,7 @@
             {
               "pokemon_id": "togekiss",
               "name": "Togekiss",
-              "sinnoh_dex": 175,
+              "regional_dex": 175,
               "national_dex": 468,
               "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/468.png",
               "method": {
@@ -905,14 +905,14 @@
     "stages": {
       "pokemon_id": "azurill",
       "name": "Azurill",
-      "sinnoh_dex": 124,
+      "regional_dex": 124,
       "national_dex": 298,
       "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/298.png",
       "evolves_to": [
         {
           "pokemon_id": "marill",
           "name": "Marill",
-          "sinnoh_dex": 125,
+          "regional_dex": 125,
           "national_dex": 183,
           "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/183.png",
           "method": {
@@ -923,7 +923,7 @@
             {
               "pokemon_id": "azumarill",
               "name": "Azumarill",
-              "sinnoh_dex": 126,
+              "regional_dex": 126,
               "national_dex": 184,
               "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/184.png",
               "method": {
@@ -941,14 +941,14 @@
     "stages": {
       "pokemon_id": "bonsly",
       "name": "Bonsly",
-      "sinnoh_dex": 92,
+      "regional_dex": 92,
       "national_dex": 438,
       "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/438.png",
       "evolves_to": [
         {
           "pokemon_id": "sudowoodo",
           "name": "Sudowoodo",
-          "sinnoh_dex": 93,
+          "regional_dex": 93,
           "national_dex": 185,
           "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/185.png",
           "method": {
@@ -964,14 +964,14 @@
     "stages": {
       "pokemon_id": "aipom",
       "name": "Aipom",
-      "sinnoh_dex": 63,
+      "regional_dex": 63,
       "national_dex": 190,
       "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/190.png",
       "evolves_to": [
         {
           "pokemon_id": "ambipom",
           "name": "Ambipom",
-          "sinnoh_dex": 64,
+          "regional_dex": 64,
           "national_dex": 424,
           "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/424.png",
           "method": {
@@ -987,14 +987,14 @@
     "stages": {
       "pokemon_id": "yanma",
       "name": "Yanma",
-      "sinnoh_dex": 183,
+      "regional_dex": 183,
       "national_dex": 193,
       "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/193.png",
       "evolves_to": [
         {
           "pokemon_id": "yanmega",
           "name": "Yanmega",
-          "sinnoh_dex": 184,
+          "regional_dex": 184,
           "national_dex": 469,
           "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/469.png",
           "method": {
@@ -1010,14 +1010,14 @@
     "stages": {
       "pokemon_id": "wooper",
       "name": "Wooper",
-      "sinnoh_dex": 117,
+      "regional_dex": 117,
       "national_dex": 194,
       "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/194.png",
       "evolves_to": [
         {
           "pokemon_id": "quagsire",
           "name": "Quagsire",
-          "sinnoh_dex": 118,
+          "regional_dex": 118,
           "national_dex": 195,
           "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/195.png",
           "method": {
@@ -1028,7 +1028,7 @@
         {
           "pokemon_id": "clodsire",
           "name": "Clodsire",
-          "sinnoh_dex": null,
+          "regional_dex": null,
           "national_dex": 980,
           "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/980.png",
           "method": {
@@ -1044,14 +1044,14 @@
     "stages": {
       "pokemon_id": "murkrow",
       "name": "Murkrow",
-      "sinnoh_dex": 74,
+      "regional_dex": 74,
       "national_dex": 198,
       "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/198.png",
       "evolves_to": [
         {
           "pokemon_id": "honchkrow",
           "name": "Honchkrow",
-          "sinnoh_dex": 75,
+          "regional_dex": 75,
           "national_dex": 430,
           "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/430.png",
           "method": {
@@ -1067,14 +1067,14 @@
     "stages": {
       "pokemon_id": "misdreavus",
       "name": "Misdreavus",
-      "sinnoh_dex": 72,
+      "regional_dex": 72,
       "national_dex": 200,
       "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/200.png",
       "evolves_to": [
         {
           "pokemon_id": "mismagius",
           "name": "Mismagius",
-          "sinnoh_dex": 73,
+          "regional_dex": 73,
           "national_dex": 429,
           "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/429.png",
           "method": {
@@ -1090,7 +1090,7 @@
     "stages": {
       "pokemon_id": "unown",
       "name": "Unown",
-      "sinnoh_dex": 114,
+      "regional_dex": 114,
       "national_dex": 201,
       "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/201.png"
     }
@@ -1100,14 +1100,14 @@
     "stages": {
       "pokemon_id": "girafarig",
       "name": "Girafarig",
-      "sinnoh_dex": 121,
+      "regional_dex": 121,
       "national_dex": 203,
       "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/203.png",
       "evolves_to": [
         {
           "pokemon_id": "farigiraf",
           "name": "Farigiraf",
-          "sinnoh_dex": null,
+          "regional_dex": null,
           "national_dex": 981,
           "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/981.png",
           "method": {
@@ -1123,14 +1123,14 @@
     "stages": {
       "pokemon_id": "gligar",
       "name": "Gligar",
-      "sinnoh_dex": 153,
+      "regional_dex": 153,
       "national_dex": 207,
       "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/207.png",
       "evolves_to": [
         {
           "pokemon_id": "gliscor",
           "name": "Gliscor",
-          "sinnoh_dex": 154,
+          "regional_dex": 154,
           "national_dex": 472,
           "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/472.png",
           "method": {
@@ -1146,7 +1146,7 @@
     "stages": {
       "pokemon_id": "heracross",
       "name": "Heracross",
-      "sinnoh_dex": 62,
+      "regional_dex": 62,
       "national_dex": 214,
       "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/214.png"
     }
@@ -1156,14 +1156,14 @@
     "stages": {
       "pokemon_id": "sneasel",
       "name": "Sneasel",
-      "sinnoh_dex": 144,
+      "regional_dex": 144,
       "national_dex": 215,
       "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/215.png",
       "evolves_to": [
         {
           "pokemon_id": "weavile",
           "name": "Weavile",
-          "sinnoh_dex": 145,
+          "regional_dex": 145,
           "national_dex": 461,
           "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/461.png",
           "method": {
@@ -1174,7 +1174,7 @@
         {
           "pokemon_id": "sneasler",
           "name": "Sneasler",
-          "sinnoh_dex": null,
+          "regional_dex": null,
           "national_dex": 903,
           "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/903.png",
           "method": {
@@ -1190,14 +1190,14 @@
     "stages": {
       "pokemon_id": "swinub",
       "name": "Swinub",
-      "sinnoh_dex": 203,
+      "regional_dex": 203,
       "national_dex": 220,
       "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/220.png",
       "evolves_to": [
         {
           "pokemon_id": "piloswine",
           "name": "Piloswine",
-          "sinnoh_dex": 204,
+          "regional_dex": 204,
           "national_dex": 221,
           "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/221.png",
           "method": {
@@ -1208,7 +1208,7 @@
             {
               "pokemon_id": "mamoswine",
               "name": "Mamoswine",
-              "sinnoh_dex": 205,
+              "regional_dex": 205,
               "national_dex": 473,
               "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/473.png",
               "method": {
@@ -1226,14 +1226,14 @@
     "stages": {
       "pokemon_id": "remoraid",
       "name": "Remoraid",
-      "sinnoh_dex": 132,
+      "regional_dex": 132,
       "national_dex": 223,
       "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/223.png",
       "evolves_to": [
         {
           "pokemon_id": "octillery",
           "name": "Octillery",
-          "sinnoh_dex": 133,
+          "regional_dex": 133,
           "national_dex": 224,
           "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/224.png",
           "method": {
@@ -1249,14 +1249,14 @@
     "stages": {
       "pokemon_id": "mantyke",
       "name": "Mantyke",
-      "sinnoh_dex": 140,
+      "regional_dex": 140,
       "national_dex": 458,
       "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/458.png",
       "evolves_to": [
         {
           "pokemon_id": "mantine",
           "name": "Mantine",
-          "sinnoh_dex": 141,
+          "regional_dex": 141,
           "national_dex": 226,
           "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/226.png",
           "method": {
@@ -1271,14 +1271,14 @@
     "stages": {
       "pokemon_id": "houndour",
       "name": "Houndour",
-      "sinnoh_dex": 176,
+      "regional_dex": 176,
       "national_dex": 228,
       "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/228.png",
       "evolves_to": [
         {
           "pokemon_id": "houndoom",
           "name": "Houndoom",
-          "sinnoh_dex": 177,
+          "regional_dex": 177,
           "national_dex": 229,
           "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/229.png",
           "method": {
@@ -1294,14 +1294,14 @@
     "stages": {
       "pokemon_id": "wurmple",
       "name": "Wurmple",
-      "sinnoh_dex": 48,
+      "regional_dex": 48,
       "national_dex": 265,
       "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/265.png",
       "evolves_to": [
         {
           "pokemon_id": "silcoon",
           "name": "Silcoon",
-          "sinnoh_dex": 49,
+          "regional_dex": 49,
           "national_dex": 266,
           "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/266.png",
           "method": {
@@ -1312,7 +1312,7 @@
             {
               "pokemon_id": "beautifly",
               "name": "Beautifly",
-              "sinnoh_dex": 50,
+              "regional_dex": 50,
               "national_dex": 267,
               "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/267.png",
               "method": {
@@ -1325,7 +1325,7 @@
         {
           "pokemon_id": "cascoon",
           "name": "Cascoon",
-          "sinnoh_dex": 51,
+          "regional_dex": 51,
           "national_dex": 268,
           "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/268.png",
           "method": {
@@ -1336,7 +1336,7 @@
             {
               "pokemon_id": "dustox",
               "name": "Dustox",
-              "sinnoh_dex": 52,
+              "regional_dex": 52,
               "national_dex": 269,
               "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/269.png",
               "method": {
@@ -1354,14 +1354,14 @@
     "stages": {
       "pokemon_id": "wingull",
       "name": "Wingull",
-      "sinnoh_dex": 119,
+      "regional_dex": 119,
       "national_dex": 278,
       "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/278.png",
       "evolves_to": [
         {
           "pokemon_id": "pelipper",
           "name": "Pelipper",
-          "sinnoh_dex": 120,
+          "regional_dex": 120,
           "national_dex": 279,
           "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/279.png",
           "method": {
@@ -1377,14 +1377,14 @@
     "stages": {
       "pokemon_id": "ralts",
       "name": "Ralts",
-      "sinnoh_dex": 157,
+      "regional_dex": 157,
       "national_dex": 280,
       "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/280.png",
       "evolves_to": [
         {
           "pokemon_id": "kirlia",
           "name": "Kirlia",
-          "sinnoh_dex": 158,
+          "regional_dex": 158,
           "national_dex": 281,
           "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/281.png",
           "method": {
@@ -1395,7 +1395,7 @@
             {
               "pokemon_id": "gardevoir",
               "name": "Gardevoir",
-              "sinnoh_dex": 159,
+              "regional_dex": 159,
               "national_dex": 282,
               "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/282.png",
               "method": {
@@ -1406,7 +1406,7 @@
             {
               "pokemon_id": "gallade",
               "name": "Gallade",
-              "sinnoh_dex": 160,
+              "regional_dex": 160,
               "national_dex": 475,
               "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/475.png",
               "method": {
@@ -1424,14 +1424,14 @@
     "stages": {
       "pokemon_id": "nosepass",
       "name": "Nosepass",
-      "sinnoh_dex": 155,
+      "regional_dex": 155,
       "national_dex": 299,
       "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/299.png",
       "evolves_to": [
         {
           "pokemon_id": "probopass",
           "name": "Probopass",
-          "sinnoh_dex": 156,
+          "regional_dex": 156,
           "national_dex": 476,
           "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/476.png",
           "method": {
@@ -1447,14 +1447,14 @@
     "stages": {
       "pokemon_id": "meditite",
       "name": "Meditite",
-      "sinnoh_dex": 86,
+      "regional_dex": 86,
       "national_dex": 307,
       "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/307.png",
       "evolves_to": [
         {
           "pokemon_id": "medicham",
           "name": "Medicham",
-          "sinnoh_dex": 87,
+          "regional_dex": 87,
           "national_dex": 308,
           "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/308.png",
           "method": {
@@ -1470,14 +1470,14 @@
     "stages": {
       "pokemon_id": "budew",
       "name": "Budew",
-      "sinnoh_dex": 25,
+      "regional_dex": 25,
       "national_dex": 406,
       "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/406.png",
       "evolves_to": [
         {
           "pokemon_id": "roselia",
           "name": "Roselia",
-          "sinnoh_dex": 26,
+          "regional_dex": 26,
           "national_dex": 315,
           "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/315.png",
           "method": {
@@ -1489,7 +1489,7 @@
             {
               "pokemon_id": "roserade",
               "name": "Roserade",
-              "sinnoh_dex": 27,
+              "regional_dex": 27,
               "national_dex": 407,
               "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/407.png",
               "method": {
@@ -1507,14 +1507,14 @@
     "stages": {
       "pokemon_id": "swablu",
       "name": "Swablu",
-      "sinnoh_dex": 171,
+      "regional_dex": 171,
       "national_dex": 333,
       "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/333.png",
       "evolves_to": [
         {
           "pokemon_id": "altaria",
           "name": "Altaria",
-          "sinnoh_dex": 172,
+          "regional_dex": 172,
           "national_dex": 334,
           "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/334.png",
           "method": {
@@ -1530,14 +1530,14 @@
     "stages": {
       "pokemon_id": "barboach",
       "name": "Barboach",
-      "sinnoh_dex": 80,
+      "regional_dex": 80,
       "national_dex": 339,
       "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/339.png",
       "evolves_to": [
         {
           "pokemon_id": "whiscash",
           "name": "Whiscash",
-          "sinnoh_dex": 81,
+          "regional_dex": 81,
           "national_dex": 340,
           "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/340.png",
           "method": {
@@ -1553,14 +1553,14 @@
     "stages": {
       "pokemon_id": "feebas",
       "name": "Feebas",
-      "sinnoh_dex": 138,
+      "regional_dex": 138,
       "national_dex": 349,
       "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/349.png",
       "evolves_to": [
         {
           "pokemon_id": "milotic",
           "name": "Milotic",
-          "sinnoh_dex": 139,
+          "regional_dex": 139,
           "national_dex": 350,
           "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/350.png",
           "method": {
@@ -1576,14 +1576,14 @@
     "stages": {
       "pokemon_id": "duskull",
       "name": "Duskull",
-      "sinnoh_dex": 189,
+      "regional_dex": 189,
       "national_dex": 355,
       "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/355.png",
       "evolves_to": [
         {
           "pokemon_id": "dusclops",
           "name": "Dusclops",
-          "sinnoh_dex": 190,
+          "regional_dex": 190,
           "national_dex": 356,
           "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/356.png",
           "method": {
@@ -1594,7 +1594,7 @@
             {
               "pokemon_id": "dusknoir",
               "name": "Dusknoir",
-              "sinnoh_dex": 191,
+              "regional_dex": 191,
               "national_dex": 477,
               "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/477.png",
               "method": {
@@ -1612,7 +1612,7 @@
     "stages": {
       "pokemon_id": "tropius",
       "name": "Tropius",
-      "sinnoh_dex": 185,
+      "regional_dex": 185,
       "national_dex": 357,
       "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/357.png"
     }
@@ -1622,14 +1622,14 @@
     "stages": {
       "pokemon_id": "chingling",
       "name": "Chingling",
-      "sinnoh_dex": 82,
+      "regional_dex": 82,
       "national_dex": 433,
       "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/433.png",
       "evolves_to": [
         {
           "pokemon_id": "chimecho",
           "name": "Chimecho",
-          "sinnoh_dex": 83,
+          "regional_dex": 83,
           "national_dex": 358,
           "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/358.png",
           "method": {
@@ -1646,7 +1646,7 @@
     "stages": {
       "pokemon_id": "absol",
       "name": "Absol",
-      "sinnoh_dex": 209,
+      "regional_dex": 209,
       "national_dex": 359,
       "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/359.png"
     }
@@ -1656,14 +1656,14 @@
     "stages": {
       "pokemon_id": "snorunt",
       "name": "Snorunt",
-      "sinnoh_dex": 206,
+      "regional_dex": 206,
       "national_dex": 361,
       "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/361.png",
       "evolves_to": [
         {
           "pokemon_id": "glalie",
           "name": "Glalie",
-          "sinnoh_dex": 207,
+          "regional_dex": 207,
           "national_dex": 362,
           "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/362.png",
           "method": {
@@ -1674,7 +1674,7 @@
         {
           "pokemon_id": "froslass",
           "name": "Froslass",
-          "sinnoh_dex": 208,
+          "regional_dex": 208,
           "national_dex": 478,
           "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/478.png",
           "method": {
@@ -1690,14 +1690,14 @@
     "stages": {
       "pokemon_id": "turtwig",
       "name": "Turtwig",
-      "sinnoh_dex": 1,
+      "regional_dex": 1,
       "national_dex": 387,
       "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/387.png",
       "evolves_to": [
         {
           "pokemon_id": "grotle",
           "name": "Grotle",
-          "sinnoh_dex": 2,
+          "regional_dex": 2,
           "national_dex": 388,
           "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/388.png",
           "method": {
@@ -1708,7 +1708,7 @@
             {
               "pokemon_id": "torterra",
               "name": "Torterra",
-              "sinnoh_dex": 3,
+              "regional_dex": 3,
               "national_dex": 389,
               "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/389.png",
               "method": {
@@ -1726,14 +1726,14 @@
     "stages": {
       "pokemon_id": "chimchar",
       "name": "Chimchar",
-      "sinnoh_dex": 4,
+      "regional_dex": 4,
       "national_dex": 390,
       "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/390.png",
       "evolves_to": [
         {
           "pokemon_id": "monferno",
           "name": "Monferno",
-          "sinnoh_dex": 5,
+          "regional_dex": 5,
           "national_dex": 391,
           "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/391.png",
           "method": {
@@ -1744,7 +1744,7 @@
             {
               "pokemon_id": "infernape",
               "name": "Infernape",
-              "sinnoh_dex": 6,
+              "regional_dex": 6,
               "national_dex": 392,
               "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/392.png",
               "method": {
@@ -1762,14 +1762,14 @@
     "stages": {
       "pokemon_id": "piplup",
       "name": "Piplup",
-      "sinnoh_dex": 7,
+      "regional_dex": 7,
       "national_dex": 393,
       "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/393.png",
       "evolves_to": [
         {
           "pokemon_id": "prinplup",
           "name": "Prinplup",
-          "sinnoh_dex": 8,
+          "regional_dex": 8,
           "national_dex": 394,
           "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/394.png",
           "method": {
@@ -1780,7 +1780,7 @@
             {
               "pokemon_id": "empoleon",
               "name": "Empoleon",
-              "sinnoh_dex": 9,
+              "regional_dex": 9,
               "national_dex": 395,
               "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/395.png",
               "method": {
@@ -1798,14 +1798,14 @@
     "stages": {
       "pokemon_id": "starly",
       "name": "Starly",
-      "sinnoh_dex": 10,
+      "regional_dex": 10,
       "national_dex": 396,
       "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/396.png",
       "evolves_to": [
         {
           "pokemon_id": "staravia",
           "name": "Staravia",
-          "sinnoh_dex": 11,
+          "regional_dex": 11,
           "national_dex": 397,
           "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/397.png",
           "method": {
@@ -1816,7 +1816,7 @@
             {
               "pokemon_id": "staraptor",
               "name": "Staraptor",
-              "sinnoh_dex": 12,
+              "regional_dex": 12,
               "national_dex": 398,
               "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/398.png",
               "method": {
@@ -1834,14 +1834,14 @@
     "stages": {
       "pokemon_id": "bidoof",
       "name": "Bidoof",
-      "sinnoh_dex": 13,
+      "regional_dex": 13,
       "national_dex": 399,
       "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/399.png",
       "evolves_to": [
         {
           "pokemon_id": "bibarel",
           "name": "Bibarel",
-          "sinnoh_dex": 14,
+          "regional_dex": 14,
           "national_dex": 400,
           "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/400.png",
           "method": {
@@ -1857,14 +1857,14 @@
     "stages": {
       "pokemon_id": "kricketot",
       "name": "Kricketot",
-      "sinnoh_dex": 15,
+      "regional_dex": 15,
       "national_dex": 401,
       "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/401.png",
       "evolves_to": [
         {
           "pokemon_id": "kricketune",
           "name": "Kricketune",
-          "sinnoh_dex": 16,
+          "regional_dex": 16,
           "national_dex": 402,
           "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/402.png",
           "method": {
@@ -1880,14 +1880,14 @@
     "stages": {
       "pokemon_id": "shinx",
       "name": "Shinx",
-      "sinnoh_dex": 17,
+      "regional_dex": 17,
       "national_dex": 403,
       "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/403.png",
       "evolves_to": [
         {
           "pokemon_id": "luxio",
           "name": "Luxio",
-          "sinnoh_dex": 18,
+          "regional_dex": 18,
           "national_dex": 404,
           "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/404.png",
           "method": {
@@ -1898,7 +1898,7 @@
             {
               "pokemon_id": "luxray",
               "name": "Luxray",
-              "sinnoh_dex": 19,
+              "regional_dex": 19,
               "national_dex": 405,
               "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/405.png",
               "method": {
@@ -1916,14 +1916,14 @@
     "stages": {
       "pokemon_id": "cranidos",
       "name": "Cranidos",
-      "sinnoh_dex": 36,
+      "regional_dex": 36,
       "national_dex": 408,
       "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/408.png",
       "evolves_to": [
         {
           "pokemon_id": "rampardos",
           "name": "Rampardos",
-          "sinnoh_dex": 37,
+          "regional_dex": 37,
           "national_dex": 409,
           "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/409.png",
           "method": {
@@ -1939,14 +1939,14 @@
     "stages": {
       "pokemon_id": "shieldon",
       "name": "Shieldon",
-      "sinnoh_dex": 38,
+      "regional_dex": 38,
       "national_dex": 410,
       "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/410.png",
       "evolves_to": [
         {
           "pokemon_id": "bastiodon",
           "name": "Bastiodon",
-          "sinnoh_dex": 39,
+          "regional_dex": 39,
           "national_dex": 411,
           "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/411.png",
           "method": {
@@ -1962,14 +1962,14 @@
     "stages": {
       "pokemon_id": "burmy",
       "name": "Burmy",
-      "sinnoh_dex": 45,
+      "regional_dex": 45,
       "national_dex": 412,
       "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/412.png",
       "evolves_to": [
         {
           "pokemon_id": "wormadam",
           "name": "Wormadam",
-          "sinnoh_dex": 46,
+          "regional_dex": 46,
           "national_dex": 413,
           "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/413.png",
           "method": {
@@ -1980,7 +1980,7 @@
         {
           "pokemon_id": "mothim",
           "name": "Mothim",
-          "sinnoh_dex": 47,
+          "regional_dex": 47,
           "national_dex": 414,
           "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/414.png",
           "method": {
@@ -1996,14 +1996,14 @@
     "stages": {
       "pokemon_id": "combee",
       "name": "Combee",
-      "sinnoh_dex": 53,
+      "regional_dex": 53,
       "national_dex": 415,
       "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/415.png",
       "evolves_to": [
         {
           "pokemon_id": "vespiquen",
           "name": "Vespiquen",
-          "sinnoh_dex": 54,
+          "regional_dex": 54,
           "national_dex": 416,
           "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/416.png",
           "method": {
@@ -2019,7 +2019,7 @@
     "stages": {
       "pokemon_id": "pachirisu",
       "name": "Pachirisu",
-      "sinnoh_dex": 55,
+      "regional_dex": 55,
       "national_dex": 417,
       "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/417.png"
     }
@@ -2029,14 +2029,14 @@
     "stages": {
       "pokemon_id": "buizel",
       "name": "Buizel",
-      "sinnoh_dex": 56,
+      "regional_dex": 56,
       "national_dex": 418,
       "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/418.png",
       "evolves_to": [
         {
           "pokemon_id": "floatzel",
           "name": "Floatzel",
-          "sinnoh_dex": 57,
+          "regional_dex": 57,
           "national_dex": 419,
           "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/419.png",
           "method": {
@@ -2052,14 +2052,14 @@
     "stages": {
       "pokemon_id": "cherubi",
       "name": "Cherubi",
-      "sinnoh_dex": 58,
+      "regional_dex": 58,
       "national_dex": 420,
       "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/420.png",
       "evolves_to": [
         {
           "pokemon_id": "cherrim",
           "name": "Cherrim",
-          "sinnoh_dex": 59,
+          "regional_dex": 59,
           "national_dex": 421,
           "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/421.png",
           "method": {
@@ -2075,14 +2075,14 @@
     "stages": {
       "pokemon_id": "shellos",
       "name": "Shellos",
-      "sinnoh_dex": 60,
+      "regional_dex": 60,
       "national_dex": 422,
       "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/422.png",
       "evolves_to": [
         {
           "pokemon_id": "gastrodon",
           "name": "Gastrodon",
-          "sinnoh_dex": 61,
+          "regional_dex": 61,
           "national_dex": 423,
           "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/423.png",
           "method": {
@@ -2098,14 +2098,14 @@
     "stages": {
       "pokemon_id": "drifloon",
       "name": "Drifloon",
-      "sinnoh_dex": 65,
+      "regional_dex": 65,
       "national_dex": 425,
       "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/425.png",
       "evolves_to": [
         {
           "pokemon_id": "drifblim",
           "name": "Drifblim",
-          "sinnoh_dex": 66,
+          "regional_dex": 66,
           "national_dex": 426,
           "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/426.png",
           "method": {
@@ -2121,14 +2121,14 @@
     "stages": {
       "pokemon_id": "buneary",
       "name": "Buneary",
-      "sinnoh_dex": 67,
+      "regional_dex": 67,
       "national_dex": 427,
       "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/427.png",
       "evolves_to": [
         {
           "pokemon_id": "lopunny",
           "name": "Lopunny",
-          "sinnoh_dex": 68,
+          "regional_dex": 68,
           "national_dex": 428,
           "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/428.png",
           "method": {
@@ -2144,14 +2144,14 @@
     "stages": {
       "pokemon_id": "glameow",
       "name": "Glameow",
-      "sinnoh_dex": 76,
+      "regional_dex": 76,
       "national_dex": 431,
       "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/431.png",
       "evolves_to": [
         {
           "pokemon_id": "purugly",
           "name": "Purugly",
-          "sinnoh_dex": 77,
+          "regional_dex": 77,
           "national_dex": 432,
           "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/432.png",
           "method": {
@@ -2167,14 +2167,14 @@
     "stages": {
       "pokemon_id": "stunky",
       "name": "Stunky",
-      "sinnoh_dex": 84,
+      "regional_dex": 84,
       "national_dex": 434,
       "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/434.png",
       "evolves_to": [
         {
           "pokemon_id": "skuntank",
           "name": "Skuntank",
-          "sinnoh_dex": 85,
+          "regional_dex": 85,
           "national_dex": 435,
           "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/435.png",
           "method": {
@@ -2190,14 +2190,14 @@
     "stages": {
       "pokemon_id": "bronzor",
       "name": "Bronzor",
-      "sinnoh_dex": 88,
+      "regional_dex": 88,
       "national_dex": 436,
       "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/436.png",
       "evolves_to": [
         {
           "pokemon_id": "bronzong",
           "name": "Bronzong",
-          "sinnoh_dex": 89,
+          "regional_dex": 89,
           "national_dex": 437,
           "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/437.png",
           "method": {
@@ -2213,7 +2213,7 @@
     "stages": {
       "pokemon_id": "chatot",
       "name": "Chatot",
-      "sinnoh_dex": 102,
+      "regional_dex": 102,
       "national_dex": 441,
       "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/441.png"
     }
@@ -2223,7 +2223,7 @@
     "stages": {
       "pokemon_id": "spiritomb",
       "name": "Spiritomb",
-      "sinnoh_dex": 108,
+      "regional_dex": 108,
       "national_dex": 442,
       "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/442.png"
     }
@@ -2233,14 +2233,14 @@
     "stages": {
       "pokemon_id": "gible",
       "name": "Gible",
-      "sinnoh_dex": 109,
+      "regional_dex": 109,
       "national_dex": 443,
       "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/443.png",
       "evolves_to": [
         {
           "pokemon_id": "gabite",
           "name": "Gabite",
-          "sinnoh_dex": 110,
+          "regional_dex": 110,
           "national_dex": 444,
           "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/444.png",
           "method": {
@@ -2251,7 +2251,7 @@
             {
               "pokemon_id": "garchomp",
               "name": "Garchomp",
-              "sinnoh_dex": 111,
+              "regional_dex": 111,
               "national_dex": 445,
               "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/445.png",
               "method": {
@@ -2269,14 +2269,14 @@
     "stages": {
       "pokemon_id": "riolu",
       "name": "Riolu",
-      "sinnoh_dex": 115,
+      "regional_dex": 115,
       "national_dex": 447,
       "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/447.png",
       "evolves_to": [
         {
           "pokemon_id": "lucario",
           "name": "Lucario",
-          "sinnoh_dex": 116,
+          "regional_dex": 116,
           "national_dex": 448,
           "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/448.png",
           "method": {
@@ -2293,14 +2293,14 @@
     "stages": {
       "pokemon_id": "hippopotas",
       "name": "Hippopotas",
-      "sinnoh_dex": 122,
+      "regional_dex": 122,
       "national_dex": 449,
       "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/449.png",
       "evolves_to": [
         {
           "pokemon_id": "hippowdon",
           "name": "Hippowdon",
-          "sinnoh_dex": 123,
+          "regional_dex": 123,
           "national_dex": 450,
           "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/450.png",
           "method": {
@@ -2316,14 +2316,14 @@
     "stages": {
       "pokemon_id": "skorupi",
       "name": "Skorupi",
-      "sinnoh_dex": 127,
+      "regional_dex": 127,
       "national_dex": 451,
       "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/451.png",
       "evolves_to": [
         {
           "pokemon_id": "drapion",
           "name": "Drapion",
-          "sinnoh_dex": 128,
+          "regional_dex": 128,
           "national_dex": 452,
           "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/452.png",
           "method": {
@@ -2339,14 +2339,14 @@
     "stages": {
       "pokemon_id": "croagunk",
       "name": "Croagunk",
-      "sinnoh_dex": 129,
+      "regional_dex": 129,
       "national_dex": 453,
       "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/453.png",
       "evolves_to": [
         {
           "pokemon_id": "toxicroak",
           "name": "Toxicroak",
-          "sinnoh_dex": 130,
+          "regional_dex": 130,
           "national_dex": 454,
           "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/454.png",
           "method": {
@@ -2362,7 +2362,7 @@
     "stages": {
       "pokemon_id": "carnivine",
       "name": "Carnivine",
-      "sinnoh_dex": 131,
+      "regional_dex": 131,
       "national_dex": 455,
       "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/455.png"
     }
@@ -2372,14 +2372,14 @@
     "stages": {
       "pokemon_id": "finneon",
       "name": "Finneon",
-      "sinnoh_dex": 134,
+      "regional_dex": 134,
       "national_dex": 456,
       "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/456.png",
       "evolves_to": [
         {
           "pokemon_id": "lumineon",
           "name": "Lumineon",
-          "sinnoh_dex": 135,
+          "regional_dex": 135,
           "national_dex": 457,
           "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/457.png",
           "method": {
@@ -2395,14 +2395,14 @@
     "stages": {
       "pokemon_id": "snover",
       "name": "Snover",
-      "sinnoh_dex": 142,
+      "regional_dex": 142,
       "national_dex": 459,
       "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/459.png",
       "evolves_to": [
         {
           "pokemon_id": "abomasnow",
           "name": "Abomasnow",
-          "sinnoh_dex": 143,
+          "regional_dex": 143,
           "national_dex": 460,
           "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/460.png",
           "method": {
@@ -2418,7 +2418,7 @@
     "stages": {
       "pokemon_id": "rotom",
       "name": "Rotom",
-      "sinnoh_dex": 152,
+      "regional_dex": 152,
       "national_dex": 479,
       "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/479.png"
     }
@@ -2428,7 +2428,7 @@
     "stages": {
       "pokemon_id": "uxie",
       "name": "Uxie",
-      "sinnoh_dex": 146,
+      "regional_dex": 146,
       "national_dex": 480,
       "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/480.png"
     }
@@ -2438,7 +2438,7 @@
     "stages": {
       "pokemon_id": "mesprit",
       "name": "Mesprit",
-      "sinnoh_dex": 147,
+      "regional_dex": 147,
       "national_dex": 481,
       "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/481.png"
     }
@@ -2448,7 +2448,7 @@
     "stages": {
       "pokemon_id": "azelf",
       "name": "Azelf",
-      "sinnoh_dex": 148,
+      "regional_dex": 148,
       "national_dex": 482,
       "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/482.png"
     }
@@ -2458,7 +2458,7 @@
     "stages": {
       "pokemon_id": "dialga",
       "name": "Dialga",
-      "sinnoh_dex": 149,
+      "regional_dex": 149,
       "national_dex": 483,
       "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/483.png"
     }
@@ -2468,7 +2468,7 @@
     "stages": {
       "pokemon_id": "palkia",
       "name": "Palkia",
-      "sinnoh_dex": 150,
+      "regional_dex": 150,
       "national_dex": 484,
       "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/484.png"
     }
@@ -2478,7 +2478,7 @@
     "stages": {
       "pokemon_id": "giratina",
       "name": "Giratina",
-      "sinnoh_dex": 210,
+      "regional_dex": 210,
       "national_dex": 487,
       "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/487.png"
     }
@@ -2488,14 +2488,14 @@
     "stages": {
       "pokemon_id": "phione",
       "name": "Phione",
-      "sinnoh_dex": null,
+      "regional_dex": null,
       "national_dex": 489,
       "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/489.png",
       "evolves_to": [
         {
           "pokemon_id": "manaphy",
           "name": "Manaphy",
-          "sinnoh_dex": 151,
+          "regional_dex": 151,
           "national_dex": 490,
           "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/490.png"
         }

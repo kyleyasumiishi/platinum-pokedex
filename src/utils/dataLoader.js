@@ -12,11 +12,11 @@
  * they resolve correctly both locally and on GitHub Pages.
  */
 
-import pokemonRaw    from '../data/pokemon.json'
-import movesRaw      from '../data/moves.json'
-import locationsRaw  from '../data/locations.json'
-import evolutionsRaw from '../data/evolutions.json'
-import typeChartRaw  from '../data/type_chart.json'
+import pokemonRaw    from '../data/gen4/pokemon.json'
+import movesRaw      from '../data/gen4/moves.json'
+import locationsRaw  from '../data/gen4/locations.json'
+import evolutionsRaw from '../data/gen4/evolutions.json'
+import typeChartRaw  from '../data/gen4/type_chart.json'
 
 const BASE = import.meta.env.BASE_URL  // e.g. '/platinum-pokedex/'
 
@@ -34,13 +34,13 @@ export function spriteUrl(nationalDex) {
 // Pokémon data + indexes
 // ---------------------------------------------------------------------------
 
-// The raw array — 210 objects sorted by Sinnoh dex number
+// The raw array — 210 objects sorted by regional dex number
 export const pokemon = pokemonRaw
 
-// Look up any Pokémon by Sinnoh dex number in O(1)
-// e.g. pokemonBySinnohDex.get(1) → Turtwig's data object
-export const pokemonBySinnohDex = new Map(
-  pokemon.map(p => [p.sinnoh_dex, p])
+// Look up any Pokémon by regional dex number in O(1)
+// e.g. pokemonByRegionalDex.get(1) → Turtwig's data object
+export const pokemonByRegionalDex = new Map(
+  pokemon.map(p => [p.regional_dex, p])
 )
 
 // Look up any Pokémon by lowercase name in O(1)

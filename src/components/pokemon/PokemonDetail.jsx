@@ -1,10 +1,10 @@
 /**
  * PokemonDetail.jsx — Full detail view for a single Pokémon.
  *
- * URL: /pokemon/:sinnohDex
+ * URL: /pokemon/:regionalDex
  *
- * useParams() is a React Router hook that reads the :sinnohDex segment
- * from the URL. So if the URL is /pokemon/111, params.sinnohDex is "111".
+ * useParams() is a React Router hook that reads the :regionalDex segment
+ * from the URL. So if the URL is /pokemon/111, params.regionalDex is "111".
  * We convert it to a number to look up in our Map index.
  *
  * useNavigate() gives us a function to navigate programmatically —
@@ -16,7 +16,7 @@
  * Below: 6 collapsible sections, all closed by default.
  */
 import { useParams, useNavigate } from 'react-router-dom'
-import { pokemonBySinnohDex, spriteUrl } from '../../utils/dataLoader'
+import { pokemonByRegionalDex, spriteUrl } from '../../utils/dataLoader'
 import { useTeamContext } from '../../context/TeamContext'
 import TypeBadge from '../shared/TypeBadge'
 import CollapsibleSection from '../shared/CollapsibleSection'
@@ -29,15 +29,15 @@ import TypeMatchups from './TypeMatchups'
 const MASTER_BALL_URL = `${import.meta.env.BASE_URL}sprites/items/master-ball.png`
 
 export default function PokemonDetail() {
-  const { sinnohDex } = useParams()
+  const { regionalDex } = useParams()
   const navigate = useNavigate()
   const { isOnTeam, toggleTeam } = useTeamContext()
-  const p = pokemonBySinnohDex.get(Number(sinnohDex))
+  const p = pokemonByRegionalDex.get(Number(regionalDex))
 
   if (!p) {
     return (
       <div className="p-6 text-center screen-text" style={{ fontSize: '0.8rem' }}>
-        Pokémon #{sinnohDex} not found.
+        Pokémon #{regionalDex} not found.
       </div>
     )
   }
@@ -65,17 +65,17 @@ export default function PokemonDetail() {
         </button>
 
         <button
-          onClick={() => toggleTeam(p.sinnoh_dex)}
+          onClick={() => toggleTeam(p.regional_dex)}
           style={{
             background: 'none',
             border: 'none',
             cursor: 'pointer',
             padding: '8px 12px',
-            opacity: isOnTeam(p.sinnoh_dex) ? 1 : 0.3,
+            opacity: isOnTeam(p.regional_dex) ? 1 : 0.3,
             transition: 'opacity 0.15s, transform 0.1s',
-            transform: isOnTeam(p.sinnoh_dex) ? 'scale(1.1)' : 'scale(1)',
+            transform: isOnTeam(p.regional_dex) ? 'scale(1.1)' : 'scale(1)',
           }}
-          title={isOnTeam(p.sinnoh_dex) ? 'Remove from team' : 'Add to team'}
+          title={isOnTeam(p.regional_dex) ? 'Remove from team' : 'Add to team'}
         >
           <img src={MASTER_BALL_URL} alt="Master Ball" style={{ width: 32, height: 32 }} />
         </button>
@@ -98,7 +98,7 @@ export default function PokemonDetail() {
             {/* Dex numbers */}
             <div style={{ fontFamily: '"Share Tech Mono", monospace', fontSize: '0.65rem' }}>
               <span style={{ color: 'var(--screen-green-dim)' }}>
-                SINNOH #{String(p.sinnoh_dex).padStart(3, '0')}
+                SINNOH #{String(p.regional_dex).padStart(3, '0')}
               </span>
               <span style={{ color: '#555', margin: '0 6px' }}>·</span>
               <span style={{ color: '#666' }}>

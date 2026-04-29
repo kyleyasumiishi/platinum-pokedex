@@ -4,8 +4,8 @@
  * URL: /moves/:moveId
  *
  * The "Learned by" section groups Pokémon by learn method.
- * We cross-reference with pokemonByName to get each Pokémon's sinnoh_dex
- * so we can build the link to /pokemon/:sinnohDex.
+ * We cross-reference with pokemonByName to get each Pokémon's regional_dex
+ * so we can build the link to /pokemon/:regionalDex.
  */
 import { useParams, useNavigate, Link } from 'react-router-dom'
 import { moves, pokemonByName, spriteUrl } from '../../utils/dataLoader'
@@ -56,7 +56,7 @@ function LearnedByGroup({ label, entries, showLevel }) {
           return (
             <Link
               key={name}
-              to={`/pokemon/${poke.sinnoh_dex}`}
+              to={`/pokemon/${poke.regional_dex}`}
               style={{ textDecoration: 'none' }}
             >
               <div
