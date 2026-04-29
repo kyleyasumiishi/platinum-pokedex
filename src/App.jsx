@@ -7,12 +7,16 @@
  * Each gen-namespaced route is wrapped in <GenSyncRoute gen={N}> so that
  * deep-linking to /gen5/... while activeGen is 4 transparently switches the
  * active gen to match the URL.
+ *
+ * `AppContent` is the router-less inner shell. `App` wraps it in
+ * <BrowserRouter>; tests wrap it in <MemoryRouter>.
  */
 
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
 
 import { GenerationProvider, useGenerationContext } from './context/GenerationContext'
 import { TeamProvider } from './context/TeamContext'
+import { SUPPORTED_GENS } from './utils/dataLoader'
 import GenSyncRoute from './components/shared/GenSyncRoute'
 
 import Header    from './components/layout/Header'
@@ -51,38 +55,49 @@ function GenRoutes({ gen }) {
   )
 }
 
-export default function App() {
+export function AppContent() {
   return (
     <GenerationProvider>
       <TeamProvider>
-        <BrowserRouter basename={import.meta.env.BASE_URL}>
-          <div className="flex flex-col" style={{ minHeight: '100dvh' }}>
+        <div className="flex flex-col" style={{ minHeight: '100dvh' }}>
 
-            <Header />
+          <Header />
 
-            <main
-              className="flex-1 overflow-y-auto"
-              style={{
-                paddingTop:    'var(--header-height)',
-                paddingBottom: 'var(--nav-height)',
-                backgroundColor: 'var(--screen-bg-alt)',
-              }}
-            >
-              <Routes>
-                <Route path="/"           element={<RedirectToActiveGen />} />
-                <Route path="/gen4/*"     element={<GenRoutes gen={4} />}   />
-                <Route path="/gen5/*"     element={<GenRoutes gen={5} />}   />
-                <Route path="/settings"   element={<SettingsPage />}        />
-                <Route path="*"           element={<NotFoundPage />}        />
-              </Routes>
-            </main>
+          <main
+            className="flex-1 overflow-y-auto"
+            style={{
+              paddingTop:    'var(--header-height)',
+              paddingBottom: 'var(--nav-height)',
+              backgroundColor: 'var(--screen-bg-alt)',
+            }}
+          >
+            <Routes>
+              <Route path="/"           element={<RedirectToActiveGen />} />
+              {SUPPORTED_GENS.map(gen => (
+                <Route
+                  key={gen}
+                  path={`/gen${gen}/*`}
+                  element={<GenRoutes gen={gen} />}
+                />
+              ))}
+              <Route path="/settings"   element={<SettingsPage />}        />
+              <Route path="*"           element={<NotFoundPage />}        />
+            </Routes>
+          </main>
 
-            <BottomNav />
-            <TeamTray />
+          <BottomNav />
+          <TeamTray />
 
-          </div>
-        </BrowserRouter>
+        </div>
       </TeamProvider>
     </GenerationProvider>
+  )
+}
+
+export default function App() {
+  return (
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
+      <AppContent />
+    </BrowserRouter>
   )
 }

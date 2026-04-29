@@ -60,6 +60,11 @@ const datasets = {
   5: buildDataset(gen5Pokemon, gen5Moves, gen5Locations, gen5Evolutions, gen5TypeChart),
 }
 
+// Single source of truth for which gens the app supports. App.jsx maps over
+// this to generate routes; SettingsPage uses it for the toggle. Adding a new
+// gen = add an entry to `datasets` above, no other code changes needed here.
+export const SUPPORTED_GENS = Object.keys(datasets).map(Number).sort((a, b) => a - b)
+
 // ---------------------------------------------------------------------------
 // useDataset() — components call this to get the active gen's data
 // ---------------------------------------------------------------------------

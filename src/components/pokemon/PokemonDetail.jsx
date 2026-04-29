@@ -18,6 +18,9 @@
 import { useParams, useNavigate } from 'react-router-dom'
 import { useDataset, spriteUrl } from '../../utils/dataLoader'
 import { useTeamContext } from '../../context/TeamContext'
+import { useGenerationContext } from '../../context/GenerationContext'
+
+const REGION_LABELS = { 4: 'SINNOH', 5: 'UNOVA' }
 import TypeBadge from '../shared/TypeBadge'
 import CollapsibleSection from '../shared/CollapsibleSection'
 import StatsChart from './StatsChart'
@@ -32,6 +35,7 @@ export default function PokemonDetail() {
   const { regionalDex } = useParams()
   const navigate = useNavigate()
   const { isOnTeam, toggleTeam } = useTeamContext()
+  const { activeGen } = useGenerationContext()
   const { pokemonByRegionalDex } = useDataset()
   const p = pokemonByRegionalDex.get(Number(regionalDex))
 
@@ -99,7 +103,7 @@ export default function PokemonDetail() {
             {/* Dex numbers */}
             <div style={{ fontFamily: '"Share Tech Mono", monospace', fontSize: '0.65rem' }}>
               <span style={{ color: 'var(--screen-green-dim)' }}>
-                SINNOH #{String(p.regional_dex).padStart(3, '0')}
+                {REGION_LABELS[activeGen]} #{String(p.regional_dex).padStart(3, '0')}
               </span>
               <span style={{ color: '#555', margin: '0 6px' }}>·</span>
               <span style={{ color: '#666' }}>
@@ -129,6 +133,13 @@ export default function PokemonDetail() {
         >
           {p.description || 'No description available.'}
         </div>
+
+        {/* Version-exclusive badge — White-exclusives are trade-only in Black */}
+        {p.version_exclusive === 'white' && (
+          <div role="alert" className="version-exclusive-badge">
+            ⚠ WHITE EXCLUSIVE · TRADE ONLY
+          </div>
+        )}
       </div>
 
       {/* ── Collapsible sections ─────────────────────────────────────── */}
