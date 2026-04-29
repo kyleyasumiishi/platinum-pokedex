@@ -1,29 +1,24 @@
 /**
- * TeamContext.jsx — Makes team state available to any component in the app.
+ * TeamContext.jsx — Makes team state available to any component in the tree.
  *
- * WHY CONTEXT?
- *   The team state needs to be read and updated by PokemonCard (in the list),
- *   PokemonDetail (in the detail view), and TeamTray (floating overlay).
- *   These components are far apart in the tree, so passing props down through
- *   every level ("prop drilling") would be messy.
- *
- *   React Context solves this: we put the state at the top of the tree and
- *   any component can access it directly with useContext(), no matter how
- *   deeply nested it is.
- *
- * HOW TO USE IN A COMPONENT:
- *   import { useTeamContext } from '../context/TeamContext'
- *   const { team, isOnTeam, toggleTeam } = useTeamContext()
+ * Maintains one useTeam instance per generation so switching gens swaps the
+ * visible team instantly without losing either gen's team. The TeamTray and
+ * detail pages always read the active gen's team.
  */
 import { createContext, useContext } from 'react'
 import { useTeam } from '../hooks/useTeam'
+import { useGenerationContext } from './GenerationContext'
 
 const TeamContext = createContext(null)
 
 export function TeamProvider({ children }) {
-  const teamState = useTeam()
+  const { activeGen } = useGenerationContext()
+  const gen4Team = useTeam(4)
+  const gen5Team = useTeam(5)
+  const activeTeam = activeGen === 5 ? gen5Team : gen4Team
+
   return (
-    <TeamContext.Provider value={teamState}>
+    <TeamContext.Provider value={activeTeam}>
       {children}
     </TeamContext.Provider>
   )

@@ -27,6 +27,7 @@ import MovesPage          from './pages/MovesPage'
 import MoveDetailPage     from './pages/MoveDetailPage'
 import TypesPage          from './pages/TypesPage'
 import NotFoundPage       from './pages/NotFoundPage'
+import SettingsPage       from './pages/SettingsPage'
 
 function RedirectToActiveGen() {
   const { activeGen } = useGenerationContext()
@@ -71,6 +72,7 @@ export default function App() {
                 <Route path="/"           element={<RedirectToActiveGen />} />
                 <Route path="/gen4/*"     element={<GenRoutes gen={4} />}   />
                 <Route path="/gen5/*"     element={<GenRoutes gen={5} />}   />
+                <Route path="/settings"   element={<SettingsPage />}        />
                 <Route path="*"           element={<NotFoundPage />}        />
               </Routes>
             </main>

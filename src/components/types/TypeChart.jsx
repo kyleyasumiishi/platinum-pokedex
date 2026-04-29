@@ -20,6 +20,7 @@
  */
 import { useState } from 'react'
 import { useDataset } from '../../utils/dataLoader'
+import { useGenerationContext } from '../../context/GenerationContext'
 
 // Cell background and text colors by effectiveness multiplier
 const CELL_STYLE = {
@@ -44,6 +45,7 @@ const LIGHT_TEXT_TYPES = new Set(['Electric', 'Ice', 'Ground', 'Steel'])
 export default function TypeChart() {
   const [selectedType, setSelectedType] = useState(null)
   const { typeChart } = useDataset()
+  const { activeGen } = useGenerationContext()
   const TYPES = typeChart.types
 
   function handleTypeClick(type) {
@@ -66,7 +68,7 @@ export default function TypeChart() {
       {/* Instructions */}
       <div className="screen p-3 mb-3">
         <p className="screen-text pixel-text" style={{ fontSize: '0.45rem', lineHeight: 2 }}>
-          TYPE CHART — GEN 4
+          TYPE CHART — GEN {activeGen}
         </p>
         <p className="screen-text-dim mt-1" style={{ fontSize: '0.65rem', fontFamily: '"Share Tech Mono", monospace' }}>
           Row = attacking · Col = defending

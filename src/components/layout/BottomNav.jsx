@@ -15,10 +15,11 @@ export default function BottomNav() {
   const prefix = `/gen${activeGen}`
 
   const tabs = [
-    { to: prefix,             label: 'Pokédex', icon: '📋', end: true  },
-    { to: `${prefix}/routes`, label: 'Routes',  icon: '🗺️', end: false },
-    { to: `${prefix}/moves`,  label: 'Moves',   icon: '⚡',  end: false },
-    { to: `${prefix}/types`,  label: 'Types',   icon: '🔥',  end: false },
+    { to: prefix,             label: 'Pokédex',  icon: '📋', end: true  },
+    { to: `${prefix}/routes`, label: 'Routes',   icon: '🗺️', end: false },
+    { to: `${prefix}/moves`,  label: 'Moves',    icon: '⚡',  end: false },
+    { to: `${prefix}/types`,  label: 'Types',    icon: '🔥',  end: false },
+    { to: '/settings',        label: 'Settings', icon: '⚙️',  end: true  },
   ]
 
   return (
@@ -46,7 +47,7 @@ export default function BottomNav() {
           <span style={{ fontSize: '1.2rem', lineHeight: 1 }}>{tab.icon}</span>
           <span
             style={{
-              fontSize: '0.55rem',
+              fontSize: '0.5rem',
               fontFamily: '"Share Tech Mono", monospace',
               letterSpacing: '0.05em',
               textTransform: 'uppercase',

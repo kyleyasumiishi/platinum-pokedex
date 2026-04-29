@@ -1,44 +1,65 @@
 /**
- * useTeam.js — Custom hook for managing the pinned Pokémon team.
+ * useTeam.js — Custom hook for managing a per-generation pinned team.
  *
- * Stores up to 6 regional dex numbers in localStorage so the team persists
- * across sessions (closing and reopening the browser).
+ * useTeam(gen) accepts the active generation (4 or 5) and stores up to 6
+ * regional dex numbers in a gen-specific localStorage key.
  *
- * HOW localStorage WORKS:
- *   localStorage is a simple key-value store in the browser. Values must be
- *   strings, so we JSON.stringify the array when saving and JSON.parse when
- *   reading. It survives page refreshes and browser restarts, but not clearing
- *   browser data.
+ * STORAGE KEYS:
+ *   platinum-pokedex-team-gen4  — Sinnoh team
+ *   platinum-pokedex-team-gen5  — Unova team
  *
- * HOW THIS HOOK WORKS:
- *   useState is initialized with a function (lazy initializer) — the function
- *   runs only once on first render to read from localStorage. After that,
- *   React manages the state in memory and we sync to localStorage on changes.
- *
- * RETURNS:
- *   team         — array of regional_dex numbers currently on the team (max 6)
- *   isOnTeam(n)  — returns true if regional_dex n is on the team
- *   toggleTeam(n)— adds n if not present (if room), removes it if present
+ * LEGACY MIGRATION (runs once on first mount, no-op thereafter):
+ *   If the old key `platinum-pokedex-team` exists AND the new gen-4 key is
+ *   empty, copy the old team into gen-4 and delete the old key. This preserves
+ *   any in-progress Sinnoh team from before this migration.
  */
 import { useState, useEffect } from 'react'
 
-const STORAGE_KEY = 'platinum-pokedex-team'
+const LEGACY_KEY = 'platinum-pokedex-team'
 const MAX_TEAM = 6
 
-export function useTeam() {
-  const [team, setTeam] = useState(() => {
-    try {
-      const stored = localStorage.getItem(STORAGE_KEY)
-      return stored ? JSON.parse(stored) : []
-    } catch {
-      return []
+function storageKey(gen) {
+  return `platinum-pokedex-team-gen${gen}`
+}
+
+function readTeam(gen) {
+  try {
+    const stored = localStorage.getItem(storageKey(gen))
+    return stored ? JSON.parse(stored) : []
+  } catch {
+    return []
+  }
+}
+
+function migrateLegacy() {
+  try {
+    const legacy = localStorage.getItem(LEGACY_KEY)
+    if (!legacy) return
+    // Only copy if the new gen-4 key is still empty (idempotent)
+    const gen4Key = storageKey(4)
+    if (!localStorage.getItem(gen4Key)) {
+      localStorage.setItem(gen4Key, legacy)
     }
+    localStorage.removeItem(LEGACY_KEY)
+  } catch {
+    // ignore — localStorage may be unavailable
+  }
+}
+
+export function useTeam(gen) {
+  const [team, setTeam] = useState(() => {
+    migrateLegacy()          // runs once per hook instance on first mount
+    return readTeam(gen)
   })
 
-  // Sync to localStorage whenever team changes
+  // Sync to the gen-specific key whenever the team changes
   useEffect(() => {
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(team))
-  }, [team])
+    try {
+      localStorage.setItem(storageKey(gen), JSON.stringify(team))
+    } catch {
+      // ignore
+    }
+  }, [gen, team])
 
   function isOnTeam(regionalDex) {
     return team.includes(regionalDex)
@@ -46,14 +67,8 @@ export function useTeam() {
 
   function toggleTeam(regionalDex) {
     setTeam(prev => {
-      if (prev.includes(regionalDex)) {
-        // Remove from team
-        return prev.filter(n => n !== regionalDex)
-      }
-      if (prev.length >= MAX_TEAM) {
-        // Team is full — don't add, return unchanged
-        return prev
-      }
+      if (prev.includes(regionalDex)) return prev.filter(n => n !== regionalDex)
+      if (prev.length >= MAX_TEAM) return prev
       return [...prev, regionalDex]
     })
   }
