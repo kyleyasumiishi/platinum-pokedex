@@ -4,17 +4,18 @@
  * Sorted alphabetically. Search matches on the location's display name.
  */
 import { useState, useMemo } from 'react'
-import { locationList } from '../../utils/dataLoader'
+import { useDataset } from '../../utils/dataLoader'
 import RouteCard from './RouteCard'
 
 export default function RouteList() {
   const [query, setQuery] = useState('')
+  const { locationList } = useDataset()
 
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase()
     if (!q) return locationList
     return locationList.filter(([, loc]) => loc.name.toLowerCase().includes(q))
-  }, [query])
+  }, [locationList, query])
 
   return (
     <div>

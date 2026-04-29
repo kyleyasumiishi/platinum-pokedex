@@ -19,9 +19,7 @@
  *   1x   → transparent       (neutral, no value shown)
  */
 import { useState } from 'react'
-import { typeChart } from '../../utils/dataLoader'
-
-const TYPES = typeChart.types
+import { useDataset } from '../../utils/dataLoader'
 
 // Cell background and text colors by effectiveness multiplier
 const CELL_STYLE = {
@@ -45,6 +43,8 @@ const LIGHT_TEXT_TYPES = new Set(['Electric', 'Ice', 'Ground', 'Steel'])
 
 export default function TypeChart() {
   const [selectedType, setSelectedType] = useState(null)
+  const { typeChart } = useDataset()
+  const TYPES = typeChart.types
 
   function handleTypeClick(type) {
     setSelectedType(prev => prev === type ? null : type)

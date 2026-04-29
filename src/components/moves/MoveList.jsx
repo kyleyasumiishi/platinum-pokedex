@@ -16,7 +16,7 @@
  *   - By power (default desc — highest power first)
  */
 import { useState, useMemo } from 'react'
-import { moves } from '../../utils/dataLoader'
+import { useDataset } from '../../utils/dataLoader'
 import MoveCard from './MoveCard'
 
 const ALL_TYPES = [
@@ -31,11 +31,9 @@ const SORT_OPTIONS = [
   { value: 'power', label: 'Power', defaultDir: 'desc' },
 ]
 
-// Pre-build the move list array once (outside the component so it's not
-// recreated on every render)
-const moveEntries = Object.entries(moves)
-
 export default function MoveList() {
+  const { moves } = useDataset()
+  const moveEntries = useMemo(() => Object.entries(moves), [moves])
   const [query,          setQuery]          = useState('')
   const [typeFilter,     setTypeFilter]     = useState(null)   // single type or null
   const [categoryFilter, setCategoryFilter] = useState(null)   // single category or null
@@ -78,7 +76,7 @@ export default function MoveList() {
     }
 
     return list
-  }, [query, typeFilter, categoryFilter, sortBy, sortDir])
+  }, [moveEntries, query, typeFilter, categoryFilter, sortBy, sortDir])
 
   const hasActiveFilters = typeFilter || categoryFilter
 

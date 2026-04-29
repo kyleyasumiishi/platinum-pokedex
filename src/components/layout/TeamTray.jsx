@@ -11,13 +11,16 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { useTeamContext } from '../../context/TeamContext'
-import { pokemonByRegionalDex, spriteUrl } from '../../utils/dataLoader'
+import { useGenerationContext } from '../../context/GenerationContext'
+import { useDataset, spriteUrl } from '../../utils/dataLoader'
 
 const MASTER_BALL_URL = `${import.meta.env.BASE_URL}sprites/items/master-ball.png`
 
 export default function TeamTray() {
   const [isOpen, setIsOpen] = useState(false)
   const { team, toggleTeam } = useTeamContext()
+  const { activeGen } = useGenerationContext()
+  const { pokemonByRegionalDex } = useDataset()
 
   if (team.length === 0) return null
 
@@ -63,7 +66,7 @@ export default function TeamTray() {
                 return (
                   <div key={regionalDex} style={{ position: 'relative' }}>
                     <Link
-                      to={`/pokemon/${regionalDex}`}
+                      to={`/gen${activeGen}/pokemon/${regionalDex}`}
                       onClick={() => setIsOpen(false)}
                       style={{ textDecoration: 'none' }}
                     >

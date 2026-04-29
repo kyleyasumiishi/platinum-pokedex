@@ -10,16 +10,18 @@ import { Link } from 'react-router-dom'
 import TypeBadge from '../shared/TypeBadge'
 import { spriteUrl } from '../../utils/dataLoader'
 import { useTeamContext } from '../../context/TeamContext'
+import { useGenerationContext } from '../../context/GenerationContext'
 
 const MASTER_BALL_URL = `${import.meta.env.BASE_URL}sprites/items/master-ball.png`
 
 export default function PokemonCard({ pokemon: p }) {
   const { isOnTeam, toggleTeam } = useTeamContext()
+  const { activeGen } = useGenerationContext()
   const pinned = isOnTeam(p.regional_dex)
 
   return (
     <div className="dex-card flex items-center gap-3 px-3 py-2" style={{ minHeight: 64 }}>
-      <Link to={`/pokemon/${p.regional_dex}`} style={{ textDecoration: 'none', display: 'flex', alignItems: 'center', gap: 12, flex: 1, minWidth: 0 }}>
+      <Link to={`/gen${activeGen}/pokemon/${p.regional_dex}`} style={{ textDecoration: 'none', display: 'flex', alignItems: 'center', gap: 12, flex: 1, minWidth: 0 }}>
         {/* Sprite */}
         <img
           src={spriteUrl(p.national_dex)}

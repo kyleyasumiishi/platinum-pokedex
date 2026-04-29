@@ -18,7 +18,7 @@
  *   every render. With 210 items it's not critical, but it's good practice.
  */
 import { useState, useMemo } from 'react'
-import { pokemon } from '../../utils/dataLoader'
+import { useDataset } from '../../utils/dataLoader'
 import PokemonCard from './PokemonCard'
 
 const ALL_TYPES = [
@@ -38,6 +38,7 @@ export default function PokemonList() {
   const [sortBy, setSortBy]           = useState('dex')
   const [sortDir, setSortDir]         = useState('asc')  // 'asc' or 'desc'
   const [showFilters, setShowFilters] = useState(false)
+  const { pokemon } = useDataset()
 
   // Toggle a type in/out of the filter array
   function toggleType(type) {
@@ -84,7 +85,7 @@ export default function PokemonList() {
     if (sortBy === 'bst')   list = [...list].sort((a, b) => (b.base_stat_total - a.base_stat_total) * dir)
 
     return list
-  }, [query, typeFilter, sortBy, sortDir])
+  }, [pokemon, query, typeFilter, sortBy, sortDir])
 
   return (
     <div>
@@ -198,7 +199,7 @@ export default function PokemonList() {
           className="mt-1 screen-text-dim"
           style={{ fontSize: '0.65rem', textAlign: 'right' }}
         >
-          {filtered.length} / 210
+          {filtered.length} / {pokemon.length}
         </div>
       </div>
 

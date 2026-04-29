@@ -16,7 +16,7 @@
  * Below: 6 collapsible sections, all closed by default.
  */
 import { useParams, useNavigate } from 'react-router-dom'
-import { pokemonByRegionalDex, spriteUrl } from '../../utils/dataLoader'
+import { useDataset, spriteUrl } from '../../utils/dataLoader'
 import { useTeamContext } from '../../context/TeamContext'
 import TypeBadge from '../shared/TypeBadge'
 import CollapsibleSection from '../shared/CollapsibleSection'
@@ -32,6 +32,7 @@ export default function PokemonDetail() {
   const { regionalDex } = useParams()
   const navigate = useNavigate()
   const { isOnTeam, toggleTeam } = useTeamContext()
+  const { pokemonByRegionalDex } = useDataset()
   const p = pokemonByRegionalDex.get(Number(regionalDex))
 
   if (!p) {

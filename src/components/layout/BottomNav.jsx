@@ -1,25 +1,26 @@
 /**
- * BottomNav.jsx — Fixed bottom tab bar with 4 navigation tabs.
+ * BottomNav.jsx — Fixed bottom tab bar.
  *
- * Uses React Router's NavLink component, which automatically adds an
- * 'active' class when the current URL matches the link's `to` prop.
- * We use this to highlight the active tab.
+ * Tab targets are gen-namespaced: each tab points to /gen{activeGen}/...
+ * NavLink applies its active style when the URL prefix matches.
  *
- * The `end` prop on the first tab means it only matches exactly '/',
- * not any route that starts with '/'. Without it, the Pokédex tab would
- * always appear active since every route starts with '/'.
+ * The first tab uses `end` to only match the exact /gen{N} path, otherwise
+ * every gen-namespaced URL would highlight the Pokédex tab.
  */
-
 import { NavLink } from 'react-router-dom'
-
-const TABS = [
-  { to: '/',       label: 'Pokédex', icon: '📋', end: true  },
-  { to: '/routes', label: 'Routes',  icon: '🗺️', end: false },
-  { to: '/moves',  label: 'Moves',   icon: '⚡',  end: false },
-  { to: '/types',  label: 'Types',   icon: '🔥',  end: false },
-]
+import { useGenerationContext } from '../../context/GenerationContext'
 
 export default function BottomNav() {
+  const { activeGen } = useGenerationContext()
+  const prefix = `/gen${activeGen}`
+
+  const tabs = [
+    { to: prefix,             label: 'Pokédex', icon: '📋', end: true  },
+    { to: `${prefix}/routes`, label: 'Routes',  icon: '🗺️', end: false },
+    { to: `${prefix}/moves`,  label: 'Moves',   icon: '⚡',  end: false },
+    { to: `${prefix}/types`,  label: 'Types',   icon: '🔥',  end: false },
+  ]
+
   return (
     <nav
       className="fixed bottom-0 left-0 right-0 z-50 flex"
@@ -30,7 +31,7 @@ export default function BottomNav() {
         boxShadow: '0 -2px 8px rgba(0,0,0,0.5)',
       }}
     >
-      {TABS.map(tab => (
+      {tabs.map(tab => (
         <NavLink
           key={tab.to}
           to={tab.to}

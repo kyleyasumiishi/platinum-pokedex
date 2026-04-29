@@ -7,6 +7,7 @@
  *   encounters (array) — from pokemon.json encounters array
  */
 import { Link } from 'react-router-dom'
+import { useGenerationContext } from '../../context/GenerationContext'
 
 const METHOD_LABELS = {
   'walk':           'Grass',
@@ -30,10 +31,11 @@ function formatLocation(locationId) {
 }
 
 export default function EncounterTable({ encounters }) {
+  const { activeGen } = useGenerationContext()
   if (!encounters || encounters.length === 0) {
     return (
       <p style={{ color: 'var(--screen-green-dim)', fontSize: '0.75rem', textAlign: 'center', padding: '8px' }}>
-        Not found in the wild in Platinum.
+        Not found in the wild.
       </p>
     )
   }
@@ -55,7 +57,7 @@ export default function EncounterTable({ encounters }) {
             <tr key={i} style={{ borderBottom: '1px solid var(--dex-border)' }}>
               <td style={{ padding: '5px 6px' }}>
                 <Link
-                  to={`/routes/${enc.location}`}
+                  to={`/gen${activeGen}/routes/${enc.location}`}
                   style={{ color: 'var(--screen-green)', fontSize: '0.7rem', textDecoration: 'none' }}
                 >
                   {formatLocation(enc.location)}

@@ -8,7 +8,8 @@
  * so we can build the link to /pokemon/:regionalDex.
  */
 import { useParams, useNavigate, Link } from 'react-router-dom'
-import { moves, pokemonByName, spriteUrl } from '../../utils/dataLoader'
+import { useDataset, spriteUrl } from '../../utils/dataLoader'
+import { useGenerationContext } from '../../context/GenerationContext'
 import TypeBadge from '../shared/TypeBadge'
 
 const CATEGORY_ICONS = {
@@ -24,7 +25,7 @@ const LEARN_METHOD_LABELS = {
   egg:      'Egg Move',
 }
 
-function LearnedByGroup({ label, entries, showLevel }) {
+function LearnedByGroup({ label, entries, showLevel, pokemonByName, activeGen }) {
   if (!entries || Object.keys(entries).length === 0) return null
 
   // Sort by level (for level-up), then alphabetically
@@ -56,7 +57,7 @@ function LearnedByGroup({ label, entries, showLevel }) {
           return (
             <Link
               key={name}
-              to={`/pokemon/${poke.regional_dex}`}
+              to={`/gen${activeGen}/pokemon/${poke.regional_dex}`}
               style={{ textDecoration: 'none' }}
             >
               <div
@@ -90,6 +91,8 @@ function LearnedByGroup({ label, entries, showLevel }) {
 export default function MoveDetail() {
   const { moveId } = useParams()
   const navigate   = useNavigate()
+  const { moves, pokemonByName } = useDataset()
+  const { activeGen } = useGenerationContext()
   const move       = moves[moveId]
 
   if (!move) {
@@ -181,21 +184,29 @@ export default function MoveDetail() {
           label={LEARN_METHOD_LABELS.level_up}
           entries={move.learned_by.level_up}
           showLevel
+          pokemonByName={pokemonByName}
+          activeGen={activeGen}
         />
         <LearnedByGroup
           label={LEARN_METHOD_LABELS.tm_hm}
           entries={move.learned_by.tm_hm}
           showLevel={false}
+          pokemonByName={pokemonByName}
+          activeGen={activeGen}
         />
         <LearnedByGroup
           label={LEARN_METHOD_LABELS.tutor}
           entries={move.learned_by.tutor}
           showLevel={false}
+          pokemonByName={pokemonByName}
+          activeGen={activeGen}
         />
         <LearnedByGroup
           label={LEARN_METHOD_LABELS.egg}
           entries={move.learned_by.egg}
           showLevel={false}
+          pokemonByName={pokemonByName}
+          activeGen={activeGen}
         />
 
         {Object.values(move.learned_by).every(g => Object.keys(g).length === 0) && (

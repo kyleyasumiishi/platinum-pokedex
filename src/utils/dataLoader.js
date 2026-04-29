@@ -1,96 +1,98 @@
 /**
- * dataLoader.js — Imports static JSON data and builds fast lookup indexes.
+ * dataLoader.js — Imports static JSON for each generation and builds fast lookup
+ * indexes. Components read the active gen's data through the `useDataset()` hook.
  *
  * WHY INDEXES?
- * pokemon.json is an array of 210 objects. If we want to find Garchomp by name
- * every time we render a link, we'd have to scan the whole array each time.
- * Instead, we build Maps (key → value dictionaries) once at startup so any
- * lookup is O(1) — instant no matter how many Pokémon there are.
+ *   pokemon.json is an array of ~150-200 objects per gen. Looking up Garchomp
+ *   by name on every render would be O(n). Building Maps once at module load
+ *   makes any lookup O(1).
  *
  * import.meta.env.BASE_URL is a Vite feature that returns '/' in dev and
- * '/platinum-pokedex/' in production. We use it to prefix sprite paths so
- * they resolve correctly both locally and on GitHub Pages.
+ * '/platinum-pokedex/' in production. We prefix sprite paths with it so they
+ * resolve correctly both locally and on GitHub Pages.
  */
 
-import pokemonRaw    from '../data/gen4/pokemon.json'
-import movesRaw      from '../data/gen4/moves.json'
-import locationsRaw  from '../data/gen4/locations.json'
-import evolutionsRaw from '../data/gen4/evolutions.json'
-import typeChartRaw  from '../data/gen4/type_chart.json'
+import gen4Pokemon    from '../data/gen4/pokemon.json'
+import gen4Moves      from '../data/gen4/moves.json'
+import gen4Locations  from '../data/gen4/locations.json'
+import gen4Evolutions from '../data/gen4/evolutions.json'
+import gen4TypeChart  from '../data/gen4/type_chart.json'
 
-const BASE = import.meta.env.BASE_URL  // e.g. '/platinum-pokedex/'
+import gen5Pokemon    from '../data/gen5/pokemon.json'
+import gen5Moves      from '../data/gen5/moves.json'
+import gen5Locations  from '../data/gen5/locations.json'
+import gen5Evolutions from '../data/gen5/evolutions.json'
+import gen5TypeChart  from '../data/gen5/type_chart.json'
+
+import { useGenerationContext } from '../context/GenerationContext'
+
+const BASE = import.meta.env.BASE_URL  // '/platinum-pokedex/' in prod
 
 // ---------------------------------------------------------------------------
-// Sprite URL helper
+// Sprite URL helper — gen-agnostic (national_dex IDs don't collide)
 // ---------------------------------------------------------------------------
-// Sprites are stored in public/sprites/{nationalDex}.png.
-// In the JSON the path is 'sprites/387.png' (no leading slash).
-// We prepend BASE so it works in both dev and production.
 export function spriteUrl(nationalDex) {
   return `${BASE}sprites/${nationalDex}.png`
 }
 
 // ---------------------------------------------------------------------------
-// Pokémon data + indexes
+// Per-gen dataset construction
 // ---------------------------------------------------------------------------
 
-// The raw array — 210 objects sorted by regional dex number
-export const pokemon = pokemonRaw
+function buildDataset(pokemonRaw, movesRaw, locationsRaw, evolutionsRaw, typeChartRaw) {
+  return {
+    pokemon: pokemonRaw,
+    pokemonByRegionalDex: new Map(pokemonRaw.map(p => [p.regional_dex, p])),
+    pokemonByName:        new Map(pokemonRaw.map(p => [p.name.toLowerCase(), p])),
+    moves: movesRaw,
+    locations: locationsRaw,
+    locationList: Object.entries(locationsRaw).sort((a, b) =>
+      a[1].name.localeCompare(b[1].name)
+    ),
+    evolutions: evolutionsRaw,
+    evolutionById: new Map(evolutionsRaw.map(c => [c.chain_id, c])),
+    typeChart: typeChartRaw,
+  }
+}
 
-// Look up any Pokémon by regional dex number in O(1)
-// e.g. pokemonByRegionalDex.get(1) → Turtwig's data object
-export const pokemonByRegionalDex = new Map(
-  pokemon.map(p => [p.regional_dex, p])
-)
-
-// Look up any Pokémon by lowercase name in O(1)
-// e.g. pokemonByName.get('garchomp') → Garchomp's data object
-export const pokemonByName = new Map(
-  pokemon.map(p => [p.name.toLowerCase(), p])
-)
-
-// ---------------------------------------------------------------------------
-// Move data
-// ---------------------------------------------------------------------------
-
-// movesRaw is already an object keyed by move ID, so we just export it directly.
-// e.g. moves['dragon-claw'] → { name, type, category, power, ... }
-export const moves = movesRaw
+const datasets = {
+  4: buildDataset(gen4Pokemon, gen4Moves, gen4Locations, gen4Evolutions, gen4TypeChart),
+  5: buildDataset(gen5Pokemon, gen5Moves, gen5Locations, gen5Evolutions, gen5TypeChart),
+}
 
 // ---------------------------------------------------------------------------
-// Location data
+// useDataset() — components call this to get the active gen's data
 // ---------------------------------------------------------------------------
-
-// locationsRaw is keyed by location ID string.
-// e.g. locations['route-201'] → { name, encounters: [...] }
-export const locations = locationsRaw
-
-// Sorted array of location entries for the list view
-// Each entry: [locationId, locationData]
-export const locationList = Object.entries(locationsRaw).sort((a, b) =>
-  a[1].name.localeCompare(b[1].name)
-)
+//   const { pokemon, pokemonByRegionalDex, moves, locations, ... } = useDataset()
+//
+// The returned object is a stable reference per gen, so components don't
+// re-render unnecessarily when other state changes.
+export function useDataset() {
+  const { activeGen } = useGenerationContext()
+  return datasets[activeGen] ?? datasets[4]
+}
 
 // ---------------------------------------------------------------------------
-// Evolution chains
+// Direct accessors (used by tests; allow opting into a specific gen)
 // ---------------------------------------------------------------------------
-
-// Array of chain objects. Each has chain_id and a nested stages tree.
-export const evolutions = evolutionsRaw
-
-// Look up an evolution chain by ID in O(1)
-export const evolutionById = new Map(
-  evolutions.map(chain => [chain.chain_id, chain])
-)
+export function getDataset(gen) {
+  return datasets[gen]
+}
 
 // ---------------------------------------------------------------------------
-// Type chart
+// Legacy top-level exports (Gen 4) — kept for any consumer not yet migrated
+// to useDataset(). New code should prefer useDataset().
 // ---------------------------------------------------------------------------
+export const pokemon              = datasets[4].pokemon
+export const pokemonByRegionalDex = datasets[4].pokemonByRegionalDex
+export const pokemonByName        = datasets[4].pokemonByName
+export const moves                = datasets[4].moves
+export const locations            = datasets[4].locations
+export const locationList         = datasets[4].locationList
+export const evolutions           = datasets[4].evolutions
+export const evolutionById        = datasets[4].evolutionById
+export const typeChart            = datasets[4].typeChart
 
-export const typeChart = typeChartRaw
-
-// Convenience: get the multiplier for attackingType → defendingType
-// e.g. getTypeMultiplier('Fire', 'Grass') → 2
 export function getTypeMultiplier(attackingType, defendingType) {
   return typeChart.matrix?.[attackingType]?.[defendingType] ?? 1
 }

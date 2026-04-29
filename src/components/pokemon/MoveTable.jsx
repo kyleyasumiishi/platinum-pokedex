@@ -10,7 +10,8 @@
  */
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
-import { moves } from '../../utils/dataLoader'
+import { useDataset } from '../../utils/dataLoader'
+import { useGenerationContext } from '../../context/GenerationContext'
 import TypeBadge from '../shared/TypeBadge'
 
 const TABS = [
@@ -26,7 +27,7 @@ const CATEGORY_ICONS = {
   Status:   '💫',
 }
 
-function MoveRow({ moveId, level }) {
+function MoveRow({ moveId, level, moves, activeGen }) {
   const move = moves[moveId]
   if (!move) return null
 
@@ -39,7 +40,7 @@ function MoveRow({ moveId, level }) {
       )}
       <td style={{ padding: '5px 6px' }}>
         <Link
-          to={`/moves/${moveId}`}
+          to={`/gen${activeGen}/moves/${moveId}`}
           style={{ color: 'var(--screen-green)', fontSize: '0.75rem', textDecoration: 'none' }}
         >
           {move.name}
@@ -66,6 +67,8 @@ function MoveRow({ moveId, level }) {
 
 export default function MoveTable({ pokemonMoves }) {
   const [activeTab, setActiveTab] = useState('level_up')
+  const { moves } = useDataset()
+  const { activeGen } = useGenerationContext()
 
   const tabCounts = {
     level_up: pokemonMoves.level_up.length,
@@ -117,16 +120,16 @@ export default function MoveTable({ pokemonMoves }) {
           </thead>
           <tbody>
             {activeTab === 'level_up' && pokemonMoves.level_up.map(entry => (
-              <MoveRow key={entry.move_id} moveId={entry.move_id} level={entry.level} />
+              <MoveRow key={entry.move_id} moveId={entry.move_id} level={entry.level} moves={moves} activeGen={activeGen} />
             ))}
             {activeTab === 'tm_hm' && pokemonMoves.tm_hm.map(id => (
-              <MoveRow key={id} moveId={id} />
+              <MoveRow key={id} moveId={id} moves={moves} activeGen={activeGen} />
             ))}
             {activeTab === 'tutor' && pokemonMoves.tutor.map(id => (
-              <MoveRow key={id} moveId={id} />
+              <MoveRow key={id} moveId={id} moves={moves} activeGen={activeGen} />
             ))}
             {activeTab === 'egg' && pokemonMoves.egg.map(id => (
-              <MoveRow key={id} moveId={id} />
+              <MoveRow key={id} moveId={id} moves={moves} activeGen={activeGen} />
             ))}
           </tbody>
         </table>

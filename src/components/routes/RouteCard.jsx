@@ -9,6 +9,7 @@
  *   location   (object) — { name, encounters: [...] }
  */
 import { Link } from 'react-router-dom'
+import { useGenerationContext } from '../../context/GenerationContext'
 
 function summarizeMethods(encounters) {
   const METHOD_LABELS = {
@@ -31,10 +32,11 @@ function summarizeMethods(encounters) {
 }
 
 export default function RouteCard({ locationId, location }) {
+  const { activeGen } = useGenerationContext()
   const uniquePokemon = new Set(location.encounters.map(e => e.pokemon_id)).size
 
   return (
-    <Link to={`/routes/${locationId}`} style={{ textDecoration: 'none' }}>
+    <Link to={`/gen${activeGen}/routes/${locationId}`} style={{ textDecoration: 'none' }}>
       <div className="dex-card flex items-center gap-3 px-3 py-2" style={{ minHeight: 56 }}>
         <div className="flex-1 min-w-0">
           <div style={{ fontSize: '0.9rem', fontWeight: 'bold', color: '#1a1a2e' }}>

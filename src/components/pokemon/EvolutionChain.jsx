@@ -15,8 +15,8 @@
  *                          (used to highlight the current Pokémon in the chain)
  */
 import { Link } from 'react-router-dom'
-import { evolutionById } from '../../utils/dataLoader'
-import { spriteUrl } from '../../utils/dataLoader'
+import { useDataset, spriteUrl } from '../../utils/dataLoader'
+import { useGenerationContext } from '../../context/GenerationContext'
 
 function methodLabel(method) {
   if (!method) return null
@@ -36,7 +36,7 @@ function methodLabel(method) {
   return trigger.replace(/-/g, ' ')
 }
 
-function ChainNode({ node, currentName }) {
+function ChainNode({ node, currentName, activeGen }) {
   const isCurrentPokemon = node.pokemon_id === currentName
   const hasRegionalDex = node.regional_dex != null
 
@@ -58,7 +58,7 @@ function ChainNode({ node, currentName }) {
   const pokemonNode = (
     <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 2 }}>
       {hasRegionalDex ? (
-        <Link to={`/pokemon/${node.regional_dex}`} style={{ textDecoration: 'none' }}>
+        <Link to={`/gen${activeGen}/pokemon/${node.regional_dex}`} style={{ textDecoration: 'none' }}>
           <div
             style={{
               padding: 4,
@@ -100,7 +100,7 @@ function ChainNode({ node, currentName }) {
           </div>
 
           {/* Recursive next stage */}
-          <ChainNode node={next} currentName={currentName} />
+          <ChainNode node={next} currentName={currentName} activeGen={activeGen} />
         </div>
       ))}
     </div>
@@ -108,6 +108,8 @@ function ChainNode({ node, currentName }) {
 }
 
 export default function EvolutionChain({ chainId, currentName }) {
+  const { evolutionById } = useDataset()
+  const { activeGen } = useGenerationContext()
   const chain = evolutionById.get(chainId)
   if (!chain) return (
     <p style={{ color: 'var(--screen-green-dim)', fontSize: '0.75rem' }}>No evolution data.</p>
@@ -116,7 +118,7 @@ export default function EvolutionChain({ chainId, currentName }) {
   return (
     <div style={{ overflowX: 'auto', paddingBottom: 4 }}>
       <div style={{ display: 'inline-flex', minWidth: '100%', justifyContent: 'center' }}>
-        <ChainNode node={chain.stages} currentName={currentName.toLowerCase()} />
+        <ChainNode node={chain.stages} currentName={currentName.toLowerCase()} activeGen={activeGen} />
       </div>
     </div>
   )

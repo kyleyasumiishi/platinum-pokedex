@@ -7,6 +7,7 @@
  */
 import { Link } from 'react-router-dom'
 import TypeBadge from '../shared/TypeBadge'
+import { useGenerationContext } from '../../context/GenerationContext'
 
 const CATEGORY_ICONS = {
   Physical: '⚔️',
@@ -15,8 +16,9 @@ const CATEGORY_ICONS = {
 }
 
 export default function MoveCard({ moveId, move }) {
+  const { activeGen } = useGenerationContext()
   return (
-    <Link to={`/moves/${moveId}`} style={{ textDecoration: 'none' }}>
+    <Link to={`/gen${activeGen}/moves/${moveId}`} style={{ textDecoration: 'none' }}>
       <div
         className="dex-card flex items-center gap-3 px-3 py-2"
         style={{ minHeight: 52 }}

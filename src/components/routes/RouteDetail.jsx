@@ -9,7 +9,8 @@
  */
 import { useParams, useNavigate, Link } from 'react-router-dom'
 import { useState, useMemo } from 'react'
-import { locations, pokemonByName, spriteUrl } from '../../utils/dataLoader'
+import { useDataset, spriteUrl } from '../../utils/dataLoader'
+import { useGenerationContext } from '../../context/GenerationContext'
 
 const METHOD_LABELS = {
   'walk':       'Grass',
@@ -38,6 +39,8 @@ const SORT_COLS = [
 export default function RouteDetail() {
   const { locationId } = useParams()
   const navigate = useNavigate()
+  const { locations, pokemonByName } = useDataset()
+  const { activeGen } = useGenerationContext()
   const location = locations[locationId]
 
   const [methodFilter, setMethodFilter] = useState(null)
@@ -245,7 +248,7 @@ export default function RouteDetail() {
                       {/* Sprite */}
                       <td style={{ padding: '4px 6px', width: 36 }}>
                         {poke && (
-                          <Link to={`/pokemon/${poke.regional_dex}`}>
+                          <Link to={`/gen${activeGen}/pokemon/${poke.regional_dex}`}>
                             <img
                               src={spriteUrl(poke.national_dex)}
                               alt={enc.pokemon_name}
@@ -260,7 +263,7 @@ export default function RouteDetail() {
                       <td style={{ padding: '4px 4px' }}>
                         {poke ? (
                           <Link
-                            to={`/pokemon/${poke.regional_dex}`}
+                            to={`/gen${activeGen}/pokemon/${poke.regional_dex}`}
                             style={{ color: 'var(--screen-green)', fontSize: '0.75rem', textDecoration: 'none' }}
                           >
                             {enc.pokemon_name}
